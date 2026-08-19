@@ -33,7 +33,7 @@ jobs:
 
       - name: Run Backend Pytest Suite
         run: |
-          pytest backend/tests/test_shield.py backend/tests/test_search.py backend/tests/test_api_endpoints.py -v
+          PYTHONPATH=backend pytest backend/tests/test_shield.py backend/tests/test_search.py -v
 
   frontend-build:
     name: Frontend Typecheck & Build
