@@ -1,0 +1,355 @@
+@import "tailwindcss";
+
+/* ── AURA Claude/Anthropic Editorial Design System ─────────────────────────── */
+:root {
+  /* Warm Paper & Editorial Canvas */
+  --bg-canvas: #F7F4EE;         /* Warm off-white parchment */
+  --bg-surface: #FFFFFF;        /* Crisp elevated paper */
+  --bg-subtle: #EFECE6;         /* Warm stone panel */
+  --bg-muted: #E6E1D8;          /* Warm neutral container */
+  --bg-hover: #ECE7DE;          /* Subtle hover tone */
+
+  /* Editorial Typography */
+  --text-primary: #1F1D1A;      /* Warm deep carbon */
+  --text-secondary: #6F6A63;    /* Warm stone gray */
+  --text-muted: #9E988F;        /* Muted caption gray */
+  --text-inverse: #FAF8F5;      /* Inverted light text */
+
+  /* Restrained Terracotta / Warm Accents */
+  --accent-terracotta: #D97757; /* Signature warm terracotta */
+  --accent-dark: #B85C42;       /* Deep terracotta for focus/active */
+  --accent-light: #F5ECE8;      /* Soft terracotta wash */
+  --accent-border: rgba(217, 119, 87, 0.35);
+
+  /* Subtle Warm Borders */
+  --border-subtle: #E6E1D8;     /* Hairline border */
+  --border-medium: #DED9D0;     /* Standard component border */
+  --border-strong: #CFC8BE;     /* Emphasized border */
+
+  /* Sensitivity Badges (Restrained Warm Palette) */
+  --severity-public: #387B58;   /* Forest sage */
+  --severity-personal: #B87B28; /* Amber ochre */
+  --severity-sensitive: #C86030;/* Rust orange */
+  --severity-critical: #B83A2E; /* Terracotta red */
+
+  /* Radii (Restrained, organic, not bubbly) */
+  --radius-xs: 4px;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-pill: 9999px;
+
+  /* Shadows (Natural daylight paper diffusion) */
+  --shadow-paper: 0 1px 2px rgba(31, 29, 26, 0.04), 0 4px 12px rgba(31, 29, 26, 0.03);
+  --shadow-card: 0 2px 6px rgba(31, 29, 26, 0.05), 0 8px 24px rgba(31, 29, 26, 0.04);
+  --shadow-floating: 0 8px 24px rgba(31, 29, 26, 0.08), 0 20px 48px rgba(31, 29, 26, 0.06);
+}
+
+/* ── Base Reset & Editorial Typography ─────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  background: var(--bg-canvas);
+  color: var(--text-primary);
+  font-family: var(--font-sans, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  letter-spacing: -0.01em;
+}
+
+/* ── Editorial Headlines (Serif) ─────────────────────────────────────────── */
+.font-serif-editorial {
+  font-family: var(--font-serif, 'Newsreader', 'Georgia', 'Lora', serif);
+  font-feature-settings: "liga" 1, "dlig" 1;
+}
+
+.font-mono-clean {
+  font-family: var(--font-mono, 'JetBrains Mono', 'Courier New', monospace);
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-serif, 'Newsreader', 'Georgia', serif);
+  color: var(--text-primary);
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}
+
+/* ── Editorial Scrollbar ─────────────────────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-canvas);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border-strong);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-muted);
+}
+
+/* ── Tactile Paper Surfaces & Cards ──────────────────────────────────────── */
+.paper-surface {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-medium);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-paper);
+}
+
+.paper-card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-medium);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-paper);
+  transition: transform 0.22s cubic-bezier(0.16, 1, 0.3, 1),
+              box-shadow 0.22s cubic-bezier(0.16, 1, 0.3, 1),
+              border-color 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.paper-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-card);
+  border-color: var(--border-strong);
+}
+
+/* ── Organic Tactile Bubbles & Pills ─────────────────────────────────────── */
+.tactile-pill {
+  background: var(--bg-subtle);
+  border: 1px solid var(--border-medium);
+  border-radius: var(--radius-pill);
+  color: var(--text-secondary);
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 0.35rem 0.85rem;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1),
+              background 0.2s ease,
+              border-color 0.2s ease,
+              color 0.2s ease,
+              box-shadow 0.2s ease;
+  user-select: none;
+}
+.tactile-pill:hover {
+  background: var(--bg-surface);
+  border-color: var(--accent-terracotta);
+  color: var(--text-primary);
+  transform: translateY(-1.5px) scale(1.02);
+  box-shadow: 0 2px 8px rgba(217, 119, 87, 0.08);
+}
+.tactile-pill:active {
+  transform: translateY(0px) scale(0.98);
+}
+
+.tactile-pill-active {
+  background: var(--accent-light) !important;
+  border-color: var(--accent-terracotta) !important;
+  color: var(--accent-dark) !important;
+  font-weight: 600;
+}
+
+/* ── Editorial Divider ───────────────────────────────────────────────────── */
+.editorial-rule {
+  height: 1px;
+  background: var(--border-subtle);
+  border: none;
+  margin: 1.5rem 0;
+}
+
+/* ── Buttons: Tactile Terracotta & Paper Neutral ─────────────────────────── */
+.btn-terracotta {
+  background: var(--accent-terracotta);
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 0.84rem;
+  padding: 0.5rem 1.15rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--accent-dark);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  transition: transform 0.18s cubic-bezier(0.16, 1, 0.3, 1),
+              background 0.18s ease,
+              box-shadow 0.18s ease;
+  box-shadow: 0 1px 3px rgba(184, 92, 66, 0.25);
+}
+.btn-terracotta:hover {
+  background: var(--accent-dark);
+  transform: translateY(-1px);
+  box-shadow: 0 3px 8px rgba(184, 92, 66, 0.3);
+}
+.btn-terracotta:active {
+  transform: translateY(0.5px);
+}
+
+.btn-paper {
+  background: var(--bg-surface);
+  color: var(--text-primary);
+  font-weight: 500;
+  font-size: 0.84rem;
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-medium);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  transition: transform 0.18s ease, background 0.18s ease, border-color 0.18s ease;
+}
+.btn-paper:hover {
+  background: var(--bg-subtle);
+  border-color: var(--border-strong);
+  transform: translateY(-1px);
+}
+.btn-paper:active {
+  transform: translateY(0.5px);
+}
+
+/* ── Search & Command Input ──────────────────────────────────────────────── */
+.editorial-input {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-medium);
+  border-radius: var(--radius-md);
+  color: var(--text-primary);
+  font-size: 0.96rem;
+  outline: none;
+  transition: border-color 0.18s ease, box-shadow 0.18s ease;
+}
+.editorial-input:focus {
+  border-color: var(--accent-terracotta);
+  box-shadow: 0 0 0 3px var(--accent-light);
+}
+
+/* ── Restrained Sensitivity Badges ───────────────────────────────────────── */
+.badge-public {
+  background: rgba(56, 123, 88, 0.08);
+  border: 1px solid rgba(56, 123, 88, 0.25);
+  color: var(--severity-public);
+}
+.badge-personal {
+  background: rgba(184, 123, 40, 0.08);
+  border: 1px solid rgba(184, 123, 40, 0.25);
+  color: var(--severity-personal);
+}
+.badge-sensitive {
+  background: rgba(200, 96, 48, 0.09);
+  border: 1px solid rgba(200, 96, 48, 0.28);
+  color: var(--severity-sensitive);
+}
+.badge-critical {
+  background: rgba(184, 58, 46, 0.09);
+  border: 1px solid rgba(184, 58, 46, 0.3);
+  color: var(--severity-critical);
+}
+
+/* ── Premium Security Tape & Zero-Trust Shield Visuals ────────────────────── */
+.redacted-tape {
+  position: relative;
+  background: linear-gradient(135deg, rgba(17, 24, 39, 0.90), rgba(15, 23, 42, 0.95));
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(239, 68, 68, 0.4);
+  box-shadow: inset 0 0 24px rgba(220, 38, 38, 0.15), 0 4px 16px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.redacted-tape::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: repeating-linear-gradient(
+    -45deg,
+    rgba(239, 68, 68, 0.07),
+    rgba(239, 68, 68, 0.07) 14px,
+    transparent 14px,
+    transparent 28px
+  );
+  pointer-events: none;
+  z-index: 1;
+}
+
+.tape-diagonal-strip {
+  position: absolute;
+  width: 150%;
+  left: -25%;
+  background: linear-gradient(90deg, #991b1b, #dc2626, #b91c1c, #991b1b);
+  color: #ffffff;
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  font-weight: 800;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  padding: 0.28rem 0;
+  text-align: center;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.35);
+  z-index: 2;
+  transform: rotate(-10deg);
+  opacity: 0.95;
+  user-select: none;
+  border-top: 1px dashed rgba(255, 255, 255, 0.45);
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.45);
+}
+
+.tape-glow-lock {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, rgba(239, 68, 68, 0.25), rgba(185, 28, 28, 0.5));
+  border: 1.5px solid rgba(239, 68, 68, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 18px rgba(239, 68, 68, 0.45);
+  position: relative;
+  z-index: 3;
+}
+
+/* ── Subtle Motion & Transitions ─────────────────────────────────────────── */
+@keyframes editorialFadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-up {
+  animation: editorialFadeUp 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes gentleFloat {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-2.5px);
+  }
+}
+
+.animate-float {
+  animation: gentleFloat 6s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
