@@ -199,10 +199,13 @@ python backend/tests/run_all_benchmarks.py
 ## 📚 Technical Documentation & Architecture Deep Dives
 - 📄 [Resume Talking Points & Interview Guide](docs/RESUME_POINTS.md): Quantified resume bullets and system design Q&A.
 - 🏛️ [Architecture Deep Dive](docs/ARCHITECTURE.md): Database schemas, composite indexes, connection pooling, and IR pipeline.
+- ⚖️ [Architectural Trade-offs & Failure Modes](docs/TRADE_OFFS_AND_FAILURE_MODES.md): Empirical latency percentiles (P50/P95/P99) and FMEA analysis.
 - 🔒 [Security & Threat Model](docs/SECURITY.md): Zero-Trust privacy gate, secret redaction patterns, and prompt injection defense.
 - 🧪 [Evaluation & Benchmark Suite](docs/evaluation.md): 4-pillar benchmark methodology and metric formulations.
+- 🛠️ [Operational Reference Playbook](docs/OPERATIONS.md): CLI workflows and complete REST API endpoint reference.
+- 🤝 [Contributing Guidelines](CONTRIBUTING.md): Code standards, type checking, and PR submission checklist.
 
 ---
 
 ## 📜 License
-MIT License.
+This project is licensed under the [MIT License](LICENSE).
