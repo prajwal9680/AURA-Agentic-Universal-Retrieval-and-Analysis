@@ -1,6 +1,6 @@
 # AURA — Agentic Universal Retrieval and Analysis
 
-> **Tagline**: **Don't search your screenshots. Ask your memory.**  
+> **Don't search your screenshots. Ask your memory.**  
 > **Core Architecture**: PostgreSQL 16 + pgvector · LangGraph StateGraph · Cross-Encoder Reranker · Zero-Trust Privacy Gate · Multi-Signal Knowledge Graph · Gemini Multimodal VLM · Next.js 15 UI
 
 ---
