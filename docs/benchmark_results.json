@@ -1,0 +1,58 @@
+{
+  "timestamp": "2026-08-18T19:40:34.227014+00:00",
+  "benchmark_duration_seconds": 22.39,
+  "system": {
+    "hardware": "Intel Core i7-14700HX / NVIDIA RTX 5060 Laptop (8GB) / 32GB RAM",
+    "os": "Windows 11",
+    "database": "PostgreSQL 16 + pgvector (with SQLite fallback)",
+    "embeddings": "all-MiniLM-L6-v2 (384-dim)",
+    "reranker": "ms-marco-MiniLM-L-6-v2 Cross-Encoder",
+    "agent_orchestrator": "LangGraph StateGraph"
+  },
+  "pillar_1_information_retrieval": {
+    "num_queries": 7,
+    "precision": {
+      "p@1": 1.0,
+      "p@3": 0.3333,
+      "p@5": 0.2,
+      "p@10": 0.1
+    },
+    "recall": {
+      "r@1": 1.0,
+      "r@3": 1.0,
+      "r@5": 1.0,
+      "r@10": 1.0
+    },
+    "mrr": 1.0,
+    "ndcg": {
+      "ndcg@3": 1.0,
+      "ndcg@5": 1.0,
+      "ndcg@10": 1.0
+    },
+    "latency_ms": {
+      "mean": 2642.7,
+      "p50": 186.17,
+      "p95": 12239.14,
+      "p99": 16353.55
+    }
+  },
+  "pillar_2_multimodal_processing": {
+    "verified_corpus_size": 68,
+    "schema_compliance_rate": 1.0,
+    "fallback_degradation_reliability": 1.0,
+    "supported_categories_count": 21
+  },
+  "pillar_3_agentic_rag": {
+    "eval_queries": 2,
+    "avg_confidence": 0.326,
+    "avg_citations": 5.5,
+    "avg_trace_steps": 5.5,
+    "avg_latency_ms": 1940.0
+  },
+  "pillar_4_security_and_privacy": {
+    "privacy_gate_accuracy": 1.0,
+    "prompt_injection_defense_rate": 1.0,
+    "quarantine_precision": 1.0,
+    "zero_trust_rules_enforced": 32
+  }
+}

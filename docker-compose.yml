@@ -1,0 +1,72 @@
+version: "3.8"
+
+services:
+  # ─── 1. Vector Database: PostgreSQL 16 + pgvector ───────────────────────────
+  db:
+    image: pgvector/pgvector:pg16
+    container_name: aura_postgres_pgvector
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: aura_db
+      POSTGRES_USER: aura_user
+      POSTGRES_PASSWORD: aura_secure_password
+    ports:
+      - "5432:5432"
+    volumes:
+      - aura_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U aura_user -d aura_db"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+
+  # ─── 2. AURA Backend: FastAPI + LangGraph Agent + IR Reranker ──────────────
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: aura_backend
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: postgresql+asyncpg://aura_user:aura_secure_password@db:5432/aura_db
+      DATABASE_POOL_SIZE: 20
+      DATABASE_MAX_OVERFLOW: 10
+      USE_PGVECTOR: "true"
+      GEMINI_API_KEY: ${GEMINI_API_KEY:-}
+      AURA_ENV: production
+      AURA_HOST: 0.0.0.0
+      AURA_PORT: 8000
+      CORS_ALLOWED_ORIGINS: "http://localhost:3000,http://127.0.0.1:3000"
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./demo_data/screenshots:/app/demo_data/screenshots
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/api/health"]
+      interval: 15s
+      timeout: 5s
+      retries: 3
+      start_period: 15s
+
+  # ─── 3. AURA Frontend: Next.js Interactive Memory Constellation UI ─────────
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: aura_frontend
+    restart: unless-stopped
+    depends_on:
+      - backend
+    environment:
+      NEXT_PUBLIC_API_URL: http://localhost:8000
+      PORT: 3000
+    ports:
+      - "3000:3000"
+
+volumes:
+  aura_pgdata:
+    driver: local

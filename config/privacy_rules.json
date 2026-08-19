@@ -1,0 +1,64 @@
+{
+  "version": "2.0.0",
+  "name": "AURA OS-Level Zero-Trust Privacy Rules",
+  "description": "Deterministic pre-ingestion security policies to prevent sensitive data leakage.",
+  "blocked_processes": [
+    "1password.exe",
+    "1password",
+    "bitwarden.exe",
+    "bitwarden",
+    "keepass.exe",
+    "keepassxc.exe",
+    "lastpass.exe",
+    "dashlane.exe",
+    "enpass.exe",
+    "tor.exe",
+    "authenticator.exe",
+    "securityhealthsystray.exe",
+    "yubico-authenticator.exe",
+    "gnome-keyring-daemon"
+  ],
+  "blocked_window_patterns": [
+    "(?i)incognito",
+    "(?i)private browsing",
+    "(?i)inprivate",
+    "(?i)password manager",
+    "(?i)master password",
+    "(?i)sign in to your bank",
+    "(?i)net banking",
+    "(?i)credit card checkout",
+    "(?i)crypto wallet",
+    "(?i)metamask",
+    "(?i)ledger live",
+    "(?i)two-factor authentication",
+    "(?i)2fa code"
+  ],
+  "secret_patterns": [
+    {
+      "name": "AWS Access Key",
+      "regex": "AKIA[0-9A-Z]{16}",
+      "action": "REDACT_OR_BLOCK"
+    },
+    {
+      "name": "OpenAI / Anthropic / Generic API Key",
+      "regex": "sk-(?:live|proj|ant)?[a-zA-Z0-9_-]{20,}",
+      "action": "REDACT_OR_BLOCK"
+    },
+    {
+      "name": "GitHub Personal Access Token",
+      "regex": "gh[pousr]_[0-9a-zA-Z]{36}",
+      "action": "REDACT_OR_BLOCK"
+    },
+    {
+      "name": "JSON Web Token (JWT)",
+      "regex": "eyJ[a-zA-Z0-9_-]{10,}\\.eyJ[a-zA-Z0-9_-]{10,}\\.[a-zA-Z0-9_-]{10,}",
+      "action": "REDACT"
+    },
+    {
+      "name": "RSA / OpenSSH Private Key Header",
+      "regex": "-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----",
+      "action": "BLOCK"
+    }
+  ],
+  "default_action_on_blocked": "DROP"
+}

@@ -1,0 +1,84 @@
+# ==============================================================================
+# AURA — Comprehensive Git Ignore Rules
+# ==============================================================================
+
+# --- Python Environment & Bytecode ---
+backend/venv/
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+.Python
+backend/.pytest_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# --- Node & Frontend Build ---
+frontend/node_modules/
+node_modules/
+frontend/.next/
+.next/
+frontend/out/
+out/
+build/
+dist/
+
+# --- Environment Files & Secrets (NEVER COMMIT SECRETS) ---
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+!backend/.env.example
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# --- Local SQLite Database (User Data) ---
+backend/data/aura.db
+backend/data/aura.db-shm
+backend/data/aura.db-wal
+data/aura.db
+
+# --- User Uploads & Generated Thumbnails ---
+backend/data/uploads/*
+!backend/data/uploads/.gitkeep
+backend/data/thumbnails/*
+!backend/data/thumbnails/.gitkeep
+
+# --- OS Specific Files ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# --- IDE & Development Agent Artifacts ---
+.vscode/
+.idea/
+*.swp
+*.swo
+.agents/
+.dev_logs/
+_dev_logs/
+logs(actions)/
+.system_generated/
+CONVERSATION_ARCHIVE.md
+
+# --- Log Files ---
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Cache Directories ---
+.cache/
+backend/.cache/
+~/.cache/
