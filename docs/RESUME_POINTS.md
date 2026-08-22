@@ -14,7 +14,7 @@ This document provides ready-to-use resume bullet points, quantified impact metr
 * **Constructed an explainable multi-signal knowledge graph** with **15,500+ edges** across 6 typed relationship primitives (causal lineage, project affinity, entity recurrence, semantic similarity, temporal proximity), visualized via an interactive 3D Force Graph in Next.js.
 
 ### Option B: Full-Stack / Backend Systems Engineer
-* **Built a low-latency multimodal AI system** with **FastAPI, PostgreSQL 16 + pgvector**, and **Next.js 15 (Turbopack)**, persisting 340+ vector embeddings with HNSW indexing and supporting automatic dual-engine fallback.
+* **Built a low-latency multimodal AI system** with **FastAPI, PostgreSQL 16 + pgvector**, and **Next.js 16.3 (React 19, Turbopack)**, persisting 340+ vector embeddings with HNSW indexing and supporting automatic dual-engine fallback.
 * **Implemented a client-side Zero-Trust OS Privacy Gate** operating at $<1\text{ms}$ overhead, blocking PII, passwords, and sensitive credentials across 32 regex/entropy heuristics before disk persistence or external API transmission.
 * **Designed adversarial security defenses** against prompt injection, DAN jailbreaks, and indirect XML boundary escapes, isolating untrusted OCR context in cryptographic sandboxes with **100% quarantine efficacy**.
 * **Established a deterministic 4-pillar empirical benchmark suite** covering Information Retrieval, Multimodal Schema compliance, Agentic RAG fidelity, and Security quarantine, integrated into automated CI testing.
