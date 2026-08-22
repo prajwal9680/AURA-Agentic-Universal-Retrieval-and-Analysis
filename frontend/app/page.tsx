@@ -69,19 +69,26 @@ function HomeContent() {
   const searchParams = useSearchParams();
 
   useEffect(() => {
-    apiFetch("/api/stats")
-      .then((data) => setStats(data))
-      .catch(() => {});
+    const fetchLatest = () => {
+      apiFetch("/api/stats")
+        .then((data) => setStats(data))
+        .catch(() => {});
 
-    apiFetch("/api/memories?limit=6")
-      .then((data) => setRecentMemories(data.memories || data.items || []))
-      .catch(() => {});
+      apiFetch("/api/memories?limit=6")
+        .then((data) => setRecentMemories(data.memories || data.items || []))
+        .catch(() => {});
+    };
+
+    fetchLatest();
+    const interval = setInterval(fetchLatest, 3500);
 
     const initialQ = searchParams.get("q");
     if (initialQ) {
       setQuery(initialQ);
       handleSearch(initialQ);
     }
+
+    return () => clearInterval(interval);
   }, [searchParams]);
 
   const handleImageSearch = async (file: File) => {

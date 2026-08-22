@@ -115,8 +115,33 @@ function GalleryContent() {
       .catch(() => {});
   }, []);
 
+  // Polling interval: Auto-fetch new screenshots in real time without requiring manual refresh
   useEffect(() => {
     fetchData();
+    const interval = setInterval(() => {
+      // Background silent refresh for live new captures
+      getMemories({
+        page,
+        limit: perPage,
+        category: category || undefined,
+        constellation: constellation || undefined,
+        sensitivity: sensitivity || undefined,
+        source_type: sourceType || undefined,
+        sort_by: sortBy || undefined,
+        search: search || undefined,
+      }).then((data) => {
+        setMemories(data.items || []);
+        setTotal(data.total || 0);
+      }).catch(() => {});
+
+      apiFetch("/api/stats")
+        .then((data) => {
+          if (data?.total_memories) setSystemTotal(data.total_memories);
+        })
+        .catch(() => {});
+    }, 3500);
+
+    return () => clearInterval(interval);
   }, [page, perPage, category, constellation, sensitivity, sourceType, sortBy, search]);
 
   const fetchData = async () => {
