@@ -178,8 +178,8 @@ def parse_query(query: str) -> dict:
     category_hints = {
         "receipt": ["receipt", "order", "purchase", "bought", "buy", "paid", "bill", "swiggy", "amazon invoice"],
         "recipe": ["recipe", "cook", "ingredient", "dish", "food", "eat", "mushroom", "pasta", "risotto", "ramen"],
-        "code": ["code", "script", "function", "debug", "python", "yolo", "pytorch", "editor", "vscode"],
-        "research": ["research", "paper", "study", "arxiv", "abstract", "satellite", "isro", "transformer"],
+        "code": ["code", "script", "function", "debug", "python", "yolo", "pytorch", "editor", "vscode", "computer vision", "cv project", "training"],
+        "research": ["research", "paper", "study", "arxiv", "abstract", "satellite", "isro", "transformer", "neural network"],
         "credentials": ["password", "wifi", "wi-fi", "ssid", "api key", "token", "credential", "secret", "wpa"],
         "travel": ["hotel", "flight", "trip", "travel", "booking", "transit"],
         "map": ["map", "location", "route", "navigation", "directions", "mumbai"],
@@ -217,7 +217,7 @@ def parse_query(query: str) -> dict:
     # Extract capitalized words as potential entities
     caps = re.findall(r"\b[A-Z][a-zA-Z0-9_\-]{2,}\b", query)
     # Known project/entity keywords
-    project_words = re.findall(r"\b(?:YOLO|ISRO|transformers?|ResNet|GPT|BERT|PyTorch|TensorFlow|AWS|Azure|GCP|AURA|ASUS|ZenBook|Swiggy|Amazon)\b", query, re.IGNORECASE)
+    project_words = re.findall(r"\b(?:YOLO|ISRO|transformers?|ResNet|GPT|BERT|PyTorch|TensorFlow|AWS|Azure|GCP|AURA|ASUS|ZenBook|Swiggy|Amazon|OpenCV|Vision)\b", query, re.IGNORECASE)
 
     entities = list(set(quoted + caps + project_words))
 
@@ -292,11 +292,20 @@ async def search_memories(query: str, memories: list, top_k: int = 20) -> list:
         app_lower = (m.get("application") or "").lower()
         win_lower = (m.get("window_title") or "").lower()
         clip_lower = (m.get("clipboard_context") or "").lower()
-        v_sum_lower = (m.get("visual_summary") or m.get("summary") or "").lower()
+        v_sum_lower = (m.get("visual_summary") or "").lower()
+        sum_lower = (m.get("summary") or "").lower()
         doc_type_lower = (m.get("document_type") or "").lower()
         v_objs_str = " ".join(m_v_objects).lower()
+        
+        m_topics = m.get("topics") or []
+        if isinstance(m_topics, str):
+            try:
+                m_topics = json.loads(m_topics)
+            except Exception:
+                m_topics = [m_topics]
+        topics_str = " ".join(m_topics).lower()
 
-        combined_text = f"{m.get('original_filename', '')} {app_lower} {win_lower} {clip_lower} {v_sum_lower} {doc_type_lower} {v_objs_str} {m.get('ocr_text', '')} {' '.join(m_entities)}"
+        combined_text = f"{m.get('original_filename', '')} {app_lower} {win_lower} {clip_lower} {v_sum_lower} {sum_lower} {doc_type_lower} {v_objs_str} {topics_str} {m.get('ocr_text', '')} {' '.join(m_entities)}"
         scores = hybrid_score(
             semantic_score=sem_score,
             query_tokens=q_tokens,
@@ -321,13 +330,18 @@ async def search_memories(query: str, memories: list, top_k: int = 20) -> list:
             meaningful_tokens = q_tokens
 
         # Count how many distinct meaningful query tokens match across all fields
-        doc_haystack = f"{fn_lower} {ocr_lower} {v_sum_lower} {doc_type_lower} {v_objs_str} {app_lower} {win_lower} {clip_lower} {' '.join(m.get('topics') or [])} {' '.join(m_entities)}".lower()
+        doc_haystack = f"{fn_lower} {ocr_lower} {v_sum_lower} {sum_lower} {doc_type_lower} {v_objs_str} {app_lower} {win_lower} {clip_lower} {topics_str} {' '.join(m_entities)}".lower()
         matched_tokens = [tok for tok in meaningful_tokens if tok in doc_haystack]
         match_ratio = len(matched_tokens) / max(len(meaningful_tokens), 1)
 
         # Proportional token match boost (up to +0.30 for matching all keywords)
         if matched_tokens:
             boost += 0.15 + 0.15 * match_ratio
+
+        # Exact filename token boost (up to +0.20 when distinct query tokens appear in filename)
+        fn_matches = [tok for tok in meaningful_tokens if tok in fn_lower]
+        if fn_matches:
+            boost += 0.20 * (len(fn_matches) / max(len(meaningful_tokens), 1))
 
         # Exact category match boost (+0.10)
         if q_category and m.get("category") == q_category:

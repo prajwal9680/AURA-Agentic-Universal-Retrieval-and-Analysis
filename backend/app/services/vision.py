@@ -31,13 +31,11 @@ VALID_CATEGORIES = [
 ]
 
 GEMINI_FALLBACK_MODELS = [
-    "gemini-flash-latest",
-    "gemini-pro-latest",
-    "gemini-2.5-flash-lite",
-    "gemini-3.7-flash",
-    "gemini-3.5-flash",
     "gemini-2.5-flash",
+    "gemini-2.5-flash-lite",
+    "gemini-2.0-flash",
     "gemini-1.5-flash",
+    "gemini-flash-latest",
 ]
 
 OPENROUTER_FALLBACK_MODELS = [
@@ -744,7 +742,7 @@ Respond in valid JSON format ONLY with:
     top_m = memories[0]
     top_cat = top_m.get("category", "artifact")
     top_title = top_m.get("title") or top_m.get("summary", "").split(".")[0] or top_cat.title()
-    top_summary = top_m.get("summary", "")
+    top_summary = top_m.get("summary", "") or top_m.get("visual_summary", "")
     top_ocr = top_m.get("ocr_text", "")
     top_entities = top_m.get("entities", [])
     top_app = top_m.get("application", "")
@@ -760,6 +758,9 @@ Respond in valid JSON format ONLY with:
         answer = f"Found development artifacts and execution records for '{top_title}'{app_str}. Observed technical context: {top_summary}."
     elif top_cat == "credentials":
         answer = f"Located protected security credentials in '{top_title}'{ent_str}. Sensitive access keys and parameters are secured under AURA Zero-Trust Shield."
+    elif top_cat == "settings":
+        detail = top_summary if top_summary else "network credentials, router configuration, or device settings"
+        answer = f"Located protected network/device configuration artifact '{top_title}'{ent_str}. This memory contains: {detail}. Access is gated by AURA Zero-Trust Shield."
     elif top_cat in ("map", "travel"):
         answer = f"Found navigation and location records for '{top_title}'{ent_str}. Verified details: {top_summary}."
     elif top_cat == "chart":
@@ -769,7 +770,9 @@ Respond in valid JSON format ONLY with:
     elif top_cat == "conversation":
         answer = f"Found chat communication record '{top_title}'{app_str}. Verified message content: {top_summary}."
     else:
-        answer = f"Identified {len(memories)} visual memory records matching your query. Primary verified artifact '{top_title}': {top_summary}."
+        summary_part = f": {top_summary}" if top_summary else ""
+        answer = f"Identified {len(memories)} visual memory records matching your query. Primary verified artifact '{top_title}'{summary_part}."
+
 
     findings = []
     seen_texts = set()

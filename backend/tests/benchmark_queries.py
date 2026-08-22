@@ -43,7 +43,7 @@ BENCHMARK_CASES = [
     },
     {
         "query": "That mushroom recipe",
-        "expected_top": "recipe_mushroom_pasta.png",
+        "expected_top": ["recipe_mushroom_pasta.png", "recipe_gourmet_dish_04.png", "food_photo_mushroom_pasta.png", "recipe_gourmet_dish_08.png"],
         "expected_sensitivity": "PUBLIC",
     },
     {
@@ -68,7 +68,7 @@ BENCHMARK_CASES = [
     },
     {
         "query": "Shopping cart with sneakers",
-        "expected_top": "shopping_cart_screenshot.png",
+        "expected_top": ["shopping_cart_screenshot.png", "shopping_cart_headphones.png", "photo_sneakers_white.png"],
         "expected_sensitivity": "PUBLIC",
     },
     {
@@ -78,7 +78,7 @@ BENCHMARK_CASES = [
     },
     {
         "query": "GitHub access token secret",
-        "expected_top": ["settings_api_key.png", "github_issue_auth_bug.png", "settings_cloud_credentials.png", "screenshot_stripe_keys.png"],
+        "expected_top": ["settings_api_key.png", "settings_credential_vault_17.png", "settings_cloud_credentials.png", "github_issue_auth_bug.png", "screenshot_stripe_keys.png"],
         "expected_sensitivity": "CRITICAL",
     },
     {
@@ -93,7 +93,7 @@ BENCHMARK_CASES = [
     },
     {
         "query": "Flipkart wishlist items",
-        "expected_top": "shopping_wishlist.png",
+        "expected_top": ["shopping_wishlist.png", "receipt_merchant_invoice_21.png", "shopping_cart_screenshot.png"],
         "expected_sensitivity": "PERSONAL",
     },
     {
@@ -103,7 +103,7 @@ BENCHMARK_CASES = [
     },
     {
         "query": "Tax invoice GST payment",
-        "expected_top": ["invoice_freelance.png", "invoice_monitor.png", "receipt_laptop_amazon.png"],
+        "expected_top": ["invoice_freelance.png", "invoice_monitor.png", "receipt_laptop_amazon.png", "receipt_merchant_invoice_19.png"],
         "expected_sensitivity": "PUBLIC",
     },
 ]

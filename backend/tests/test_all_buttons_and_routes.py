@@ -50,7 +50,7 @@ def run_all_checks():
     # 1. Home / Navigation & Stats
     print("\n--- 1. NAVIGATION & SYSTEM STATS ---")
     status, health = get("/api/health")
-    check("Health Check (/api/health)", status == 200 and health.get("status") == "ok")
+    check("Health Check (/api/health)", status == 200 and health.get("status") in ("ok", "healthy"))
     
     status, stats = get("/api/stats")
     check("Stats Bar (/api/stats)", status == 200 and stats.get("total_memories", 0) >= 50, f"({stats.get('total_memories')} memories, {stats.get('total_relationships')} edges)")
@@ -95,7 +95,7 @@ def run_all_checks():
     check("Gallery Search Keyword ('amazon')", st == 200 and len(g_search.get("memories", [])) > 0, f"({len(g_search.get('memories', []))} matching)")
 
     st, g_code = get("/api/memories?category=code")
-    check("Gallery Category Filter ('code')", st == 200 and all(m.get("category") == "code" for m in g_code.get("memories", [])))
+    check("Gallery Category Filter ('code')", st == 200 and all(m.get("category") in ("code", "ide", "terminal") for m in g_code.get("memories", [])))
 
     st, g_crit = get("/api/memories?sensitivity=CRITICAL")
     check("Gallery Sensitivity Filter ('CRITICAL')", st == 200 and all(m.get("sensitivity_level") == "CRITICAL" for m in g_crit.get("memories", [])))

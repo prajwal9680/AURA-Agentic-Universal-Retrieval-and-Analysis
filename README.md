@@ -126,7 +126,7 @@ Evaluated across the **342-record multimodal physical artifact corpus** with det
 
 | Layer | Technologies |
 | :--- | :--- |
-| **Frontend** | Next.js 15 (App Router, Turbopack), React 19, TypeScript, Vanilla CSS Design System, `react-force-graph-2d`, `lucide-react` |
+| **Frontend** | Next.js 16.3 (App Router, Turbopack), React 19, TypeScript, Vanilla CSS Design System, `react-force-graph-2d`, `lucide-react` |
 | **Backend** | FastAPI, Python 3.11, Pydantic v2, SQLAlchemy 2.0 (Async), Uvicorn |
 | **Database & Vectors** | PostgreSQL 16 + pgvector (HNSW Indexing) · Dual-Engine SQLite + NumPy SIMD fallback |
 | **Orchestration** | LangGraph StateGraph, LangChain Core |
@@ -141,8 +141,8 @@ Evaluated across the **342-record multimodal physical artifact corpus** with det
 ### Option 1: Docker Compose (PostgreSQL 16 + pgvector Stack)
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/aura-visual-memory.git
-cd aura-visual-memory
+git clone https://github.com/prajwal9680/AURA-Agentic-Universal-Retrieval-and-Analysis.git
+cd AURA-Agentic-Universal-Retrieval-and-Analysis
 
 # Launch complete production stack
 docker compose up -d --build
@@ -199,11 +199,11 @@ python backend/tests/run_all_benchmarks.py
 ## 📚 Technical Documentation & Architecture Deep Dives
 - 📄 [Resume Talking Points & Interview Guide](docs/RESUME_POINTS.md): Quantified resume bullets and system design Q&A.
 - 🏛️ [Architecture Deep Dive](docs/ARCHITECTURE.md): Database schemas, composite indexes, connection pooling, and IR pipeline.
-- ⚖️ [Architectural Trade-offs & Failure Modes](docs/TRADE_OFFS_AND_FAILURE_MODES.md): Empirical latency percentiles (P50/P95/P99) and FMEA analysis.
+- ⚖️ [Architectural Trade-offs & Failure Modes](docs/TRADEOFFS_AND_FAILURE_MODES.md): Empirical latency percentiles (P50/P95/P99) and FMEA analysis.
 - 🔒 [Security & Threat Model](docs/SECURITY.md): Zero-Trust privacy gate, secret redaction patterns, and prompt injection defense.
-- 🧪 [Evaluation & Benchmark Suite](docs/evaluation.md): 4-pillar benchmark methodology and metric formulations.
+- 🧪 [Evaluation & Benchmark Suite](docs/EVALUATION.md): 4-pillar benchmark methodology and metric formulations.
 - 🛠️ [Operational Reference Playbook](docs/OPERATIONS.md): CLI workflows and complete REST API endpoint reference.
-- 🤝 [Contributing Guidelines](CONTRIBUTING.md): Code standards, type checking, and PR submission checklist.
+- 🤖 [Agent State Machine Design](docs/AGENT_DESIGN.md): LangGraph node architecture and tool gateway specification.
 
 ---
 

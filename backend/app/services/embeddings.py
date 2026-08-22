@@ -6,7 +6,7 @@ No API key required. GPU-accelerated when available.
 import logging
 import struct
 import numpy as np
-from typing import Optional
+from typing import Optional, Any, List, Union, Dict
 
 from app.config import settings
 
@@ -153,20 +153,43 @@ def embedding_to_hex(vec: np.ndarray) -> str:
     return vec.astype(np.float32).tobytes().hex()
 
 
+import json
 from functools import lru_cache
 
-@lru_cache(maxsize=4096)
-def hex_to_embedding(hex_str: str) -> Optional[np.ndarray]:
-    """Deserialize hex string back to float32 numpy array with LRU vector caching."""
-    if not hex_str:
+@lru_cache(maxsize=8192)
+def hex_to_embedding(val: Any) -> Optional[np.ndarray]:
+    """
+    Robust embedding deserializer with LRU vector caching.
+    Supports JSON list strings (e.g. '[0.1, -0.2, ...]'), binary hex strings,
+    raw float arrays, and lists.
+    """
+    if not val:
         return None
-    try:
-        raw = bytes.fromhex(hex_str)
-        arr = np.frombuffer(raw, dtype=np.float32)
+    if isinstance(val, np.ndarray):
+        arr = val.astype(np.float32)
         arr.flags.writeable = False
         return arr
-    except Exception:
-        return None
+    if isinstance(val, (list, tuple)):
+        arr = np.array(val, dtype=np.float32)
+        arr.flags.writeable = False
+        return arr
+    if isinstance(val, str):
+        val_str = val.strip()
+        if val_str.startswith("[") and val_str.endswith("]"):
+            try:
+                arr = np.array(json.loads(val_str), dtype=np.float32)
+                arr.flags.writeable = False
+                return arr
+            except Exception:
+                pass
+        try:
+            raw = bytes.fromhex(val_str)
+            arr = np.frombuffer(raw, dtype=np.float32)
+            arr.flags.writeable = False
+            return arr
+        except Exception:
+            pass
+    return None
 
 
 def cosine_similarity(a: np.ndarray, b: np.ndarray) -> float:
@@ -194,7 +217,15 @@ def batch_cosine_similarities(query_vec: np.ndarray, memory_vecs: list) -> np.nd
         return np.zeros(len(memory_vecs))
 
     try:
-        matrix = np.stack([v for _, v in memory_vecs], axis=0)  # (N, dim)
+        valid_vecs = [v for _, v in memory_vecs if v is not None and isinstance(v, np.ndarray)]
+        if len(valid_vecs) != len(memory_vecs):
+            # Fallback if any vector in the list is invalid
+            scores = []
+            for _, v in memory_vecs:
+                scores.append(cosine_similarity(query_vec, v) if v is not None else 0.0)
+            return np.array(scores, dtype=float)
+
+        matrix = np.stack(valid_vecs, axis=0)  # (N, dim)
         query_norm = query_vec / (np.linalg.norm(query_vec) + 1e-10)
         matrix_norm = matrix / (np.linalg.norm(matrix, axis=1, keepdims=True) + 1e-10)
         scores = matrix_norm @ query_norm  # (N,)
@@ -202,3 +233,4 @@ def batch_cosine_similarities(query_vec: np.ndarray, memory_vecs: list) -> np.nd
     except Exception as e:
         logger.error(f"Batch similarity failed: {e}")
         return np.zeros(len(memory_vecs))
+

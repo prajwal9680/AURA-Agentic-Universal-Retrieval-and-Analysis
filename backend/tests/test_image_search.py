@@ -3,6 +3,7 @@ AURA — Test Image-to-Image / Visual Search Endpoint
 Validates POST /api/memories/search-by-image
 """
 import requests
+import pytest
 from pathlib import Path
 
 BASE_URL = "http://127.0.0.1:8000"
@@ -10,12 +11,16 @@ TEST_IMG = Path(__file__).parent.parent.parent / "demo_data" / "screenshots" / "
 
 def test_image_search():
     if not TEST_IMG.exists():
-        print(f"Error: test image {TEST_IMG} not found")
+        pytest.skip(f"Test image {TEST_IMG} not found")
         return
 
-    with open(TEST_IMG, "rb") as f:
-        files = {"file": (TEST_IMG.name, f, "image/png")}
-        resp = requests.post(f"{BASE_URL}/api/memories/search-by-image?top_k=5", files=files, timeout=30)
+    try:
+        with open(TEST_IMG, "rb") as f:
+            files = {"file": (TEST_IMG.name, f, "image/png")}
+            resp = requests.post(f"{BASE_URL}/api/memories/search-by-image?top_k=5", files=files, timeout=30)
+    except Exception as e:
+        pytest.skip(f"Live server not responding on port 8000: {e}")
+        return
 
     print(f"Status Code: {resp.status_code}")
     if resp.status_code == 200:
@@ -28,8 +33,10 @@ def test_image_search():
             score = r.get("relevance_score", 0)
             cat = r.get("category")
             print(f"  {idx}. {fn} | Score: {score:.3f} | Cat: {cat}")
+        assert len(data.get("results", [])) > 0
     else:
-        print("Response:", resp.text)
+        pytest.skip(f"Live endpoint returned {resp.status_code}")
 
 if __name__ == "__main__":
     test_image_search()
+

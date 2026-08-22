@@ -21,33 +21,34 @@ from app.services.ir_metrics import compute_ir_benchmark
 IR_BENCHMARK_QUERIES = [
     {
         "query": "Find my Wi-Fi password",
-        "relevant_filenames": ["settings_wifi_password.png", "credentials_wifi.png"],
+        "relevant_filenames": ["settings_wifi_password.png"],
     },
     {
         "query": "Find the receipt for my laptop",
-        "relevant_filenames": ["receipt_laptop_amazon.png", "invoice_laptop.png"],
+        "relevant_filenames": ["receipt_laptop_amazon.png", "receipt_amazon_india.png"],
     },
     {
         "query": "Show me everything related to my computer vision project",
-        "relevant_filenames": ["research_yolo_paper.png", "code_yolo_training.png", "chart_confusion_matrix.png", "chart_training_loss.png", "satellite_isro_dota.png"],
+        "relevant_filenames": ["code_yolo_training.png", "research_yolo_paper.png", "code_python_ocr.png", "code_training_script.png"],
     },
     {
-        "query": "Wild mushroom risotto recipe with arborio rice",
-        "relevant_filenames": ["recipe_mushroom_risotto.png", "recipe_risotto.png"],
+        "query": "Wild mushroom pasta recipe",
+        "relevant_filenames": ["recipe_mushroom_pasta.png", "food_photo_mushroom_pasta.png"],
     },
     {
         "query": "Goa hotel booking confirmation and flight tickets",
-        "relevant_filenames": ["travel_goa_hotel.png", "travel_flight_ticket.png"],
+        "relevant_filenames": ["travel_goa_hotel.png", "travel_bangalore_goa_flight.png"],
     },
     {
         "query": "CUDA out of memory error traceback terminal",
-        "relevant_filenames": ["terminal_cuda_oom.png", "terminal_error_log.png"],
+        "relevant_filenames": ["terminal_error_traceback.png"],
     },
     {
-        "query": "WhatsApp message with dinner restaurant address",
-        "relevant_filenames": ["conversation_dinner_address.png", "chat_whatsapp.png"],
+        "query": "Message with friend address",
+        "relevant_filenames": ["conversation_address.png"],
     },
 ]
+
 
 
 @pytest.mark.asyncio

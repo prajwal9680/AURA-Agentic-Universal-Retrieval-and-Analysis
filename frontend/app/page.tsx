@@ -74,7 +74,7 @@ function HomeContent() {
       .catch(() => {});
 
     apiFetch("/api/memories?limit=6")
-      .then((data) => setRecentMemories(data.items || []))
+      .then((data) => setRecentMemories(data.memories || data.items || []))
       .catch(() => {});
 
     const initialQ = searchParams.get("q");

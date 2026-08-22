@@ -16,7 +16,7 @@ DB_PATH = DATA_DIR / "aura.db"
 class Settings(BaseSettings):
     # Gemini API (optional — graceful local fallback if missing)
     gemini_api_key: str = ""
-    gemini_model: str = "gemini-3.5-flash"
+    gemini_model: str = "gemini-2.5-flash"
 
     # OpenRouter API (high-throughput multimodal vision)
     openrouter_api_key: str = ""

@@ -100,8 +100,6 @@ def audit_section_3_and_5_dataset_visual():
 
 def audit_section_4_ocr():
     print_header("Section 4: OCR Quality & Structured Extraction")
-    res, _ = api_get("/api/memories?per_page=100")
-    memories = res.get("memories", [])
 
     ocr_targets = [
         "receipt_headphones_amazon.png",
@@ -116,12 +114,16 @@ def audit_section_4_ocr():
         "research_yolo_paper.png",
     ]
 
-    ocr_memories = [m for m in memories if m.get("original_filename") in ocr_targets]
-    print(f"Inspecting full OCR details for {len(ocr_memories)} key document screenshots:")
+    print(f"Inspecting full OCR details for {len(ocr_targets)} key document screenshots:")
 
     passed_count = 0
-    for m_short in ocr_memories:
-        m_id = m_short.get("id")
+    for target in ocr_targets:
+        clean_target = target.replace(".png", "")
+        res, _ = api_get(f"/api/memories?search={clean_target}")
+        memories = res.get("memories", [])
+        if not memories:
+            continue
+        m_id = memories[0].get("id")
         m, _ = api_get(f"/api/memories/{m_id}")
         fn = m.get("original_filename")
         ocr = m.get("ocr_text", "")
@@ -134,7 +136,7 @@ def audit_section_4_ocr():
         if length > 20 or len(entities) > 0:
             passed_count += 1
 
-    print(f"\nOCR Quality Verified: {passed_count}/{len(ocr_memories)} documents have rich text extracted.")
+    print(f"\nOCR Quality Verified: {passed_count}/{len(ocr_targets)} documents have rich text extracted.")
     return passed_count >= 8
 
 

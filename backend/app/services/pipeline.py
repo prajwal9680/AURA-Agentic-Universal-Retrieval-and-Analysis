@@ -250,6 +250,7 @@ async def process_memory(memory_id: str, file_path: str, db) -> dict:
                     relationship_type=rel["relationship_type"],
                     confidence=rel["confidence"],
                     reason=rel["reason"],
+                    evidence=rel.get("evidence", rel.get("reason", "")),
                 )
                 db.add(rel_obj)
             await db.commit()
