@@ -74,6 +74,15 @@ logs(actions)
 logs/actions/
 .system_generated/
 CONVERSATION_ARCHIVE.md
+scratch/
+backend/scratch/
+*/scratch/
+frontend/AGENTS.md
+frontend/CLAUDE.md
+AGENTS.md
+CLAUDE.md
+*.tmp
+*.bak
 
 # --- Log Files ---
 *.log
