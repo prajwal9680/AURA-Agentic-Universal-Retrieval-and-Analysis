@@ -205,18 +205,21 @@ export default function ConstellationPage() {
     const nodeId = selectedNode.id;
     const neighbors: Array<{ node: any; edge: any }> = [];
 
+    const seenIds = new Set<string>();
     rawLinks.forEach((l) => {
       const srcId = typeof l.source === "object" ? l.source.id : l.source;
       const tgtId = typeof l.target === "object" ? l.target.id : l.target;
 
-      if (srcId === nodeId && tgtId !== nodeId) {
+      if (srcId === nodeId && tgtId !== nodeId && !seenIds.has(tgtId)) {
         const neighborNode = rawNodes.find((n) => n.id === tgtId);
         if (neighborNode && !neighborNode.is_hub) {
+          seenIds.add(tgtId);
           neighbors.push({ node: neighborNode, edge: l });
         }
-      } else if (tgtId === nodeId && srcId !== nodeId) {
+      } else if (tgtId === nodeId && srcId !== nodeId && !seenIds.has(srcId)) {
         const neighborNode = rawNodes.find((n) => n.id === srcId);
         if (neighborNode && !neighborNode.is_hub) {
+          seenIds.add(srcId);
           neighbors.push({ node: neighborNode, edge: l });
         }
       }
@@ -924,9 +927,9 @@ export default function ConstellationPage() {
                       Associated Neighbors ({nodeNeighbors.length}):
                     </span>
                     <div style={{ display: "flex", gap: "0.35rem", overflowX: "auto", marginTop: 4 }}>
-                      {nodeNeighbors.slice(0, 4).map(({ node: n, edge: e }) => (
+                      {nodeNeighbors.slice(0, 4).map(({ node: n, edge: e }, idx) => (
                         <button
-                          key={n.id}
+                          key={`${n.id}-${e.id || idx}`}
                           onClick={() => handleNodeClick(n)}
                           style={{
                             fontSize: "0.68rem",
