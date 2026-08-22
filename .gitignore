@@ -72,6 +72,9 @@ logs/
 logs(actions)/
 logs(actions)
 logs/actions/
+docs/logs/
+docs/logs(actions)/
+*/logs(actions)/
 .system_generated/
 CONVERSATION_ARCHIVE.md
 scratch/

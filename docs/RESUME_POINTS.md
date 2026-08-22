@@ -5,7 +5,7 @@ This document provides ready-to-use resume bullet points, quantified impact metr
 
 ---
 
-## 🎯 Ready-to-Use Resume Bullet Points
+## Ready-to-Use Resume Bullet Points
 
 ### Option A: AI / Applied Machine Learning Engineer
 * **Architected and implemented AURA (Agentic Universal Retrieval and Analysis)**, a production-grade multimodal retrieval-augmented generation (RAG) visual memory platform indexing **340+ physical multimodal artifacts** across 12 domains, achieving **1.000 MRR** and **100% P@1** retrieval accuracy.
@@ -21,7 +21,7 @@ This document provides ready-to-use resume bullet points, quantified impact metr
 
 ---
 
-## 🏛️ System Architecture Deep Dive (Interview Q&A)
+## System Architecture Deep Dive (Interview Q&A)
 
 ### Q1: Why not just use OCR + BM25 search for desktop screenshots? (The "OCR Trap")
 > **Answer**:  
@@ -98,7 +98,7 @@ This document provides ready-to-use resume bullet points, quantified impact metr
 
 ---
 
-## 📈 Benchmark Summary Table (for Portfolio & Presentations)
+## Benchmark Summary Table (for Portfolio & Presentations)
 
 | Evaluation Pillar | Target Metric | Initial Baseline (97 Items) | AURA v2.0 Production (342 Items) |
 | :--- | :--- | :--- | :--- |

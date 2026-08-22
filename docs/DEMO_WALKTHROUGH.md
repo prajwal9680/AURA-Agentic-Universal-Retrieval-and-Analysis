@@ -6,7 +6,7 @@
 
 ---
 
-## 🎯 The 90-Second Rapid Pitch Script
+## The 90-Second Rapid Pitch Script
 
 ### [00:00 - 00:15] The Hook: The 4,000 Screenshot Trap
 - **Action**: Open the **Gallery** (`http://localhost:3000/gallery`).
@@ -58,12 +58,12 @@
 
 ---
 
-## 📋 The 5 Guaranteed Verifiable Demo Queries
+## The 5 Guaranteed Verifiable Demo Queries
 
 | # | Prompt | Expected Top Match | Key Feature Proven |
 | :--- | :--- | :--- | :--- |
-| **1** | `"Find my Wi-Fi password"` | `settings_wifi_password.png` | 🔴 **AURA Shield**: Auto-masks sensitive WPA3 credentials by default |
-| **2** | `"Find the receipt for my laptop"` | `receipt_laptop_amazon.png` | 🧾 **Hybrid Search**: Ranks ASUS ZenBook purchase #1 + AI Expense Action |
-| **3** | `"Show me everything related to my computer vision project"` | Multi-artifact cluster | 🧠 **Investigation Engine**: Aggregates papers, code, errors, slides into clusters |
-| **4** | `"Why did you choose these results?"` | Memory Evidence Drawer | 🔍 **Evidence Mode**: Cites OCR match, category overlap, and entity confidence |
-| **5** | `"Summarize this research screenshot"` | `research_yolo_paper.png` | ⚡ **AI Actions**: Grounded summary and key facts extraction |
+| **1** | `"Find my Wi-Fi password"` | `settings_wifi_password.png` | **AURA Shield**: Auto-masks sensitive WPA3 credentials by default |
+| **2** | `"Find the receipt for my laptop"` | `receipt_laptop_amazon.png` | **Hybrid Search**: Ranks ASUS ZenBook purchase #1 + AI Expense Action |
+| **3** | `"Show me everything related to my computer vision project"` | Multi-artifact cluster | **Investigation Engine**: Aggregates papers, code, errors, slides into clusters |
+| **4** | `"Why did you choose these results?"` | Memory Evidence Drawer | **Evidence Mode**: Cites OCR match, category overlap, and entity confidence |
+| **5** | `"Summarize this research screenshot"` | `research_yolo_paper.png` | **AI Actions**: Grounded summary and key facts extraction |

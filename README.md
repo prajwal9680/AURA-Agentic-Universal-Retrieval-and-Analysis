@@ -16,7 +16,7 @@ Standard desktop search engines rely primarily on optical character recognition 
 
 ---
 
-## 🏛️ System Architecture
+## System Architecture
 
 ```
                                   ┌─────────────────────────────┐
@@ -76,7 +76,7 @@ Standard desktop search engines rely primarily on optical character recognition 
 
 ---
 
-## 📊 4-Pillar Empirical Benchmark Scorecard
+## 4-Pillar Empirical Benchmark Scorecard
 
 Evaluated across the **342-record multimodal physical artifact corpus** with deterministic 70/15/15 train/val/test splits (`data/manifests/dataset_manifest_v2.json` and `docs/benchmark_results.json`):
 
@@ -96,7 +96,7 @@ Evaluated across the **342-record multimodal physical artifact corpus** with det
 
 ---
 
-## ⚡ Key Technical Innovations
+## Key Technical Innovations
 
 ### 1. Two-Stage Information Retrieval (IR) Pipeline
 - **First-Stage Candidate Union**: Dense semantic ANN vector retrieval (`all-MiniLM-L6-v2`, 384 dimensions) + Length-normalized BM25 with query-intent entity weighting.
@@ -110,12 +110,12 @@ Evaluated across the **342-record multimodal physical artifact corpus** with det
 
 ### 3. Explainable Multi-Signal Knowledge Graph
 - **15,500+ Relationship Edges** derived automatically via 5 multi-signal affinity heuristics:
-  - 🟣 `SAME_PROJECT`: Contextual co-occurrence in repositories / directories.
-  - 🟢 `SAME_ENTITY`: Jaccard entity overlap on named technical keywords.
-  - 🟡 `SAME_TOPIC`: Topic cluster affinity.
-  - 🔵 `SEMANTICALLY_RELATED`: Vector cosine similarity $\ge 0.78$.
-  - 🔴 `TEMPORALLY_RELATED`: Exponential decay weighting within 15-minute capture bursts.
-  - 🟪 `DERIVED_FROM`: Causal sequential provenance.
+  -  `SAME_PROJECT`: Contextual co-occurrence in repositories / directories.
+  -  `SAME_ENTITY`: Jaccard entity overlap on named technical keywords.
+  -  `SAME_TOPIC`: Topic cluster affinity.
+  -  `SEMANTICALLY_RELATED`: Vector cosine similarity $\ge 0.78$.
+  -  `TEMPORALLY_RELATED`: Exponential decay weighting within 15-minute capture bursts.
+  -  `DERIVED_FROM`: Causal sequential provenance.
 - Every edge includes human-readable `evidence` explaining why the relationship exists.
 
 ### 4. Zero-Trust OS Privacy Gate & Adversarial Sandbox
@@ -125,7 +125,7 @@ Evaluated across the **342-record multimodal physical artifact corpus** with det
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 | Layer | Technologies |
 | :--- | :--- |
@@ -139,7 +139,7 @@ Evaluated across the **342-record multimodal physical artifact corpus** with det
 
 ---
 
-## 🏁 Quickstart & Setup
+## Quickstart & Setup
 
 ### Option 1: Docker Compose (PostgreSQL 16 + pgvector Stack)
 ```bash
@@ -182,33 +182,33 @@ python backend/tests/run_all_benchmarks.py
 
 ---
 
-## 🧪 10 Representative Test Queries
+## 10 Representative Test Queries
 
 | # | Prompt | Target Memory | What It Proves |
 | :--- | :--- | :--- | :--- |
-| **1** | `"Find my Wi-Fi password"` | `settings_wifi_password.png` | 🔒 **AURA Shield**: Auto-masks sensitive WPA3 password by default |
-| **2** | `"Find the receipt for my laptop"` | `receipt_laptop_amazon.png` | 🧾 **Hybrid Intelligence**: Ranks ASUS ZenBook purchase #1 + AI Expense Extraction |
-| **3** | `"Show me everything related to my computer vision project"` | Multi-artifact cluster | 🔮 **Investigation Engine**: Aggregates papers, code, errors, and loss curves |
-| **4** | `"Wild mushroom risotto recipe with arborio rice"` | `recipe_mushroom_risotto.png` | 🍄 **Multimodal Recall**: Exact ingredient and culinary recipe retrieval |
-| **5** | `"Goa hotel booking confirmation and flight tickets"` | `travel_goa_hotel.png` | 🗺️ **Multi-Hop Traversal**: Connects hotel reservation with flight tickets |
-| **6** | `"CUDA out of memory error traceback terminal"` | `terminal_cuda_oom.png` | 🚨 **Error State Detection**: Detects CUDA OOM traceback and suggests fixes |
-| **7** | `"WhatsApp message with dinner restaurant address"` | `conversation_dinner_address.png`| 💬 **Comms Retrieval**: Extracts physical address from chat bubble |
-| **8** | `"Find the screenshot showing a dark-themed code editor"` | `code_dev_artifact_01.png` | 💻 **UI Theme Intelligence**: Differentiates dark theme IDE from documents |
-| **9** | `"Find the architecture diagram for AURA"` | `diagram_aura_architecture.png` | 🗺️ **Architecture Retrieval**: Visual block diagram retrieval |
-| **10** | `"Find the graph where accuracy improved after training"` | `chart_metric_visual_01.png` | 📈 **Visual Chart Identification**: Identifies performance improvement curves |
+| **1** | `"Find my Wi-Fi password"` | `settings_wifi_password.png` | **AURA Shield**: Auto-masks sensitive WPA3 password by default |
+| **2** | `"Find the receipt for my laptop"` | `receipt_laptop_amazon.png` | **Hybrid Intelligence**: Ranks ASUS ZenBook purchase #1 + AI Expense Extraction |
+| **3** | `"Show me everything related to my computer vision project"` | Multi-artifact cluster | **Investigation Engine**: Aggregates papers, code, errors, and loss curves |
+| **4** | `"Wild mushroom risotto recipe with arborio rice"` | `recipe_mushroom_risotto.png` |  **Multimodal Recall**: Exact ingredient and culinary recipe retrieval |
+| **5** | `"Goa hotel booking confirmation and flight tickets"` | `travel_goa_hotel.png` |  **Multi-Hop Traversal**: Connects hotel reservation with flight tickets |
+| **6** | `"CUDA out of memory error traceback terminal"` | `terminal_cuda_oom.png` |  **Error State Detection**: Detects CUDA OOM traceback and suggests fixes |
+| **7** | `"WhatsApp message with dinner restaurant address"` | `conversation_dinner_address.png`|  **Comms Retrieval**: Extracts physical address from chat bubble |
+| **8** | `"Find the screenshot showing a dark-themed code editor"` | `code_dev_artifact_01.png` |  **UI Theme Intelligence**: Differentiates dark theme IDE from documents |
+| **9** | `"Find the architecture diagram for AURA"` | `diagram_aura_architecture.png` |  **Architecture Retrieval**: Visual block diagram retrieval |
+| **10** | `"Find the graph where accuracy improved after training"` | `chart_metric_visual_01.png` |  **Visual Chart Identification**: Identifies performance improvement curves |
 
 ---
 
-## 📚 Technical Documentation & Architecture Deep Dives
-- 📄 [Resume Talking Points & Interview Guide](docs/RESUME_POINTS.md): Quantified resume bullets and system design Q&A.
-- 🏛️ [Architecture Deep Dive](docs/ARCHITECTURE.md): Database schemas, composite indexes, connection pooling, and IR pipeline.
-- ⚖️ [Architectural Trade-offs & Failure Modes](docs/TRADEOFFS_AND_FAILURE_MODES.md): Empirical latency percentiles (P50/P95/P99) and FMEA analysis.
-- 🔒 [Security & Threat Model](docs/SECURITY.md): Zero-Trust privacy gate, secret redaction patterns, and prompt injection defense.
-- 🧪 [Evaluation & Benchmark Suite](docs/EVALUATION.md): 4-pillar benchmark methodology and metric formulations.
-- 🛠️ [Operational Reference Playbook](docs/OPERATIONS.md): CLI workflows and complete REST API endpoint reference.
-- 🤖 [Agent State Machine Design](docs/AGENT_DESIGN.md): LangGraph node architecture and tool gateway specification.
+## Technical Documentation & Architecture Deep Dives
+-  [Resume Talking Points & Interview Guide](docs/RESUME_POINTS.md): Quantified resume bullets and system design Q&A.
+-  [Architecture Deep Dive](docs/ARCHITECTURE.md): Database schemas, composite indexes, connection pooling, and IR pipeline.
+-  [Architectural Trade-offs & Failure Modes](docs/TRADEOFFS_AND_FAILURE_MODES.md): Empirical latency percentiles (P50/P95/P99) and FMEA analysis.
+-  [Security & Threat Model](docs/SECURITY.md): Zero-Trust privacy gate, secret redaction patterns, and prompt injection defense.
+-  [Evaluation & Benchmark Suite](docs/EVALUATION.md): 4-pillar benchmark methodology and metric formulations.
+-  [Operational Reference Playbook](docs/OPERATIONS.md): CLI workflows and complete REST API endpoint reference.
+-  [Agent State Machine Design](docs/AGENT_DESIGN.md): LangGraph node architecture and tool gateway specification.
 
 ---
 
-## 📜 License
+## License
 This project is licensed under the [MIT License](LICENSE).

@@ -5,7 +5,7 @@
 
 ---
 
-## 🌌 Beyond Screenshots: The Personal Visual Memory OS
+## Beyond Screenshots: The Personal Visual Memory OS
 
 While the current production release of **AURA** (**Agentic Universal Retrieval and Analysis**) is focused on solving multimodal desktop retrieval with explainability, hybrid search, graph constellations, and Zero-Trust security shielding, the long-term vision of AURA is to serve as a **Zero-Friction Visual Copilot for Human Cognition**.
 
@@ -24,7 +24,7 @@ While the current production release of **AURA** (**Agentic Universal Retrieval 
 
 ---
 
-## 🗺️ Extended Roadmap
+## Extended Roadmap
 
 ### 1. Global Clipboard & Ephemeral Buffer Memory
 - Seamless background capture of copied images, diagrams, and rich snippets.

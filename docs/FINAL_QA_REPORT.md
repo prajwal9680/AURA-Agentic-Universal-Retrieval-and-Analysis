@@ -10,15 +10,15 @@
 
 | Evaluation Dimension | Target Metric | Certified Result | Status |
 | :--- | :--- | :--- | :--- |
-| **Automated Test Suite (pytest)** | $\ge 95.0\%$ pass rate | **68 / 68 Passed (100.0%)**, 2 skipped | 🟢 **CERTIFIED** |
-| **Information Retrieval Precision** | Precision@1 $\ge 80.0\%$ | **100.0% P@1** ($1.000\text{ MRR}$) | 🟢 **CERTIFIED** |
-| **Retrieval Latency (P50)** | $< 500\text{ ms}$ | **186.2 ms** (Dual-Engine pgvector / SIMD) | ⚡ **HIGH PERF** |
-| **Multimodal Schema Compliance** | $100.0\%$ | **100.0%** (342 physical artifacts validated) | 🟢 **CERTIFIED** |
-| **Agentic Citation Accuracy** | $\ge 4.0$ citations/query | **5.5 calibrated citations** | 🟢 **CERTIFIED** |
-| **Zero-Trust Privacy Gate Efficacy**| $100.0\%$ credential masking | **100.0%** (32 regex/entropy signatures) | 🔒 **ZERO LEAK** |
-| **Adversarial Injection Quarantine** | $\ge 95.0\%$ | **100.0%** (XML boundary containment) | 🔒 **PROTECTED** |
-| **Knowledge Graph Density** | $\ge 10,000$ edges | **15,546 explainable edges** (5-signal affinity) | 🟢 **CERTIFIED** |
-| **Frontend Production Readiness** | 0 build errors | **Clean Next.js 16.3 / React 19 Turbopack Build**| 🟢 **CERTIFIED** |
+| **Automated Test Suite (pytest)** | $\ge 95.0\%$ pass rate | **68 / 68 Passed (100.0%)**, 2 skipped | **CERTIFIED** |
+| **Information Retrieval Precision** | Precision@1 $\ge 80.0\%$ | **100.0% P@1** ($1.000\text{ MRR}$) | **CERTIFIED** |
+| **Retrieval Latency (P50)** | $< 500\text{ ms}$ | **186.2 ms** (Dual-Engine pgvector / SIMD) | **HIGH PERF** |
+| **Multimodal Schema Compliance** | $100.0\%$ | **100.0%** (342 physical artifacts validated) | **CERTIFIED** |
+| **Agentic Citation Accuracy** | $\ge 4.0$ citations/query | **5.5 calibrated citations** | **CERTIFIED** |
+| **Zero-Trust Privacy Gate Efficacy**| $100.0\%$ credential masking | **100.0%** (32 regex/entropy signatures) | **ZERO LEAK** |
+| **Adversarial Injection Quarantine** | $\ge 95.0\%$ | **100.0%** (XML boundary containment) | **PROTECTED** |
+| **Knowledge Graph Density** | $\ge 10,000$ edges | **15,546 explainable edges** (5-signal affinity) | **CERTIFIED** |
+| **Frontend Production Readiness** | 0 build errors | **Clean Next.js 16.3 / React 19 Turbopack Build**| **CERTIFIED** |
 
 ---
 
@@ -85,32 +85,32 @@ tests/test_visual_search.py                         1/1  PASSED  [100%]
 ```
 
 ### B. 5 Deterministic Verification Scenario Paths
-| # | Verification Scenario | Target Artifact | Actual Top Match | Relevance Score | Sensitivity Tier | Status |
+| # Verification Scenario | Target Artifact | Actual Top Match | Relevance Score | Sensitivity Tier | Status |
 | :- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **1** | `"Find my Wi-Fi password"` | `settings_wifi_password.png` | `settings_wifi_password.png` | `0.61` | `CRITICAL` (Masked) | 🟢 **PASS** |
-| **2** | `"Find the receipt for my laptop"` | `receipt_laptop_amazon.png` | `receipt_laptop_amazon.png` | `0.54` | `PERSONAL` | 🟢 **PASS** |
-| **3** | `"Show me everything related to my computer vision project"` | Multi-artifact CV cluster | 6 CV artifacts across 5 clusters + 4 graph edges | `0.38` | Mixed (Public/Personal) | 🟢 **PASS** |
-| **4** | `"Why did you choose these results?"` (Evidence Mode) | Full evidence trace | OCR matches + Category + Entities + Sensitivity | Complete Trace | Explanatory | 🟢 **PASS** |
-| **5** | `"AI Actions: Summarize & Extract Expense"` | Real structured extraction | Live expense parsing + YOLOv8 summary | Structured JSON | Verified | 🟢 **PASS** |
+| **1** | `"Find my Wi-Fi password"` | `settings_wifi_password.png` | `settings_wifi_password.png` | `0.61` | `CRITICAL` (Masked) | **PASS** |
+| **2** | `"Find the receipt for my laptop"` | `receipt_laptop_amazon.png` | `receipt_laptop_amazon.png` | `0.54` | `PERSONAL` | **PASS** |
+| **3** | `"Show me everything related to my computer vision project"` | Multi-artifact CV cluster | 6 CV artifacts across 5 clusters + 4 graph edges | `0.38` | Mixed (Public/Personal) | **PASS** |
+| **4** | `"Why did you choose these results?"` (Evidence Mode) | Full evidence trace | OCR matches + Category + Entities + Sensitivity | Complete Trace | Explanatory | **PASS** |
+| **5** | `"AI Actions: Summarize & Extract Expense"` | Real structured extraction | Live expense parsing + YOLOv8 summary | Structured JSON | Verified | **PASS** |
 
 ### C. 15 Diverse Natural-Language Retrieval Benchmark
 | Query | Top-1 Target | Latency | Status |
 | :--- | :--- | :--- | :--- |
-| `Find my Wi-Fi password` | `settings_wifi_password.png` | 33.9 ms | 🟢 PASS (Top-1) |
-| `Find the receipt for my laptop` | `receipt_laptop_amazon.png` | 26.4 ms | 🟢 PASS (Top-1) |
-| `That mushroom recipe` | `recipe_mushroom_pasta.png` | 33.3 ms | 🟢 PASS (Top-1) |
-| `Find the address my friend sent me` | `conversation_address.png` | 33.3 ms | 🟢 PASS (Top-1) |
-| `YOLO object detection paper` | `research_yolo_paper.png` | 30.5 ms | 🟢 PASS (Top-1) |
-| `Terminal error traceback` | `terminal_error_traceback.png` | 38.9 ms | 🟢 PASS (Top-1) |
-| `Goa trip hotel booking` | `travel_goa_hotel.png` | 36.3 ms | 🟢 PASS (Top-1) |
-| `Shopping cart with sneakers` | `shopping_cart_screenshot.png` | 38.7 ms | 🟢 PASS (Top-1) |
-| `Invoice for the 4K monitor` | `invoice_monitor.png` | 38.5 ms | 🟢 PASS (Top-1) |
-| `GitHub access token secret` | `settings_api_key.png` | 37.4 ms | 🟢 PASS (Top-1) |
-| `Computer vision system architecture diagram` | `diagram_aura_architecture.png` | 38.4 ms | 🟢 PASS (Top-1) |
-| `Grocery store purchase receipt` | `receipt_grocery.png` | 32.0 ms | 🟢 PASS (Top-1) |
-| `Flipkart wishlist items` | `shopping_wishlist.png` | 30.6 ms | 🟢 PASS (Top-1) |
-| `PyTorch model training output epoch` | `code_training_script.png` | 30.9 ms | 🟢 PASS (Top-3) |
-| `Tax invoice GST payment` | `invoice_freelance.png` | 31.4 ms | 🟢 PASS (Top-1) |
+| `Find my Wi-Fi password` | `settings_wifi_password.png` | 33.9 ms | PASS (Top-1) |
+| `Find the receipt for my laptop` | `receipt_laptop_amazon.png` | 26.4 ms | PASS (Top-1) |
+| `That mushroom recipe` | `recipe_mushroom_pasta.png` | 33.3 ms | PASS (Top-1) |
+| `Find the address my friend sent me` | `conversation_address.png` | 33.3 ms | PASS (Top-1) |
+| `YOLO object detection paper` | `research_yolo_paper.png` | 30.5 ms | PASS (Top-1) |
+| `Terminal error traceback` | `terminal_error_traceback.png` | 38.9 ms | PASS (Top-1) |
+| `Goa trip hotel booking` | `travel_goa_hotel.png` | 36.3 ms | PASS (Top-1) |
+| `Shopping cart with sneakers` | `shopping_cart_screenshot.png` | 38.7 ms | PASS (Top-1) |
+| `Invoice for the 4K monitor` | `invoice_monitor.png` | 38.5 ms | PASS (Top-1) |
+| `GitHub access token secret` | `settings_api_key.png` | 37.4 ms | PASS (Top-1) |
+| `Computer vision system architecture diagram` | `diagram_aura_architecture.png` | 38.4 ms | PASS (Top-1) |
+| `Grocery store purchase receipt` | `receipt_grocery.png` | 32.0 ms | PASS (Top-1) |
+| `Flipkart wishlist items` | `shopping_wishlist.png` | 30.6 ms | PASS (Top-1) |
+| `PyTorch model training output epoch` | `code_training_script.png` | 30.9 ms | PASS (Top-3) |
+| `Tax invoice GST payment` | `invoice_freelance.png` | 31.4 ms | PASS (Top-1) |
 
 * **Top-1 Precision**: **93.3% (14/15)**
 * **Top-3 Precision**: **100.0% (15/15)**
@@ -149,16 +149,16 @@ tests/test_visual_search.py                         1/1  PASSED  [100%]
 
 | Test | Objective | Verified Behavior | Status |
 | :--- | :--- | :--- | :--- |
-| **Test A** | Upload receipt $\rightarrow$ OCR $\rightarrow$ Vision $\rightarrow$ Embed $\rightarrow$ Searchable | Full async lifecycle executed on test receipt in 1.2s; indexed and retrieved | 🟢 **PASS** |
-| **Test B** | Search: `"Find the receipt for my laptop"` | Ranks `receipt_laptop_amazon.png` #1 with 0.54 score | 🟢 **PASS** |
-| **Test C** | Search: `"Find my Wi-Fi password"` | Ranks `settings_wifi_password.png` #1, classified CRITICAL, visual preview masked | 🟢 **PASS** |
-| **Test D** | Investigate: `"Show me everything related to my computer vision project"` | Multi-step agentic workflow traverses 6 artifacts across 5 clusters + 4 relationships | 🟢 **PASS** |
-| **Test E** | Open Memory Constellation | Graph renders 30 nodes + 28 edges; node/edge click drawer verified | 🟢 **PASS** |
-| **Test F** | Open Evidence Mode | Exact OCR tokens, category match, and entity provenance cited | 🟢 **PASS** |
-| **Test G** | Run AI Action | Real expense extraction (`Amazon | Total: 1,06,188.20`) and code explanation executed | 🟢 **PASS** |
-| **Test H** | Delete Memory | Memory removed from DB, excluded from search, direct GET returns 404 | 🟢 **PASS** |
-| **Test I** | Restart Servers | Both FastAPI and Next.js restart cleanly from persistent database | 🟢 **PASS** |
-| **Test J** | Fresh Environment Setup | Clean clone reproducible via instructions in `README.md` | 🟢 **PASS** |
+| **Test A** | Upload receipt $\rightarrow$ OCR $\rightarrow$ Vision $\rightarrow$ Embed $\rightarrow$ Searchable | Full async lifecycle executed on test receipt in 1.2s; indexed and retrieved | **PASS** |
+| **Test B** | Search: `"Find the receipt for my laptop"` | Ranks `receipt_laptop_amazon.png` #1 with 0.54 score | **PASS** |
+| **Test C** | Search: `"Find my Wi-Fi password"` | Ranks `settings_wifi_password.png` #1, classified CRITICAL, visual preview masked | **PASS** |
+| **Test D** | Investigate: `"Show me everything related to my computer vision project"` | Multi-step agentic workflow traverses 6 artifacts across 5 clusters + 4 relationships | **PASS** |
+| **Test E** | Open Memory Constellation | Graph renders 30 nodes + 28 edges; node/edge click drawer verified | **PASS** |
+| **Test F** | Open Evidence Mode | Exact OCR tokens, category match, and entity provenance cited | **PASS** |
+| **Test G** | Run AI Action | Real expense extraction (`Amazon | Total: 1,06,188.20`) and code explanation executed | **PASS** |
+| **Test H** | Delete Memory | Memory removed from DB, excluded from search, direct GET returns 404 | **PASS** |
+| **Test I** | Restart Servers | Both FastAPI and Next.js restart cleanly from persistent database | **PASS** |
+| **Test J** | Fresh Environment Setup | Clean clone reproducible via instructions in `README.md` | **PASS** |
 
 ---
 

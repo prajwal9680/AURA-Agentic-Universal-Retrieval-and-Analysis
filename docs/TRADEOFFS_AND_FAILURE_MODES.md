@@ -4,7 +4,7 @@ This document outlines the architectural trade-offs, empirical latency budgets, 
 
 ---
 
-## ⚖️ 1. Architectural Trade-offs
+## 1. Architectural Trade-offs
 
 | Decision | Selected Strategy | Alternative Evaluated | Engineering Rationale & Trade-off |
 | :--- | :--- | :--- | :--- |
@@ -16,7 +16,7 @@ This document outlines the architectural trade-offs, empirical latency budgets, 
 
 ---
 
-## ⏱️ 2. Empirical Latency Budget & Resource Profile
+## 2. Empirical Latency Budget & Resource Profile
 
 Tested on a benchmark machine (Intel Core i7-14700HX, 32 GB DDR5 RAM, NVIDIA RTX 5060 Laptop GPU / CPU Fallback):
 
@@ -34,7 +34,7 @@ Tested on a benchmark machine (Intel Core i7-14700HX, 32 GB DDR5 RAM, NVIDIA RTX
 
 ---
 
-## 🛡️ 3. Failure Mode & Effects Analysis (FMEA)
+## 3. Failure Mode & Effects Analysis (FMEA)
 
 | Potential Failure Mode | Root Cause | Severity | Automated Mitigation Strategy Implemented |
 | :--- | :--- | :--- | :--- |
