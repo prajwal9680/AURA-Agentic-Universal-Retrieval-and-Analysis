@@ -1,7 +1,7 @@
 # AURA — Agentic RAG Architecture & LangGraph Design
 
-## 1. Executive Summary
-AURA implements a true multi-step **Agentic RAG State Machine** orchestrated via **LangGraph**. Unlike naive RAG pipelines that execute single-pass retrieval and immediate generation, AURA uses explicit query planning, iterative tool execution, cross-encoder reranking, a self-reflective critic node, and calibrated citation synthesis.
+## 1. System Overview
+AURA implements a multi-step Agentic RAG state machine orchestrated via LangGraph. While standard RAG pipelines execute single-pass vector retrieval and immediate text generation, AURA implements explicit query planning, iterative tool execution, cross-encoder candidate reranking, a reflection critic node, and calibrated citation synthesis.
 
 ---
 

@@ -1,8 +1,8 @@
 # AURA — Agentic Universal Retrieval and Analysis
 ## System Architecture & Technical Specifications
 
-## Executive Overview
-**AURA** (**Agentic Universal Retrieval and Analysis**) is an enterprise-grade multimodal retrieval-augmented generation (RAG) and visual knowledge graph intelligence platform. It transforms high-velocity desktop visual streams into a structured, searchable, and graph-connected knowledge constellation with sub-200ms retrieval latencies, calibrated citations, and Zero-Trust client-side security.
+## System Overview
+AURA (Agentic Universal Retrieval and Analysis) is a multimodal retrieval-augmented generation (RAG) and visual knowledge graph system. It processes desktop visual streams into a searchable, relational knowledge graph with sub-200ms retrieval latencies, verifiable citations, and client-side security controls.
 
 ---
 

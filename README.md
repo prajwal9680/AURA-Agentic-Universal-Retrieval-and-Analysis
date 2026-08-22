@@ -1,15 +1,18 @@
-# AURA — Agentic Universal Retrieval and Analysis
+# AURA: Agentic Universal Retrieval and Analysis
 
-> **Don't search your screenshots. Ask your memory.**  
-> **Core Architecture**: PostgreSQL 16 + pgvector · LangGraph StateGraph · Cross-Encoder Reranker · Zero-Trust Privacy Gate · Multi-Signal Knowledge Graph · Gemini Multimodal VLM · Next.js 15 UI
+**Architecture**: PostgreSQL 16 + pgvector · LangGraph StateGraph · Cross-Encoder Reranker · Zero-Trust Privacy Gate · Multi-Signal Knowledge Graph · Gemini Vision VLM · Next.js 16 UI
 
 ---
 
-## 🔮 Executive Summary
+## Technical Overview
 
-**AURA** (**Agentic Universal Retrieval and Analysis**) is a production-grade multimodal retrieval-augmented generation (RAG) and visual knowledge graph platform that transforms high-velocity desktop visual streams into an explainable, interconnected intelligence constellation.
+AURA (Agentic Universal Retrieval and Analysis) is a multimodal retrieval-augmented generation (RAG) and visual knowledge graph system for desktop environments. It indexes desktop visual streams into a structured, searchable knowledge graph with sub-200ms retrieval latencies, calibrated citations, and client-side privacy controls.
 
-Unlike traditional desktop search tools that fall into the **"OCR Trap"** (indexing only flat optical text and remaining blind to diagrams, loss curves, UI layouts, and charts), AURA treats visual captures as **first-class multimodal artifacts**. It executes dual-path VLM + OCR understanding, indexes 384-dimensional dense vectors with pgvector HNSW indexing, ranks results with a two-stage Cross-Encoder reranker, navigates knowledge with a LangGraph state machine, and isolates credentials with a Zero-Trust client-side privacy gate.
+Standard desktop search engines rely primarily on optical character recognition (OCR), which indexes only raw text and fails on non-textual visual structures such as architecture diagrams, loss curves, schematic workflows, and UI layouts. AURA addresses this with a dual-path pipeline:
+1. **Multimodal VLM Path**: Extracts structural visual features (document format, visual entities, layout topology).
+2. **Optical Text Path**: Extracts and normalizes lexical tokens.
+3. **Dense Vector Space**: Synthesizes visual descriptors and OCR tokens into unified 384-dimensional dense vectors indexed via pgvector HNSW graphs.
+4. **Agentic RAG Engine**: Executes multi-hop query decomposition, dynamic image candidate inspection, graph traversal, and reflection-based answer synthesis via LangGraph.
 
 ---
 

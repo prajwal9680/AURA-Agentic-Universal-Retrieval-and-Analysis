@@ -1,6 +1,6 @@
 # AURA — Architectural Trade-offs, Latency Budgets & Failure Mode Analysis
 
-This document provides a rigorous engineering breakdown of the design trade-offs, empirical latency budgets, failure modes, and mitigation strategies implemented across the **AURA (Agentic Universal Retrieval and Analysis)** platform.
+This document outlines the architectural trade-offs, empirical latency budgets, failure modes, and mitigation strategies implemented in AURA (Agentic Universal Retrieval and Analysis).
 
 ---
 
