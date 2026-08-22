@@ -48,7 +48,7 @@ const CONSTELLATIONS_LIST = [
 ];
 
 const CATEGORIES = [
-  { id: "", label: "All 342 Items", icon: Layers },
+  { id: "", label: "All Artifacts", icon: Layers },
   { id: "code", label: "Code & Software", icon: FileCode },
   { id: "research", label: "Research & AI", icon: Sparkles },
   { id: "chart", label: "Charts & Accuracy", icon: PieChart },
