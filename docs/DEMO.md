@@ -32,13 +32,13 @@
   - Notice the **100% precision**: It searches by semantic concept, not filename.
   - Click **Investigate**: AURA synthesizes a grounded answer citing the specific dish names and ingredients.
 
-#### 🛡️ Demo Step 2.2 — The Zero-Trust Security Shield (THE "WOW" MOMENT)
+#### 🛡️ Demo Step 2.2 — Zero-Trust Security Gate & Credential Masking
 - **Query:** `where is the wifi password stored`
 - **What happens:**
   - AURA identifies `settings_wifi_password.png` (Sensitivity: **CRITICAL**).
   - The secret password is **automatically redacted and masked** on the preview card (`••••••••••••`).
   - Click the **Reveal Secret (Zero-Trust Override)** button: Enter password verification `aura2026` or click Unlock to audit the reveal event with cryptographic timestamp logging.
-  - Cites track theme: *"Code You Can Trust — zero accidental leakages of credentials or sensitive personal data."*
+  - Demonstrates verified defense against credential and sensitive personal data leakage.
 
 #### ⚡ Demo Step 2.3 — Financial Intelligence & Expense Extraction
 - **Query:** `laptop purchase bill and receipt`
