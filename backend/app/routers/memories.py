@@ -264,14 +264,27 @@ async def get_relationships(memory_id: str, db: AsyncSession = Depends(get_db)):
     return {"relationships": output, "count": len(output)}
 
 
-# ─── Serve Image ─────────────────────────────────────────────────────────────
+def _resolve_image_path(memory: Memory) -> Optional[Path]:
+    """Resolve active image file path across multiple candidate directories."""
+    candidates = [
+        Path(memory.file_path) if memory.file_path else None,
+        Path("demo_data/screenshots") / memory.original_filename if memory.original_filename else None,
+        Path("../demo_data/screenshots") / memory.original_filename if memory.original_filename else None,
+        Path("data/uploads") / memory.original_filename if memory.original_filename else None,
+    ]
+    for cand in candidates:
+        if cand and cand.exists():
+            return cand
+    return None
+
 
 @router.get("/{memory_id}/image")
 async def get_image(memory_id: str, db: AsyncSession = Depends(get_db)):
     memory = await _get_or_404(memory_id, db)
-    if not Path(memory.file_path).exists():
+    resolved = _resolve_image_path(memory)
+    if not resolved:
         raise HTTPException(status_code=404, detail="Image file not found.")
-    return FileResponse(memory.file_path, media_type=memory.mime_type)
+    return FileResponse(str(resolved), media_type=memory.mime_type or "image/png")
 
 
 @router.get("/{memory_id}/thumbnail")
@@ -279,9 +292,9 @@ async def get_thumbnail(memory_id: str, db: AsyncSession = Depends(get_db)):
     memory = await _get_or_404(memory_id, db)
     if memory.thumbnail_path and Path(memory.thumbnail_path).exists():
         return FileResponse(memory.thumbnail_path, media_type="image/jpeg")
-    # Fall back to original
-    if Path(memory.file_path).exists():
-        return FileResponse(memory.file_path, media_type=memory.mime_type)
+    resolved = _resolve_image_path(memory)
+    if resolved:
+        return FileResponse(str(resolved), media_type=memory.mime_type or "image/png")
     raise HTTPException(status_code=404, detail="Image not found.")
 
 
