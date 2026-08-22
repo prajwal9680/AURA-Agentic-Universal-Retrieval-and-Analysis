@@ -1,6 +1,6 @@
 """
-AURA — 5 Mandatory Demo Queries Verification Script
-Verifies that all 5 critical demo paths for SCRYPTIC Season II succeed deterministically.
+AURA — 5 Deterministic Verification Scenario Paths
+Verifies that all 5 critical multimodal verification paths succeed deterministically.
 """
 import sys
 import os
@@ -27,7 +27,7 @@ from sqlalchemy import select
 
 async def verify_all():
     print("=" * 70)
-    print("AURA DEMO VERIFICATION — 5 CRITICAL SCRYPTIC PATHS")
+    print("AURA SYSTEM VERIFICATION — 5 CORE RETRIEVAL & SECURITY PATHS")
     print("=" * 70)
 
     await init_db()

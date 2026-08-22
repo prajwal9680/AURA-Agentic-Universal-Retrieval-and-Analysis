@@ -1,8 +1,7 @@
 # AURA Multimodal Benchmark Dataset Manifest
 
 **Total Verified Visual Artifacts**: 97 items  
-**Acquisition Date**: August 16, 2026  
-**Version**: 2.1.0 (SCRYPTIC Season II Submission Release)  
+**Version**: 2.0.0 (Production Release)  
 
 ## 1. Modality Distribution & Multimodal Target Balance
 

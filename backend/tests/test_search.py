@@ -37,7 +37,7 @@ class TestQueryParsing:
 
 class TestShieldIntegration:
     def test_wifi_password_detected_critical(self):
-        text = "SSID: PrajwalHome_5G\nWi-Fi Password: Scryptic@2026#Secure!\nSecurity: WPA3"
+        text = "SSID: EnterpriseNet_5G\nWi-Fi Password: Aura@2026#SecureNetwork!\nSecurity: WPA3"
         result = scan_text(text)
         assert result["sensitivity_level"] == "CRITICAL"
         assert result["confidence"] > 0.8

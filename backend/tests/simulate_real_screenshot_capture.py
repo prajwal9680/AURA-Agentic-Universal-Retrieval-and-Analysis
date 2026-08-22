@@ -64,7 +64,7 @@ def test_automatic_screenshot_ingestion():
         data={
             "app_name": "Visual Studio Code",
             "window_title": "AURA Desktop Agent — Active Workflow Capture",
-            "clipboard_context": "https://github.com/scryptic-aura/aura-visual-memory",
+            "clipboard_context": "https://github.com/prajwal9680/AURA-Agentic-Universal-Retrieval-and-Analysis",
         }
     )
 

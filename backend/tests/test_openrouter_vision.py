@@ -14,7 +14,7 @@ def test_openrouter_vision():
 
         "Authorization": f"Bearer {OPENROUTER_API_KEY}",
         "Content-Type": "application/json",
-        "HTTP-Referer": "https://github.com/scryptic-aura",
+        "HTTP-Referer": "https://github.com/prajwal9680/AURA-Agentic-Universal-Retrieval-and-Analysis",
         "X-Title": "AURA Visual Memory Engine",
     }
     

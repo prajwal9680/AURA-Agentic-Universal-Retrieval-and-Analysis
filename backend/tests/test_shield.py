@@ -49,7 +49,7 @@ class TestJWTDetection:
 
 class TestPasswordDetection:
     def test_wifi_password(self):
-        text = "Wi-Fi Password: Scryptic@2026#Secure!"
+        text = "Wi-Fi Password: Aura@2026#SecureNetwork!"
         result = scan_text(text)
         assert result["sensitivity_level"] == CRITICAL
         assert any(f["type"] == "password" for f in result["findings"])

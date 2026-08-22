@@ -10,7 +10,7 @@
     {
       "id": "36f2e9bf-494e-5abe-b08a-41325b782097",
       "filename": "api_swagger_docs.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\api_swagger_docs.png",
+      "file_path": "demo_data/screenshots/api_swagger_docs.png",
       "category": "api",
       "document_type": "api_screenshot",
       "app_name": "Desktop Application",
@@ -39,7 +39,7 @@
     {
       "id": "1afcf54e-4e2e-5c01-905c-1221672fd6eb",
       "filename": "business_card_synthetic.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\business_card_synthetic.png",
+      "file_path": "demo_data/screenshots/business_card_synthetic.png",
       "category": "business",
       "document_type": "business_screenshot",
       "app_name": "Desktop Application",
@@ -68,7 +68,7 @@
     {
       "id": "985b8ab4-fd94-5c6c-81af-e7a890ef8f54",
       "filename": "chart_confusion_matrix.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\chart_confusion_matrix.png",
+      "file_path": "demo_data/screenshots/chart_confusion_matrix.png",
       "category": "chart",
       "document_type": "chart_screenshot",
       "app_name": "Desktop Application",
@@ -97,7 +97,7 @@
     {
       "id": "b0bf757f-20c0-5162-8469-508df0c6bc3c",
       "filename": "chart_metric_visual_01.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\chart_metric_visual_01.png",
+      "file_path": "demo_data/screenshots/chart_metric_visual_01.png",
       "category": "chart",
       "document_type": "line_chart",
       "app_name": "Visualization Engine",
@@ -129,7 +129,7 @@
     {
       "id": "4ea1c995-dac3-546f-8162-4e85ee432418",
       "filename": "chart_metric_visual_02.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\chart_metric_visual_02.png",
+      "file_path": "demo_data/screenshots/chart_metric_visual_02.png",
       "category": "chart",
       "document_type": "bar_chart",
       "app_name": "Visualization Engine",
@@ -161,7 +161,7 @@
     {
       "id": "2bb3cff6-2a09-575e-9193-383837f9de25",
       "filename": "chart_metric_visual_03.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\chart_metric_visual_03.png",
+      "file_path": "demo_data/screenshots/chart_metric_visual_03.png",
       "category": "chart",
       "document_type": "bar_chart",
       "app_name": "Visualization Engine",
@@ -193,7 +193,7 @@
     {
       "id": "bfc9d6de-2732-542f-aafe-b00725c2069d",
       "filename": "chart_metric_visual_04.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\chart_metric_visual_04.png",
+      "file_path": "demo_data/screenshots/chart_metric_visual_04.png",
       "category": "chart",
       "document_type": "bar_chart",
       "app_name": "Visualization Engine",
@@ -225,7 +225,7 @@
     {
       "id": "f1d1d4da-5188-5d26-8fd7-ff6485e2a2b8",
       "filename": "chart_metric_visual_05.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\chart_metric_visual_05.png",
+      "file_path": "demo_data/screenshots/chart_metric_visual_05.png",
       "category": "chart",
       "document_type": "loss_curve_chart",
       "app_name": "Visualization Engine",
@@ -257,7 +257,7 @@
     {
       "id": "4041630b-9328-5fc8-9c5b-46ebc2e1cfc6",
       "filename": "chart_metric_visual_06.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\chart_metric_visual_06.png",
+      "file_path": "demo_data/screenshots/chart_metric_visual_06.png",
       "category": "chart",
       "document_type": "line_chart",
       "app_name": "Visualization Engine",
@@ -289,7 +289,7 @@
     {
       "id": "5ee829f2-17e2-5a98-b9af-39d754dffa62",
       "filename": "chart_metric_visual_07.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\chart_metric_visual_07.png",
+      "file_path": "demo_data/screenshots/chart_metric_visual_07.png",
       "category": "chart",
       "document_type": "bar_chart",
       "app_name": "Visualization Engine",
@@ -321,7 +321,7 @@
     {
       "id": "a8ecb408-06da-55f1-b9cf-14639d8af8ae",
       "filename": "chart_metric_visual_08.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\chart_metric_visual_08.png",
+      "file_path": "demo_data/screenshots/chart_metric_visual_08.png",
       "category": "chart",
       "document_type": "bar_chart",
       "app_name": "Visualization Engine",
@@ -353,7 +353,7 @@
     {
       "id": "924ef64e-ab7a-5f54-93e7-4fa2b757c3af",
       "filename": "chart_metric_visual_09.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\chart_metric_visual_09.png",
+      "file_path": "demo_data/screenshots/chart_metric_visual_09.png",
       "category": "chart",
       "document_type": "bar_chart",
       "app_name": "Visualization Engine",
@@ -385,7 +385,7 @@
     {
       "id": "60cd3c10-4a1b-5a02-bd96-1cf48023ff19",
       "filename": "chart_metric_visual_10.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\chart_metric_visual_10.png",
+      "file_path": "demo_data/screenshots/chart_metric_visual_10.png",
       "category": "chart",
       "document_type": "loss_curve_chart",
       "app_name": "Visualization Engine",
@@ -417,7 +417,7 @@
     {
       "id": "655a4c33-9d61-5ede-8691-258aa3e178c2",
       "filename": "chart_metric_visual_11.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\chart_metric_visual_11.png",
+      "file_path": "demo_data/screenshots/chart_metric_visual_11.png",
       "category": "chart",
       "document_type": "line_chart",
       "app_name": "Visualization Engine",
@@ -449,7 +449,7 @@
     {
       "id": "fd3c65a4-f47d-5ee2-8478-15ac32e96a38",
       "filename": "chart_metric_visual_12.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\chart_metric_visual_12.png",
+      "file_path": "demo_data/screenshots/chart_metric_visual_12.png",
       "category": "chart",
       "document_type": "bar_chart",
       "app_name": "Visualization Engine",
@@ -481,7 +481,7 @@
     {
       "id": "943f2327-7872-515e-9947-9527b77b36b3",
       "filename": "chart_metric_visual_13.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\chart_metric_visual_13.png",
+      "file_path": "demo_data/screenshots/chart_metric_visual_13.png",
       "category": "chart",
       "document_type": "bar_chart",
       "app_name": "Visualization Engine",
@@ -513,7 +513,7 @@
     {
       "id": "d0225b29-5b3d-5da4-b1d2-ed03a727d821",
       "filename": "chart_metric_visual_14.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\chart_metric_visual_14.png",
+      "file_path": "demo_data/screenshots/chart_metric_visual_14.png",
       "category": "chart",
       "document_type": "bar_chart",
       "app_name": "Visualization Engine",
@@ -545,7 +545,7 @@
     {
       "id": "93c24e8e-1b38-578f-9d0d-b3ea924f2c77",
       "filename": "chart_metric_visual_15.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\chart_metric_visual_15.png",
+      "file_path": "demo_data/screenshots/chart_metric_visual_15.png",
       "category": "chart",
       "document_type": "loss_curve_chart",
       "app_name": "Visualization Engine",
@@ -577,7 +577,7 @@
     {
       "id": "57f05de0-4d95-56f1-9ddb-ae1e49839ed7",
       "filename": "chart_metric_visual_16.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\chart_metric_visual_16.png",
+      "file_path": "demo_data/screenshots/chart_metric_visual_16.png",
       "category": "chart",
       "document_type": "line_chart",
       "app_name": "Visualization Engine",
@@ -609,7 +609,7 @@
     {
       "id": "ddfbcce1-752b-574c-afc4-822e532cd6c8",
       "filename": "chart_metric_visual_17.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\chart_metric_visual_17.png",
+      "file_path": "demo_data/screenshots/chart_metric_visual_17.png",
       "category": "chart",
       "document_type": "bar_chart",
       "app_name": "Visualization Engine",
@@ -641,7 +641,7 @@
     {
       "id": "7262d278-aae5-5e0a-be6e-05aa4ef09a68",
       "filename": "chart_metric_visual_18.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\chart_metric_visual_18.png",
+      "file_path": "demo_data/screenshots/chart_metric_visual_18.png",
       "category": "chart",
       "document_type": "bar_chart",
       "app_name": "Visualization Engine",
@@ -673,7 +673,7 @@
     {
       "id": "91686694-604f-5f5d-9fbc-1f9305d712f2",
       "filename": "chart_metric_visual_19.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\chart_metric_visual_19.png",
+      "file_path": "demo_data/screenshots/chart_metric_visual_19.png",
       "category": "chart",
       "document_type": "bar_chart",
       "app_name": "Visualization Engine",
@@ -705,7 +705,7 @@
     {
       "id": "e5c8ced8-83a1-524b-a684-67215129b4c2",
       "filename": "chart_metric_visual_20.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\chart_metric_visual_20.png",
+      "file_path": "demo_data/screenshots/chart_metric_visual_20.png",
       "category": "chart",
       "document_type": "loss_curve_chart",
       "app_name": "Visualization Engine",
@@ -737,7 +737,7 @@
     {
       "id": "f75a7ba4-0dac-5579-874f-3c30b2ab9c8e",
       "filename": "chart_metric_visual_21.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\chart_metric_visual_21.png",
+      "file_path": "demo_data/screenshots/chart_metric_visual_21.png",
       "category": "chart",
       "document_type": "line_chart",
       "app_name": "Visualization Engine",
@@ -769,7 +769,7 @@
     {
       "id": "5239f30c-3042-57f2-aab8-dd7ab1a57808",
       "filename": "chart_metric_visual_22.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\chart_metric_visual_22.png",
+      "file_path": "demo_data/screenshots/chart_metric_visual_22.png",
       "category": "chart",
       "document_type": "bar_chart",
       "app_name": "Visualization Engine",
@@ -801,7 +801,7 @@
     {
       "id": "37fcc21f-8516-5f30-a2af-9db18f914408",
       "filename": "chart_metric_visual_23.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\chart_metric_visual_23.png",
+      "file_path": "demo_data/screenshots/chart_metric_visual_23.png",
       "category": "chart",
       "document_type": "bar_chart",
       "app_name": "Visualization Engine",
@@ -833,7 +833,7 @@
     {
       "id": "565f4a86-4185-5074-8239-83d62fe3d410",
       "filename": "chart_metric_visual_24.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\chart_metric_visual_24.png",
+      "file_path": "demo_data/screenshots/chart_metric_visual_24.png",
       "category": "chart",
       "document_type": "bar_chart",
       "app_name": "Visualization Engine",
@@ -865,7 +865,7 @@
     {
       "id": "b43d333d-e4a8-5027-857b-e744e5bd8bab",
       "filename": "chart_metric_visual_25.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\chart_metric_visual_25.png",
+      "file_path": "demo_data/screenshots/chart_metric_visual_25.png",
       "category": "chart",
       "document_type": "loss_curve_chart",
       "app_name": "Visualization Engine",
@@ -897,7 +897,7 @@
     {
       "id": "aca8b540-e087-5c6a-a6ca-a046ecf00c94",
       "filename": "chart_training_loss.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\chart_training_loss.png",
+      "file_path": "demo_data/screenshots/chart_training_loss.png",
       "category": "chart",
       "document_type": "chart_screenshot",
       "app_name": "Desktop Application",
@@ -926,7 +926,7 @@
     {
       "id": "6e254249-238a-507a-801d-4d642bf662f7",
       "filename": "chart_tsne_visual_embeddings.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\chart_tsne_visual_embeddings.png",
+      "file_path": "demo_data/screenshots/chart_tsne_visual_embeddings.png",
       "category": "chart",
       "document_type": "chart_screenshot",
       "app_name": "Desktop Application",
@@ -955,7 +955,7 @@
     {
       "id": "adef34de-2894-5a86-993d-d5f6426f624a",
       "filename": "chat_collaboration_thread_01.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\chat_collaboration_thread_01.png",
+      "file_path": "demo_data/screenshots/chat_collaboration_thread_01.png",
       "category": "conversation",
       "document_type": "chat_message_thread",
       "app_name": "Slack",
@@ -988,7 +988,7 @@
     {
       "id": "d9cfd985-aac0-51bb-8f3e-8a9e9520cebf",
       "filename": "chat_collaboration_thread_02.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\chat_collaboration_thread_02.png",
+      "file_path": "demo_data/screenshots/chat_collaboration_thread_02.png",
       "category": "conversation",
       "document_type": "chat_message_thread",
       "app_name": "Slack",
@@ -1021,7 +1021,7 @@
     {
       "id": "c17d842f-e232-50cd-b843-5d708103682b",
       "filename": "chat_collaboration_thread_03.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\chat_collaboration_thread_03.png",
+      "file_path": "demo_data/screenshots/chat_collaboration_thread_03.png",
       "category": "conversation",
       "document_type": "chat_message_thread",
       "app_name": "Slack",
@@ -1054,7 +1054,7 @@
     {
       "id": "19530a1b-219b-5067-b4df-e52055d4fcb6",
       "filename": "chat_collaboration_thread_04.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\chat_collaboration_thread_04.png",
+      "file_path": "demo_data/screenshots/chat_collaboration_thread_04.png",
       "category": "conversation",
       "document_type": "chat_message_thread",
       "app_name": "Slack",
@@ -1087,7 +1087,7 @@
     {
       "id": "3010730d-b24b-5357-8ac9-b88050d49389",
       "filename": "chat_collaboration_thread_05.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\chat_collaboration_thread_05.png",
+      "file_path": "demo_data/screenshots/chat_collaboration_thread_05.png",
       "category": "conversation",
       "document_type": "chat_message_thread",
       "app_name": "Slack",
@@ -1120,7 +1120,7 @@
     {
       "id": "b0884657-c2af-5966-9551-3769a8147891",
       "filename": "chat_collaboration_thread_06.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\chat_collaboration_thread_06.png",
+      "file_path": "demo_data/screenshots/chat_collaboration_thread_06.png",
       "category": "conversation",
       "document_type": "chat_message_thread",
       "app_name": "Slack",
@@ -1153,7 +1153,7 @@
     {
       "id": "f1458dae-1b32-5657-a2f5-8fd554462314",
       "filename": "chat_collaboration_thread_07.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\chat_collaboration_thread_07.png",
+      "file_path": "demo_data/screenshots/chat_collaboration_thread_07.png",
       "category": "conversation",
       "document_type": "chat_message_thread",
       "app_name": "Slack",
@@ -1186,7 +1186,7 @@
     {
       "id": "0158a5d0-deb0-5db3-a0b6-713b799cde3a",
       "filename": "chat_collaboration_thread_08.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\chat_collaboration_thread_08.png",
+      "file_path": "demo_data/screenshots/chat_collaboration_thread_08.png",
       "category": "conversation",
       "document_type": "chat_message_thread",
       "app_name": "Slack",
@@ -1219,7 +1219,7 @@
     {
       "id": "4b99734e-8d98-5a2e-b9e5-407ed02294a4",
       "filename": "chat_collaboration_thread_09.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\chat_collaboration_thread_09.png",
+      "file_path": "demo_data/screenshots/chat_collaboration_thread_09.png",
       "category": "conversation",
       "document_type": "chat_message_thread",
       "app_name": "Slack",
@@ -1252,7 +1252,7 @@
     {
       "id": "b50f88b5-d10f-5482-9348-5fd93f375f06",
       "filename": "chat_collaboration_thread_10.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\chat_collaboration_thread_10.png",
+      "file_path": "demo_data/screenshots/chat_collaboration_thread_10.png",
       "category": "conversation",
       "document_type": "chat_message_thread",
       "app_name": "Slack",
@@ -1285,7 +1285,7 @@
     {
       "id": "48eb35c3-f131-5aca-b90f-8c11d4ebe387",
       "filename": "chat_collaboration_thread_11.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\chat_collaboration_thread_11.png",
+      "file_path": "demo_data/screenshots/chat_collaboration_thread_11.png",
       "category": "conversation",
       "document_type": "chat_message_thread",
       "app_name": "Slack",
@@ -1318,7 +1318,7 @@
     {
       "id": "31dab8fe-1067-5617-bff3-9ba35dbfd1d0",
       "filename": "chat_collaboration_thread_12.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\chat_collaboration_thread_12.png",
+      "file_path": "demo_data/screenshots/chat_collaboration_thread_12.png",
       "category": "conversation",
       "document_type": "chat_message_thread",
       "app_name": "Slack",
@@ -1351,7 +1351,7 @@
     {
       "id": "c6bcb50d-a722-5d10-99fa-ff27d9b20baf",
       "filename": "chat_collaboration_thread_13.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\chat_collaboration_thread_13.png",
+      "file_path": "demo_data/screenshots/chat_collaboration_thread_13.png",
       "category": "conversation",
       "document_type": "chat_message_thread",
       "app_name": "Slack",
@@ -1384,7 +1384,7 @@
     {
       "id": "c39d73b4-0d49-5dbf-aa04-ef12ef4aa9b8",
       "filename": "chat_collaboration_thread_14.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\chat_collaboration_thread_14.png",
+      "file_path": "demo_data/screenshots/chat_collaboration_thread_14.png",
       "category": "conversation",
       "document_type": "chat_message_thread",
       "app_name": "Slack",
@@ -1417,7 +1417,7 @@
     {
       "id": "5d97b300-da3c-563b-ba12-0b0f8d59dd77",
       "filename": "chat_collaboration_thread_15.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\chat_collaboration_thread_15.png",
+      "file_path": "demo_data/screenshots/chat_collaboration_thread_15.png",
       "category": "conversation",
       "document_type": "chat_message_thread",
       "app_name": "Slack",
@@ -1450,7 +1450,7 @@
     {
       "id": "d7f604f3-b589-5104-bf6d-9fb7df3f1963",
       "filename": "chat_collaboration_thread_16.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\chat_collaboration_thread_16.png",
+      "file_path": "demo_data/screenshots/chat_collaboration_thread_16.png",
       "category": "conversation",
       "document_type": "chat_message_thread",
       "app_name": "Slack",
@@ -1483,7 +1483,7 @@
     {
       "id": "198a536c-ca85-5176-a72d-c251170ca8ee",
       "filename": "chat_collaboration_thread_17.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\chat_collaboration_thread_17.png",
+      "file_path": "demo_data/screenshots/chat_collaboration_thread_17.png",
       "category": "conversation",
       "document_type": "chat_message_thread",
       "app_name": "Slack",
@@ -1516,7 +1516,7 @@
     {
       "id": "5b9bd084-4c3e-528b-bd72-e22815d74478",
       "filename": "chat_collaboration_thread_18.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\chat_collaboration_thread_18.png",
+      "file_path": "demo_data/screenshots/chat_collaboration_thread_18.png",
       "category": "conversation",
       "document_type": "chat_message_thread",
       "app_name": "Slack",
@@ -1549,7 +1549,7 @@
     {
       "id": "5fb6b81c-f366-5a4b-9186-5636bdf14c1a",
       "filename": "chat_collaboration_thread_19.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\chat_collaboration_thread_19.png",
+      "file_path": "demo_data/screenshots/chat_collaboration_thread_19.png",
       "category": "conversation",
       "document_type": "chat_message_thread",
       "app_name": "Slack",
@@ -1582,7 +1582,7 @@
     {
       "id": "32f4b969-f1b0-55ad-adc8-42de8f1e7377",
       "filename": "chat_collaboration_thread_20.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\chat_collaboration_thread_20.png",
+      "file_path": "demo_data/screenshots/chat_collaboration_thread_20.png",
       "category": "conversation",
       "document_type": "chat_message_thread",
       "app_name": "Slack",
@@ -1615,7 +1615,7 @@
     {
       "id": "92b773ec-6f41-5ca2-926d-da0537cc73f1",
       "filename": "chat_collaboration_thread_21.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\chat_collaboration_thread_21.png",
+      "file_path": "demo_data/screenshots/chat_collaboration_thread_21.png",
       "category": "conversation",
       "document_type": "chat_message_thread",
       "app_name": "Slack",
@@ -1648,7 +1648,7 @@
     {
       "id": "8f63c750-abcf-5fed-9981-7c87afa6b229",
       "filename": "chat_collaboration_thread_22.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\chat_collaboration_thread_22.png",
+      "file_path": "demo_data/screenshots/chat_collaboration_thread_22.png",
       "category": "conversation",
       "document_type": "chat_message_thread",
       "app_name": "Slack",
@@ -1681,7 +1681,7 @@
     {
       "id": "171e8c81-a0a1-5380-9ce9-1d46d0232195",
       "filename": "chat_collaboration_thread_23.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\chat_collaboration_thread_23.png",
+      "file_path": "demo_data/screenshots/chat_collaboration_thread_23.png",
       "category": "conversation",
       "document_type": "chat_message_thread",
       "app_name": "Slack",
@@ -1714,7 +1714,7 @@
     {
       "id": "91cfa910-d1b8-51e3-8df7-c9bbee3aa216",
       "filename": "chat_collaboration_thread_24.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\chat_collaboration_thread_24.png",
+      "file_path": "demo_data/screenshots/chat_collaboration_thread_24.png",
       "category": "conversation",
       "document_type": "chat_message_thread",
       "app_name": "Slack",
@@ -1747,7 +1747,7 @@
     {
       "id": "2730203a-e0be-511e-a5f2-4f5f9c7fbdff",
       "filename": "chat_collaboration_thread_25.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\chat_collaboration_thread_25.png",
+      "file_path": "demo_data/screenshots/chat_collaboration_thread_25.png",
       "category": "conversation",
       "document_type": "chat_message_thread",
       "app_name": "Slack",
@@ -1780,7 +1780,7 @@
     {
       "id": "c137d1bd-5108-5d54-82f3-ff382f786950",
       "filename": "code_auth_service.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\code_auth_service.png",
+      "file_path": "demo_data/screenshots/code_auth_service.png",
       "category": "code",
       "document_type": "code_screenshot",
       "app_name": "Desktop Application",
@@ -1809,7 +1809,7 @@
     {
       "id": "9f5bedbb-6fa8-5cb4-ab62-b2e1d2406737",
       "filename": "code_cpp_simd_avx512.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\code_cpp_simd_avx512.png",
+      "file_path": "demo_data/screenshots/code_cpp_simd_avx512.png",
       "category": "code",
       "document_type": "code_editor",
       "app_name": "VS Code",
@@ -1843,7 +1843,7 @@
     {
       "id": "2c80a15c-6909-5e42-91b6-77e39344be88",
       "filename": "code_dev_artifact_01.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\code_dev_artifact_01.png",
+      "file_path": "demo_data/screenshots/code_dev_artifact_01.png",
       "category": "code",
       "document_type": "code_editor",
       "app_name": "VS Code",
@@ -1876,7 +1876,7 @@
     {
       "id": "f648180a-c262-5e68-89fa-6cb858ba4517",
       "filename": "code_dev_artifact_02.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\code_dev_artifact_02.png",
+      "file_path": "demo_data/screenshots/code_dev_artifact_02.png",
       "category": "code",
       "document_type": "code_editor",
       "app_name": "VS Code",
@@ -1909,7 +1909,7 @@
     {
       "id": "2ee68c27-46ab-5f48-a880-c1bb04f93506",
       "filename": "code_dev_artifact_03.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\code_dev_artifact_03.png",
+      "file_path": "demo_data/screenshots/code_dev_artifact_03.png",
       "category": "code",
       "document_type": "code_editor",
       "app_name": "VS Code",
@@ -1942,7 +1942,7 @@
     {
       "id": "09c2ae58-ba91-5dd1-9610-1efbd7a0bf6f",
       "filename": "code_dev_artifact_04.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\code_dev_artifact_04.png",
+      "file_path": "demo_data/screenshots/code_dev_artifact_04.png",
       "category": "code",
       "document_type": "code_editor",
       "app_name": "VS Code",
@@ -1975,7 +1975,7 @@
     {
       "id": "7cc1c2b8-a2a6-5e93-83dc-206eda73b4ca",
       "filename": "code_dev_artifact_05.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\code_dev_artifact_05.png",
+      "file_path": "demo_data/screenshots/code_dev_artifact_05.png",
       "category": "code",
       "document_type": "code_editor",
       "app_name": "VS Code",
@@ -2008,7 +2008,7 @@
     {
       "id": "b5f7ad8a-6593-5461-9c4b-738a650e818d",
       "filename": "code_dev_artifact_06.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\code_dev_artifact_06.png",
+      "file_path": "demo_data/screenshots/code_dev_artifact_06.png",
       "category": "code",
       "document_type": "code_editor",
       "app_name": "VS Code",
@@ -2041,7 +2041,7 @@
     {
       "id": "8ed37bc4-e062-502e-8f61-d9b58f09b4a2",
       "filename": "code_dev_artifact_07.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\code_dev_artifact_07.png",
+      "file_path": "demo_data/screenshots/code_dev_artifact_07.png",
       "category": "code",
       "document_type": "code_editor",
       "app_name": "VS Code",
@@ -2074,7 +2074,7 @@
     {
       "id": "bedf06d8-7e1f-57da-b35c-d37846da19c8",
       "filename": "code_dev_artifact_08.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\code_dev_artifact_08.png",
+      "file_path": "demo_data/screenshots/code_dev_artifact_08.png",
       "category": "code",
       "document_type": "code_editor",
       "app_name": "VS Code",
@@ -2107,7 +2107,7 @@
     {
       "id": "3625f57b-0528-50a6-9655-8dbb43f84cf4",
       "filename": "code_dev_artifact_09.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\code_dev_artifact_09.png",
+      "file_path": "demo_data/screenshots/code_dev_artifact_09.png",
       "category": "code",
       "document_type": "code_editor",
       "app_name": "VS Code",
@@ -2140,7 +2140,7 @@
     {
       "id": "34ae49a4-ef57-5f23-b7b7-b6add868398e",
       "filename": "code_dev_artifact_10.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\code_dev_artifact_10.png",
+      "file_path": "demo_data/screenshots/code_dev_artifact_10.png",
       "category": "code",
       "document_type": "code_editor",
       "app_name": "VS Code",
@@ -2173,7 +2173,7 @@
     {
       "id": "34ddef07-ecec-5c69-ba6f-9018d75fffbf",
       "filename": "code_dev_artifact_11.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\code_dev_artifact_11.png",
+      "file_path": "demo_data/screenshots/code_dev_artifact_11.png",
       "category": "code",
       "document_type": "code_editor",
       "app_name": "VS Code",
@@ -2206,7 +2206,7 @@
     {
       "id": "19d13d97-bc70-5c79-902b-9d599be0cf01",
       "filename": "code_dev_artifact_12.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\code_dev_artifact_12.png",
+      "file_path": "demo_data/screenshots/code_dev_artifact_12.png",
       "category": "code",
       "document_type": "code_editor",
       "app_name": "VS Code",
@@ -2239,7 +2239,7 @@
     {
       "id": "2b621010-a588-5823-b92c-52478f7ea270",
       "filename": "code_dev_artifact_13.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\code_dev_artifact_13.png",
+      "file_path": "demo_data/screenshots/code_dev_artifact_13.png",
       "category": "code",
       "document_type": "code_editor",
       "app_name": "VS Code",
@@ -2272,7 +2272,7 @@
     {
       "id": "e66d9a38-8f68-5a6b-8850-4ed991efbd9c",
       "filename": "code_dev_artifact_14.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\code_dev_artifact_14.png",
+      "file_path": "demo_data/screenshots/code_dev_artifact_14.png",
       "category": "code",
       "document_type": "code_editor",
       "app_name": "VS Code",
@@ -2305,7 +2305,7 @@
     {
       "id": "16fc2c4c-df7e-58bf-b206-0963bc1e5d9d",
       "filename": "code_dev_artifact_15.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\code_dev_artifact_15.png",
+      "file_path": "demo_data/screenshots/code_dev_artifact_15.png",
       "category": "code",
       "document_type": "code_editor",
       "app_name": "VS Code",
@@ -2338,7 +2338,7 @@
     {
       "id": "d258f122-67cd-5de9-8057-2f735288df2b",
       "filename": "code_dev_artifact_16.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\code_dev_artifact_16.png",
+      "file_path": "demo_data/screenshots/code_dev_artifact_16.png",
       "category": "code",
       "document_type": "code_editor",
       "app_name": "VS Code",
@@ -2371,7 +2371,7 @@
     {
       "id": "d5b11f7d-67a9-5c20-8182-7dd91dd26e93",
       "filename": "code_dev_artifact_17.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\code_dev_artifact_17.png",
+      "file_path": "demo_data/screenshots/code_dev_artifact_17.png",
       "category": "code",
       "document_type": "code_editor",
       "app_name": "VS Code",
@@ -2404,7 +2404,7 @@
     {
       "id": "cb54c635-83f1-5ce9-bb2f-61d6e80f19b0",
       "filename": "code_dev_artifact_18.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\code_dev_artifact_18.png",
+      "file_path": "demo_data/screenshots/code_dev_artifact_18.png",
       "category": "code",
       "document_type": "code_editor",
       "app_name": "VS Code",
@@ -2437,7 +2437,7 @@
     {
       "id": "ba658135-ec8f-5cf6-9de3-d8961450186d",
       "filename": "code_dev_artifact_19.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\code_dev_artifact_19.png",
+      "file_path": "demo_data/screenshots/code_dev_artifact_19.png",
       "category": "code",
       "document_type": "code_editor",
       "app_name": "VS Code",
@@ -2470,7 +2470,7 @@
     {
       "id": "05adf721-a2c6-546f-81da-c44c8ad39b05",
       "filename": "code_dev_artifact_20.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\code_dev_artifact_20.png",
+      "file_path": "demo_data/screenshots/code_dev_artifact_20.png",
       "category": "code",
       "document_type": "code_editor",
       "app_name": "VS Code",
@@ -2503,7 +2503,7 @@
     {
       "id": "0f5a6491-ddc6-508e-a3d3-2b847fcf5441",
       "filename": "code_dev_artifact_21.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\code_dev_artifact_21.png",
+      "file_path": "demo_data/screenshots/code_dev_artifact_21.png",
       "category": "code",
       "document_type": "code_editor",
       "app_name": "VS Code",
@@ -2536,7 +2536,7 @@
     {
       "id": "50fc2fab-7305-58ec-8494-d320ce5c195d",
       "filename": "code_dev_artifact_22.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\code_dev_artifact_22.png",
+      "file_path": "demo_data/screenshots/code_dev_artifact_22.png",
       "category": "code",
       "document_type": "code_editor",
       "app_name": "VS Code",
@@ -2569,7 +2569,7 @@
     {
       "id": "38b03e00-f926-59fe-be49-acf337ee9537",
       "filename": "code_dev_artifact_23.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\code_dev_artifact_23.png",
+      "file_path": "demo_data/screenshots/code_dev_artifact_23.png",
       "category": "code",
       "document_type": "code_editor",
       "app_name": "VS Code",
@@ -2602,7 +2602,7 @@
     {
       "id": "7ee3c1ad-c64b-5cf4-8e1a-6c12cdd48ec8",
       "filename": "code_dev_artifact_24.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\code_dev_artifact_24.png",
+      "file_path": "demo_data/screenshots/code_dev_artifact_24.png",
       "category": "code",
       "document_type": "code_editor",
       "app_name": "VS Code",
@@ -2635,7 +2635,7 @@
     {
       "id": "484dde83-f137-5f70-b481-e0d4fe1f55b6",
       "filename": "code_dev_artifact_25.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\code_dev_artifact_25.png",
+      "file_path": "demo_data/screenshots/code_dev_artifact_25.png",
       "category": "code",
       "document_type": "code_editor",
       "app_name": "VS Code",
@@ -2668,7 +2668,7 @@
     {
       "id": "8f0ab067-fc9c-5fbd-a94d-cfded9b77ec2",
       "filename": "code_dockerfile_multi_stage.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\code_dockerfile_multi_stage.png",
+      "file_path": "demo_data/screenshots/code_dockerfile_multi_stage.png",
       "category": "code",
       "document_type": "code_editor",
       "app_name": "VS Code",
@@ -2702,7 +2702,7 @@
     {
       "id": "4f8870ab-7f2f-5080-9dc4-93716c6a93f6",
       "filename": "code_fastapi_rate_limiter.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\code_fastapi_rate_limiter.png",
+      "file_path": "demo_data/screenshots/code_fastapi_rate_limiter.png",
       "category": "code",
       "document_type": "code_editor",
       "app_name": "VS Code",
@@ -2736,7 +2736,7 @@
     {
       "id": "1647d672-8f50-5949-a22d-32fadd1a7589",
       "filename": "code_python_ocr.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\code_python_ocr.png",
+      "file_path": "demo_data/screenshots/code_python_ocr.png",
       "category": "code",
       "document_type": "code_screenshot",
       "app_name": "Desktop Application",
@@ -2765,7 +2765,7 @@
     {
       "id": "2a32182b-10f7-5064-b327-0f8c610d6475",
       "filename": "code_rust_actor_mailbox.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\code_rust_actor_mailbox.png",
+      "file_path": "demo_data/screenshots/code_rust_actor_mailbox.png",
       "category": "code",
       "document_type": "code_editor",
       "app_name": "VS Code",
@@ -2799,7 +2799,7 @@
     {
       "id": "1f6f981f-c478-553c-ae6e-a28f627b5e1a",
       "filename": "code_sql_timescale_hypertable.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\code_sql_timescale_hypertable.png",
+      "file_path": "demo_data/screenshots/code_sql_timescale_hypertable.png",
       "category": "code",
       "document_type": "code_editor",
       "app_name": "VS Code",
@@ -2833,7 +2833,7 @@
     {
       "id": "5ee8c0c3-1d15-5bc3-a214-6ccd44bb7ef3",
       "filename": "code_training_script.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\code_training_script.png",
+      "file_path": "demo_data/screenshots/code_training_script.png",
       "category": "code",
       "document_type": "code_screenshot",
       "app_name": "Desktop Application",
@@ -2862,7 +2862,7 @@
     {
       "id": "ffc0dd22-fd94-5efd-963c-e0962e96467f",
       "filename": "code_yolo_training.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\code_yolo_training.png",
+      "file_path": "demo_data/screenshots/code_yolo_training.png",
       "category": "code",
       "document_type": "code_screenshot",
       "app_name": "Desktop Application",
@@ -2891,7 +2891,7 @@
     {
       "id": "9a46bcc9-3551-531a-b17a-f7edfc5fdf67",
       "filename": "conversation_address.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\conversation_address.png",
+      "file_path": "demo_data/screenshots/conversation_address.png",
       "category": "conversation",
       "document_type": "conversation_screenshot",
       "app_name": "Desktop Application",
@@ -2920,7 +2920,7 @@
     {
       "id": "ad5a2907-180c-55d5-bfc8-0e86e0814c88",
       "filename": "dashboard_analytics.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\dashboard_analytics.png",
+      "file_path": "demo_data/screenshots/dashboard_analytics.png",
       "category": "dashboard",
       "document_type": "dashboard_screenshot",
       "app_name": "Desktop Application",
@@ -2949,7 +2949,7 @@
     {
       "id": "a4b877eb-1c79-5f34-91af-052d80a6594d",
       "filename": "dashboard_grafana_metrics.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\dashboard_grafana_metrics.png",
+      "file_path": "demo_data/screenshots/dashboard_grafana_metrics.png",
       "category": "dashboard",
       "document_type": "dashboard_screenshot",
       "app_name": "Desktop Application",
@@ -2978,7 +2978,7 @@
     {
       "id": "6cc3cfe0-624e-56d2-9450-8fd824265161",
       "filename": "dashboard_infrastructure_node_01.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\dashboard_infrastructure_node_01.png",
+      "file_path": "demo_data/screenshots/dashboard_infrastructure_node_01.png",
       "category": "dashboard",
       "document_type": "cloud_console_dashboard",
       "app_name": "Cloud Cluster Node #01",
@@ -3011,7 +3011,7 @@
     {
       "id": "f6d3c32c-83cd-5e00-9011-1d7f21632e4e",
       "filename": "dashboard_infrastructure_node_02.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\dashboard_infrastructure_node_02.png",
+      "file_path": "demo_data/screenshots/dashboard_infrastructure_node_02.png",
       "category": "dashboard",
       "document_type": "cloud_console_dashboard",
       "app_name": "Cloud Cluster Node #02",
@@ -3044,7 +3044,7 @@
     {
       "id": "a3516b64-6b35-5b1a-9746-481d2ee01b4d",
       "filename": "dashboard_infrastructure_node_03.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\dashboard_infrastructure_node_03.png",
+      "file_path": "demo_data/screenshots/dashboard_infrastructure_node_03.png",
       "category": "dashboard",
       "document_type": "cloud_console_dashboard",
       "app_name": "Cloud Cluster Node #03",
@@ -3077,7 +3077,7 @@
     {
       "id": "de338c04-fa17-5f56-a64a-b3248e8161c3",
       "filename": "dashboard_infrastructure_node_04.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\dashboard_infrastructure_node_04.png",
+      "file_path": "demo_data/screenshots/dashboard_infrastructure_node_04.png",
       "category": "dashboard",
       "document_type": "cloud_console_dashboard",
       "app_name": "Cloud Cluster Node #04",
@@ -3110,7 +3110,7 @@
     {
       "id": "2d3777e7-4a8c-5c2e-8d09-e8606c3ccd6f",
       "filename": "dashboard_infrastructure_node_05.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\dashboard_infrastructure_node_05.png",
+      "file_path": "demo_data/screenshots/dashboard_infrastructure_node_05.png",
       "category": "dashboard",
       "document_type": "cloud_console_dashboard",
       "app_name": "Cloud Cluster Node #05",
@@ -3143,7 +3143,7 @@
     {
       "id": "8e37015d-c273-5177-bfeb-97002071c1b9",
       "filename": "dashboard_infrastructure_node_06.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\dashboard_infrastructure_node_06.png",
+      "file_path": "demo_data/screenshots/dashboard_infrastructure_node_06.png",
       "category": "dashboard",
       "document_type": "cloud_console_dashboard",
       "app_name": "Cloud Cluster Node #06",
@@ -3176,7 +3176,7 @@
     {
       "id": "65d099c8-5cbd-5913-94b5-a8cad6cfab79",
       "filename": "dashboard_infrastructure_node_07.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\dashboard_infrastructure_node_07.png",
+      "file_path": "demo_data/screenshots/dashboard_infrastructure_node_07.png",
       "category": "dashboard",
       "document_type": "cloud_console_dashboard",
       "app_name": "Cloud Cluster Node #07",
@@ -3209,7 +3209,7 @@
     {
       "id": "ba2c7b0b-44d9-521d-91ae-401bbf526955",
       "filename": "dashboard_infrastructure_node_08.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\dashboard_infrastructure_node_08.png",
+      "file_path": "demo_data/screenshots/dashboard_infrastructure_node_08.png",
       "category": "dashboard",
       "document_type": "cloud_console_dashboard",
       "app_name": "Cloud Cluster Node #08",
@@ -3242,7 +3242,7 @@
     {
       "id": "1f86487f-dc6e-56df-a5ae-54f69d17afee",
       "filename": "dashboard_infrastructure_node_09.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\dashboard_infrastructure_node_09.png",
+      "file_path": "demo_data/screenshots/dashboard_infrastructure_node_09.png",
       "category": "dashboard",
       "document_type": "cloud_console_dashboard",
       "app_name": "Cloud Cluster Node #09",
@@ -3275,7 +3275,7 @@
     {
       "id": "470d7bf2-899e-5fb5-9d34-3f3331d2d605",
       "filename": "dashboard_infrastructure_node_10.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\dashboard_infrastructure_node_10.png",
+      "file_path": "demo_data/screenshots/dashboard_infrastructure_node_10.png",
       "category": "dashboard",
       "document_type": "cloud_console_dashboard",
       "app_name": "Cloud Cluster Node #10",
@@ -3308,7 +3308,7 @@
     {
       "id": "0f628ec2-3a3f-50ec-8615-8f560f68513f",
       "filename": "dashboard_infrastructure_node_11.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\dashboard_infrastructure_node_11.png",
+      "file_path": "demo_data/screenshots/dashboard_infrastructure_node_11.png",
       "category": "dashboard",
       "document_type": "cloud_console_dashboard",
       "app_name": "Cloud Cluster Node #11",
@@ -3341,7 +3341,7 @@
     {
       "id": "abb339fd-4e37-577e-ba20-9a94e99c4bef",
       "filename": "dashboard_infrastructure_node_12.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\dashboard_infrastructure_node_12.png",
+      "file_path": "demo_data/screenshots/dashboard_infrastructure_node_12.png",
       "category": "dashboard",
       "document_type": "cloud_console_dashboard",
       "app_name": "Cloud Cluster Node #12",
@@ -3374,7 +3374,7 @@
     {
       "id": "78a3aa98-a5cc-57d7-9781-62cbdbdf17f7",
       "filename": "dashboard_infrastructure_node_13.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\dashboard_infrastructure_node_13.png",
+      "file_path": "demo_data/screenshots/dashboard_infrastructure_node_13.png",
       "category": "dashboard",
       "document_type": "cloud_console_dashboard",
       "app_name": "Cloud Cluster Node #13",
@@ -3407,7 +3407,7 @@
     {
       "id": "796639f2-cf86-532d-a56a-a4ffb8a84c78",
       "filename": "dashboard_infrastructure_node_14.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\dashboard_infrastructure_node_14.png",
+      "file_path": "demo_data/screenshots/dashboard_infrastructure_node_14.png",
       "category": "dashboard",
       "document_type": "cloud_console_dashboard",
       "app_name": "Cloud Cluster Node #14",
@@ -3440,7 +3440,7 @@
     {
       "id": "b5f78f47-c0f6-5421-9740-200387bc96eb",
       "filename": "dashboard_infrastructure_node_15.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\dashboard_infrastructure_node_15.png",
+      "file_path": "demo_data/screenshots/dashboard_infrastructure_node_15.png",
       "category": "dashboard",
       "document_type": "cloud_console_dashboard",
       "app_name": "Cloud Cluster Node #15",
@@ -3473,7 +3473,7 @@
     {
       "id": "13921b33-7012-54b0-b794-d66cd8904c0f",
       "filename": "dashboard_infrastructure_node_16.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\dashboard_infrastructure_node_16.png",
+      "file_path": "demo_data/screenshots/dashboard_infrastructure_node_16.png",
       "category": "dashboard",
       "document_type": "cloud_console_dashboard",
       "app_name": "Cloud Cluster Node #16",
@@ -3506,7 +3506,7 @@
     {
       "id": "76bfca09-af87-5ed9-ab32-11f3ab66665f",
       "filename": "dashboard_infrastructure_node_17.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\dashboard_infrastructure_node_17.png",
+      "file_path": "demo_data/screenshots/dashboard_infrastructure_node_17.png",
       "category": "dashboard",
       "document_type": "cloud_console_dashboard",
       "app_name": "Cloud Cluster Node #17",
@@ -3539,7 +3539,7 @@
     {
       "id": "86a04e63-53ad-5ad9-8a5a-447097fca9d6",
       "filename": "dashboard_infrastructure_node_18.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\dashboard_infrastructure_node_18.png",
+      "file_path": "demo_data/screenshots/dashboard_infrastructure_node_18.png",
       "category": "dashboard",
       "document_type": "cloud_console_dashboard",
       "app_name": "Cloud Cluster Node #18",
@@ -3572,7 +3572,7 @@
     {
       "id": "fd3ece1e-0bff-5877-be3f-3d1269e7f968",
       "filename": "dashboard_infrastructure_node_19.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\dashboard_infrastructure_node_19.png",
+      "file_path": "demo_data/screenshots/dashboard_infrastructure_node_19.png",
       "category": "dashboard",
       "document_type": "cloud_console_dashboard",
       "app_name": "Cloud Cluster Node #19",
@@ -3605,7 +3605,7 @@
     {
       "id": "463ff97e-6d89-5c1d-be2a-f582d98d5713",
       "filename": "dashboard_infrastructure_node_20.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\dashboard_infrastructure_node_20.png",
+      "file_path": "demo_data/screenshots/dashboard_infrastructure_node_20.png",
       "category": "dashboard",
       "document_type": "cloud_console_dashboard",
       "app_name": "Cloud Cluster Node #20",
@@ -3638,7 +3638,7 @@
     {
       "id": "7e901df6-7b69-5708-b065-f7a10567fcba",
       "filename": "dashboard_infrastructure_node_21.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\dashboard_infrastructure_node_21.png",
+      "file_path": "demo_data/screenshots/dashboard_infrastructure_node_21.png",
       "category": "dashboard",
       "document_type": "cloud_console_dashboard",
       "app_name": "Cloud Cluster Node #21",
@@ -3671,7 +3671,7 @@
     {
       "id": "b80a59d1-e1aa-5b66-bd19-39bc6461752c",
       "filename": "dashboard_infrastructure_node_22.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\dashboard_infrastructure_node_22.png",
+      "file_path": "demo_data/screenshots/dashboard_infrastructure_node_22.png",
       "category": "dashboard",
       "document_type": "cloud_console_dashboard",
       "app_name": "Cloud Cluster Node #22",
@@ -3704,7 +3704,7 @@
     {
       "id": "597b37ac-e228-56f2-b96a-953283d65270",
       "filename": "dashboard_infrastructure_node_23.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\dashboard_infrastructure_node_23.png",
+      "file_path": "demo_data/screenshots/dashboard_infrastructure_node_23.png",
       "category": "dashboard",
       "document_type": "cloud_console_dashboard",
       "app_name": "Cloud Cluster Node #23",
@@ -3737,7 +3737,7 @@
     {
       "id": "5fc653ba-2fb8-5212-b6ba-18abae1b0f68",
       "filename": "dashboard_infrastructure_node_24.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\dashboard_infrastructure_node_24.png",
+      "file_path": "demo_data/screenshots/dashboard_infrastructure_node_24.png",
       "category": "dashboard",
       "document_type": "cloud_console_dashboard",
       "app_name": "Cloud Cluster Node #24",
@@ -3770,7 +3770,7 @@
     {
       "id": "0cfacaf4-ad9b-522d-a9b2-12d4fd0e6d62",
       "filename": "dashboard_infrastructure_node_25.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\dashboard_infrastructure_node_25.png",
+      "file_path": "demo_data/screenshots/dashboard_infrastructure_node_25.png",
       "category": "dashboard",
       "document_type": "cloud_console_dashboard",
       "app_name": "Cloud Cluster Node #25",
@@ -3803,7 +3803,7 @@
     {
       "id": "5420ff2b-3d7c-5e2e-9cdb-0045fb1bd28e",
       "filename": "database_schema_diagram.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\database_schema_diagram.png",
+      "file_path": "demo_data/screenshots/database_schema_diagram.png",
       "category": "database",
       "document_type": "database_screenshot",
       "app_name": "Desktop Application",
@@ -3832,7 +3832,7 @@
     {
       "id": "9c79d104-1a68-57f3-96f0-d9f3778a5e8e",
       "filename": "delivery_tracker_amazon.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\delivery_tracker_amazon.png",
+      "file_path": "demo_data/screenshots/delivery_tracker_amazon.png",
       "category": "delivery",
       "document_type": "delivery_screenshot",
       "app_name": "Desktop Application",
@@ -3861,7 +3861,7 @@
     {
       "id": "7b1728e5-9e7d-5a0b-8430-6efa1da52811",
       "filename": "diagram_aura_architecture.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\diagram_aura_architecture.png",
+      "file_path": "demo_data/screenshots/diagram_aura_architecture.png",
       "category": "diagram",
       "document_type": "diagram_screenshot",
       "app_name": "Desktop Application",
@@ -3890,7 +3890,7 @@
     {
       "id": "9dfa63c8-6b23-599b-b1fe-268a4a8e21bf",
       "filename": "diagram_database_schema.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\diagram_database_schema.png",
+      "file_path": "demo_data/screenshots/diagram_database_schema.png",
       "category": "diagram",
       "document_type": "diagram_screenshot",
       "app_name": "Desktop Application",
@@ -3919,7 +3919,7 @@
     {
       "id": "b71b2e79-f421-5a6e-9aca-f910a61c79aa",
       "filename": "diagram_logic_gates.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\diagram_logic_gates.png",
+      "file_path": "demo_data/screenshots/diagram_logic_gates.png",
       "category": "diagram",
       "document_type": "diagram_screenshot",
       "app_name": "Desktop Application",
@@ -3948,7 +3948,7 @@
     {
       "id": "0c5f0e63-be11-5d7a-b503-5d88ffab0b40",
       "filename": "diagram_neural_network.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\diagram_neural_network.png",
+      "file_path": "demo_data/screenshots/diagram_neural_network.png",
       "category": "diagram",
       "document_type": "diagram_screenshot",
       "app_name": "Desktop Application",
@@ -3977,7 +3977,7 @@
     {
       "id": "eb489148-4fda-545f-a22c-78eb12b58558",
       "filename": "diagram_opencv_chessboard.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\diagram_opencv_chessboard.png",
+      "file_path": "demo_data/screenshots/diagram_opencv_chessboard.png",
       "category": "diagram",
       "document_type": "diagram_screenshot",
       "app_name": "Desktop Application",
@@ -4006,7 +4006,7 @@
     {
       "id": "6fcc13b2-5734-5d60-9457-f324567f94a5",
       "filename": "diagram_rlc_circuit.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\diagram_rlc_circuit.png",
+      "file_path": "demo_data/screenshots/diagram_rlc_circuit.png",
       "category": "diagram",
       "document_type": "diagram_screenshot",
       "app_name": "Desktop Application",
@@ -4035,7 +4035,7 @@
     {
       "id": "d644c27b-dc68-5426-97e9-24b5a9d31990",
       "filename": "document_medical_prescription.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\document_medical_prescription.png",
+      "file_path": "demo_data/screenshots/document_medical_prescription.png",
       "category": "document",
       "document_type": "document_screenshot",
       "app_name": "Desktop Application",
@@ -4064,7 +4064,7 @@
     {
       "id": "89dff3e7-696f-5969-9df7-9fa601decaf7",
       "filename": "document_privacy_policy.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\document_privacy_policy.png",
+      "file_path": "demo_data/screenshots/document_privacy_policy.png",
       "category": "document",
       "document_type": "document_screenshot",
       "app_name": "Desktop Application",
@@ -4093,7 +4093,7 @@
     {
       "id": "ade90467-bf21-5c16-8650-ef21f90a6a9d",
       "filename": "education_timetable.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\education_timetable.png",
+      "file_path": "demo_data/screenshots/education_timetable.png",
       "category": "education",
       "document_type": "education_screenshot",
       "app_name": "Desktop Application",
@@ -4122,7 +4122,7 @@
     {
       "id": "b8207279-24d0-5994-97a9-8494de9abe6a",
       "filename": "eval_adversarial_threat_01.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\eval_adversarial_threat_01.png",
+      "file_path": "demo_data/screenshots/eval_adversarial_threat_01.png",
       "category": "document",
       "document_type": "adversarial_payload",
       "app_name": "Security Scanner",
@@ -4154,7 +4154,7 @@
     {
       "id": "1ec9a710-7c84-52c3-886c-c2ab138df77f",
       "filename": "eval_adversarial_threat_02.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\eval_adversarial_threat_02.png",
+      "file_path": "demo_data/screenshots/eval_adversarial_threat_02.png",
       "category": "document",
       "document_type": "adversarial_payload",
       "app_name": "Security Scanner",
@@ -4186,7 +4186,7 @@
     {
       "id": "b3fc8230-abba-5a91-94d0-28513567b84e",
       "filename": "eval_adversarial_threat_03.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\eval_adversarial_threat_03.png",
+      "file_path": "demo_data/screenshots/eval_adversarial_threat_03.png",
       "category": "document",
       "document_type": "adversarial_payload",
       "app_name": "Security Scanner",
@@ -4218,7 +4218,7 @@
     {
       "id": "910e5c32-3b64-5158-9d48-cc4654fc4db9",
       "filename": "eval_adversarial_threat_04.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\eval_adversarial_threat_04.png",
+      "file_path": "demo_data/screenshots/eval_adversarial_threat_04.png",
       "category": "document",
       "document_type": "adversarial_payload",
       "app_name": "Security Scanner",
@@ -4250,7 +4250,7 @@
     {
       "id": "abe9b26d-a701-532d-8496-08770bf21169",
       "filename": "eval_adversarial_threat_05.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\eval_adversarial_threat_05.png",
+      "file_path": "demo_data/screenshots/eval_adversarial_threat_05.png",
       "category": "document",
       "document_type": "adversarial_payload",
       "app_name": "Security Scanner",
@@ -4282,7 +4282,7 @@
     {
       "id": "a9fc9274-ab65-5209-97c6-5c540d75a8cc",
       "filename": "eval_adversarial_threat_06.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\eval_adversarial_threat_06.png",
+      "file_path": "demo_data/screenshots/eval_adversarial_threat_06.png",
       "category": "document",
       "document_type": "adversarial_payload",
       "app_name": "Security Scanner",
@@ -4314,7 +4314,7 @@
     {
       "id": "07f70f9a-04b8-5451-b60d-7d2f416d4d78",
       "filename": "eval_adversarial_threat_07.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\eval_adversarial_threat_07.png",
+      "file_path": "demo_data/screenshots/eval_adversarial_threat_07.png",
       "category": "document",
       "document_type": "adversarial_payload",
       "app_name": "Security Scanner",
@@ -4346,7 +4346,7 @@
     {
       "id": "270c07a2-5103-5738-b56d-be9dc8955c18",
       "filename": "eval_adversarial_threat_08.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\eval_adversarial_threat_08.png",
+      "file_path": "demo_data/screenshots/eval_adversarial_threat_08.png",
       "category": "document",
       "document_type": "adversarial_payload",
       "app_name": "Security Scanner",
@@ -4378,7 +4378,7 @@
     {
       "id": "12ec95fa-c939-5b54-9a31-80a50f7b10c9",
       "filename": "eval_adversarial_threat_09.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\eval_adversarial_threat_09.png",
+      "file_path": "demo_data/screenshots/eval_adversarial_threat_09.png",
       "category": "document",
       "document_type": "adversarial_payload",
       "app_name": "Security Scanner",
@@ -4410,7 +4410,7 @@
     {
       "id": "fbd97a81-397f-5375-b04e-a8626d39efe7",
       "filename": "eval_adversarial_threat_10.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\eval_adversarial_threat_10.png",
+      "file_path": "demo_data/screenshots/eval_adversarial_threat_10.png",
       "category": "document",
       "document_type": "adversarial_payload",
       "app_name": "Security Scanner",
@@ -4442,7 +4442,7 @@
     {
       "id": "5a40a3af-026b-5ce8-af62-32db5265bc08",
       "filename": "eval_adversarial_threat_11.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\eval_adversarial_threat_11.png",
+      "file_path": "demo_data/screenshots/eval_adversarial_threat_11.png",
       "category": "document",
       "document_type": "adversarial_payload",
       "app_name": "Security Scanner",
@@ -4474,7 +4474,7 @@
     {
       "id": "6a59a30c-51a2-5e82-990a-7b3354574e38",
       "filename": "eval_adversarial_threat_12.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\eval_adversarial_threat_12.png",
+      "file_path": "demo_data/screenshots/eval_adversarial_threat_12.png",
       "category": "document",
       "document_type": "adversarial_payload",
       "app_name": "Security Scanner",
@@ -4506,7 +4506,7 @@
     {
       "id": "3da0e4a2-b76c-5aad-a990-fbdc6eb50136",
       "filename": "eval_adversarial_threat_13.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\eval_adversarial_threat_13.png",
+      "file_path": "demo_data/screenshots/eval_adversarial_threat_13.png",
       "category": "document",
       "document_type": "adversarial_payload",
       "app_name": "Security Scanner",
@@ -4538,7 +4538,7 @@
     {
       "id": "b102b7d7-99f2-5be5-b5cd-b6a70db0f714",
       "filename": "eval_adversarial_threat_14.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\eval_adversarial_threat_14.png",
+      "file_path": "demo_data/screenshots/eval_adversarial_threat_14.png",
       "category": "document",
       "document_type": "adversarial_payload",
       "app_name": "Security Scanner",
@@ -4570,7 +4570,7 @@
     {
       "id": "d2957112-7cc2-5b90-8a99-265b098164da",
       "filename": "eval_adversarial_threat_15.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\eval_adversarial_threat_15.png",
+      "file_path": "demo_data/screenshots/eval_adversarial_threat_15.png",
       "category": "document",
       "document_type": "adversarial_payload",
       "app_name": "Security Scanner",
@@ -4602,7 +4602,7 @@
     {
       "id": "6a33ee2a-fe55-57ef-870a-8dabc4cea99f",
       "filename": "eval_adversarial_threat_16.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\eval_adversarial_threat_16.png",
+      "file_path": "demo_data/screenshots/eval_adversarial_threat_16.png",
       "category": "document",
       "document_type": "adversarial_payload",
       "app_name": "Security Scanner",
@@ -4634,7 +4634,7 @@
     {
       "id": "18b11285-2ff0-5714-9b97-524165e2a9e9",
       "filename": "eval_adversarial_threat_17.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\eval_adversarial_threat_17.png",
+      "file_path": "demo_data/screenshots/eval_adversarial_threat_17.png",
       "category": "document",
       "document_type": "adversarial_payload",
       "app_name": "Security Scanner",
@@ -4666,7 +4666,7 @@
     {
       "id": "6692055b-f806-51a0-838c-a8c33db062f3",
       "filename": "eval_adversarial_threat_18.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\eval_adversarial_threat_18.png",
+      "file_path": "demo_data/screenshots/eval_adversarial_threat_18.png",
       "category": "document",
       "document_type": "adversarial_payload",
       "app_name": "Security Scanner",
@@ -4698,7 +4698,7 @@
     {
       "id": "fd612064-d1c9-57ff-82b4-d39633e9ebe0",
       "filename": "eval_adversarial_threat_19.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\eval_adversarial_threat_19.png",
+      "file_path": "demo_data/screenshots/eval_adversarial_threat_19.png",
       "category": "document",
       "document_type": "adversarial_payload",
       "app_name": "Security Scanner",
@@ -4730,7 +4730,7 @@
     {
       "id": "1ab460cf-bb88-506e-bf45-6dad68962925",
       "filename": "eval_adversarial_threat_20.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\eval_adversarial_threat_20.png",
+      "file_path": "demo_data/screenshots/eval_adversarial_threat_20.png",
       "category": "document",
       "document_type": "adversarial_payload",
       "app_name": "Security Scanner",
@@ -4762,7 +4762,7 @@
     {
       "id": "52b456aa-d771-58de-a157-d98de9dc5054",
       "filename": "food_photo_japanese_ramen.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\food_photo_japanese_ramen.png",
+      "file_path": "demo_data/screenshots/food_photo_japanese_ramen.png",
       "category": "food",
       "document_type": "food_screenshot",
       "app_name": "Desktop Application",
@@ -4791,7 +4791,7 @@
     {
       "id": "4fa60c1c-7b85-5e9f-92d5-a93203fac10c",
       "filename": "food_photo_mushroom_pasta.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\food_photo_mushroom_pasta.png",
+      "file_path": "demo_data/screenshots/food_photo_mushroom_pasta.png",
       "category": "food",
       "document_type": "food_screenshot",
       "app_name": "Desktop Application",
@@ -4820,7 +4820,7 @@
     {
       "id": "532fb2ca-281b-5846-90dd-7e2119c0823d",
       "filename": "food_photo_truffle_pizza.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\food_photo_truffle_pizza.png",
+      "file_path": "demo_data/screenshots/food_photo_truffle_pizza.png",
       "category": "food",
       "document_type": "food_screenshot",
       "app_name": "Desktop Application",
@@ -4849,7 +4849,7 @@
     {
       "id": "30001e23-48ac-54fc-a5a3-9c32fca7893e",
       "filename": "github_issue_auth_bug.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\github_issue_auth_bug.png",
+      "file_path": "demo_data/screenshots/github_issue_auth_bug.png",
       "category": "github",
       "document_type": "github_screenshot",
       "app_name": "Desktop Application",
@@ -4878,7 +4878,7 @@
     {
       "id": "dafe2a85-568c-56b0-b828-904e5bb99855",
       "filename": "invoice_freelance.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\invoice_freelance.png",
+      "file_path": "demo_data/screenshots/invoice_freelance.png",
       "category": "invoice",
       "document_type": "invoice_screenshot",
       "app_name": "Desktop Application",
@@ -4907,7 +4907,7 @@
     {
       "id": "a12056dd-3903-5791-9d64-6f278a793710",
       "filename": "invoice_monitor.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\invoice_monitor.png",
+      "file_path": "demo_data/screenshots/invoice_monitor.png",
       "category": "invoice",
       "document_type": "invoice_screenshot",
       "app_name": "Desktop Application",
@@ -4936,7 +4936,7 @@
     {
       "id": "5510e60f-587e-54df-82ed-e079d120ef08",
       "filename": "map_bangalore_indiranagar.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\map_bangalore_indiranagar.png",
+      "file_path": "demo_data/screenshots/map_bangalore_indiranagar.png",
       "category": "map",
       "document_type": "map_screenshot",
       "app_name": "Desktop Application",
@@ -4965,7 +4965,7 @@
     {
       "id": "ee7e3545-9c96-529b-aa7f-61ca4b4e0454",
       "filename": "map_mumbai_local.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\map_mumbai_local.png",
+      "file_path": "demo_data/screenshots/map_mumbai_local.png",
       "category": "map",
       "document_type": "map_screenshot",
       "app_name": "Desktop Application",
@@ -4994,7 +4994,7 @@
     {
       "id": "f14b7b06-7288-5ca9-b7d4-2c92789cfd85",
       "filename": "map_restaurant_goa.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\map_restaurant_goa.png",
+      "file_path": "demo_data/screenshots/map_restaurant_goa.png",
       "category": "map",
       "document_type": "map_screenshot",
       "app_name": "Desktop Application",
@@ -5023,7 +5023,7 @@
     {
       "id": "33291339-27f8-57a9-9d6c-5ba8406e6e1c",
       "filename": "map_route_restaurant.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\map_route_restaurant.png",
+      "file_path": "demo_data/screenshots/map_route_restaurant.png",
       "category": "map",
       "document_type": "map_screenshot",
       "app_name": "Desktop Application",
@@ -5052,7 +5052,7 @@
     {
       "id": "27aed7d6-5235-5aa8-a2cb-13c5b108f7d9",
       "filename": "menu_italian_bistro.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\menu_italian_bistro.png",
+      "file_path": "demo_data/screenshots/menu_italian_bistro.png",
       "category": "menu",
       "document_type": "menu_screenshot",
       "app_name": "Desktop Application",
@@ -5081,7 +5081,7 @@
     {
       "id": "30b155ce-d3a7-5fe1-aeba-3b5396913846",
       "filename": "notes_handwritten_math.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\notes_handwritten_math.png",
+      "file_path": "demo_data/screenshots/notes_handwritten_math.png",
       "category": "notes",
       "document_type": "notes_screenshot",
       "app_name": "Desktop Application",
@@ -5110,7 +5110,7 @@
     {
       "id": "d43e93ed-7cb7-5f5f-9da8-916e9eb5e79f",
       "filename": "photo_office_workspace.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\photo_office_workspace.png",
+      "file_path": "demo_data/screenshots/photo_office_workspace.png",
       "category": "photo",
       "document_type": "photo_screenshot",
       "app_name": "Desktop Application",
@@ -5139,7 +5139,7 @@
     {
       "id": "99d08e69-1ee8-598b-91a4-932564d506b1",
       "filename": "photo_opencv_baboon.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\photo_opencv_baboon.png",
+      "file_path": "demo_data/screenshots/photo_opencv_baboon.png",
       "category": "photo",
       "document_type": "photo_screenshot",
       "app_name": "Desktop Application",
@@ -5168,7 +5168,7 @@
     {
       "id": "92afa204-a574-5797-a2bb-609f31ac1799",
       "filename": "photo_opencv_butterfly.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\photo_opencv_butterfly.png",
+      "file_path": "demo_data/screenshots/photo_opencv_butterfly.png",
       "category": "photo",
       "document_type": "photo_screenshot",
       "app_name": "Desktop Application",
@@ -5197,7 +5197,7 @@
     {
       "id": "8cc2e733-a590-5865-ae5b-bc9d40118f29",
       "filename": "photo_opencv_fruits.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\photo_opencv_fruits.png",
+      "file_path": "demo_data/screenshots/photo_opencv_fruits.png",
       "category": "photo",
       "document_type": "photo_screenshot",
       "app_name": "Desktop Application",
@@ -5226,7 +5226,7 @@
     {
       "id": "8b9908cc-332c-5c8b-9876-d035e262c511",
       "filename": "photo_sneakers_white.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\photo_sneakers_white.png",
+      "file_path": "demo_data/screenshots/photo_sneakers_white.png",
       "category": "photo",
       "document_type": "photo_screenshot",
       "app_name": "Desktop Application",
@@ -5255,7 +5255,7 @@
     {
       "id": "fb583979-2e71-565c-9e4c-3713484d634e",
       "filename": "photo_watch_chronograph.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\photo_watch_chronograph.png",
+      "file_path": "demo_data/screenshots/photo_watch_chronograph.png",
       "category": "photo",
       "document_type": "photo_screenshot",
       "app_name": "Desktop Application",
@@ -5284,7 +5284,7 @@
     {
       "id": "a02297a6-aa53-5369-852c-f7c5451306de",
       "filename": "photo_whiteboard_brainstorm.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\photo_whiteboard_brainstorm.png",
+      "file_path": "demo_data/screenshots/photo_whiteboard_brainstorm.png",
       "category": "photo",
       "document_type": "photo_screenshot",
       "app_name": "Desktop Application",
@@ -5313,7 +5313,7 @@
     {
       "id": "275bf718-89d5-5a2d-a327-e201a45d64dc",
       "filename": "presentation_isro_results.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\presentation_isro_results.png",
+      "file_path": "demo_data/screenshots/presentation_isro_results.png",
       "category": "presentation",
       "document_type": "presentation_screenshot",
       "app_name": "Desktop Application",
@@ -5342,7 +5342,7 @@
     {
       "id": "e6c7633f-3b26-59ee-89de-ddbacaf2806a",
       "filename": "presentation_isro_slide1.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\presentation_isro_slide1.png",
+      "file_path": "demo_data/screenshots/presentation_isro_slide1.png",
       "category": "presentation",
       "document_type": "presentation_screenshot",
       "app_name": "Desktop Application",
@@ -5371,7 +5371,7 @@
     {
       "id": "3620e9c0-50b5-5c11-8b93-a59c36984037",
       "filename": "product_comparison_headphones.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\product_comparison_headphones.png",
+      "file_path": "demo_data/screenshots/product_comparison_headphones.png",
       "category": "product",
       "document_type": "product_screenshot",
       "app_name": "Desktop Application",
@@ -5400,7 +5400,7 @@
     {
       "id": "f4770f18-d719-5617-92b2-9fd3fe58ed1a",
       "filename": "product_comparison_laptops.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\product_comparison_laptops.png",
+      "file_path": "demo_data/screenshots/product_comparison_laptops.png",
       "category": "product",
       "document_type": "product_screenshot",
       "app_name": "Desktop Application",
@@ -5429,7 +5429,7 @@
     {
       "id": "591b690a-362b-5611-bec2-ae4991e2fe15",
       "filename": "product_photo_black_headphones.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\product_photo_black_headphones.png",
+      "file_path": "demo_data/screenshots/product_photo_black_headphones.png",
       "category": "product",
       "document_type": "product_screenshot",
       "app_name": "Desktop Application",
@@ -5458,7 +5458,7 @@
     {
       "id": "19937d98-7a06-5ca1-872c-c01fa02354f2",
       "filename": "product_photo_mechanical_keyboard.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\product_photo_mechanical_keyboard.png",
+      "file_path": "demo_data/screenshots/product_photo_mechanical_keyboard.png",
       "category": "product",
       "document_type": "product_screenshot",
       "app_name": "Desktop Application",
@@ -5487,7 +5487,7 @@
     {
       "id": "1b62e106-d284-5a0d-b20f-5229217acf2d",
       "filename": "product_photo_red_laptop.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\product_photo_red_laptop.png",
+      "file_path": "demo_data/screenshots/product_photo_red_laptop.png",
       "category": "product",
       "document_type": "product_screenshot",
       "app_name": "Desktop Application",
@@ -5516,7 +5516,7 @@
     {
       "id": "b9fe095d-9d99-5fc0-a12b-7a47f3f8453d",
       "filename": "product_photo_silver_laptop.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\product_photo_silver_laptop.png",
+      "file_path": "demo_data/screenshots/product_photo_silver_laptop.png",
       "category": "product",
       "document_type": "product_screenshot",
       "app_name": "Desktop Application",
@@ -5545,7 +5545,7 @@
     {
       "id": "bce768d2-ae64-5bc8-b123-91a6ed83b3b6",
       "filename": "product_photo_sony_lens.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\product_photo_sony_lens.png",
+      "file_path": "demo_data/screenshots/product_photo_sony_lens.png",
       "category": "product",
       "document_type": "product_screenshot",
       "app_name": "Desktop Application",
@@ -5574,7 +5574,7 @@
     {
       "id": "57b33216-d2de-5f5a-b30d-e02ca643fae0",
       "filename": "receipt_amazon_india.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\receipt_amazon_india.png",
+      "file_path": "demo_data/screenshots/receipt_amazon_india.png",
       "category": "receipt",
       "document_type": "receipt_screenshot",
       "app_name": "Desktop Application",
@@ -5603,7 +5603,7 @@
     {
       "id": "eba6c279-37e8-542c-a4c6-ec5f4d0a8084",
       "filename": "receipt_cab_goa.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\receipt_cab_goa.png",
+      "file_path": "demo_data/screenshots/receipt_cab_goa.png",
       "category": "receipt",
       "document_type": "receipt_screenshot",
       "app_name": "Desktop Application",
@@ -5632,7 +5632,7 @@
     {
       "id": "660ce0ca-5d7d-5012-815c-9cdbbbc8843e",
       "filename": "receipt_grocery.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\receipt_grocery.png",
+      "file_path": "demo_data/screenshots/receipt_grocery.png",
       "category": "receipt",
       "document_type": "receipt_screenshot",
       "app_name": "Desktop Application",
@@ -5661,7 +5661,7 @@
     {
       "id": "09778a1c-0f20-5bc6-9fff-54300150a652",
       "filename": "receipt_headphones_amazon.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\receipt_headphones_amazon.png",
+      "file_path": "demo_data/screenshots/receipt_headphones_amazon.png",
       "category": "receipt",
       "document_type": "receipt_screenshot",
       "app_name": "Desktop Application",
@@ -5690,7 +5690,7 @@
     {
       "id": "156885ca-83f2-5026-b2d8-9019cd480875",
       "filename": "receipt_laptop_amazon.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\receipt_laptop_amazon.png",
+      "file_path": "demo_data/screenshots/receipt_laptop_amazon.png",
       "category": "receipt",
       "document_type": "receipt_screenshot",
       "app_name": "Desktop Application",
@@ -5719,7 +5719,7 @@
     {
       "id": "84cdef17-aec5-57ae-b1ed-8430cf9f197d",
       "filename": "receipt_merchant_invoice_01.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\receipt_merchant_invoice_01.png",
+      "file_path": "demo_data/screenshots/receipt_merchant_invoice_01.png",
       "category": "receipt",
       "document_type": "tax_invoice",
       "app_name": "Flipkart",
@@ -5752,7 +5752,7 @@
     {
       "id": "6c1e1efa-be08-56c9-aa0d-fb2c9e9a73eb",
       "filename": "receipt_merchant_invoice_02.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\receipt_merchant_invoice_02.png",
+      "file_path": "demo_data/screenshots/receipt_merchant_invoice_02.png",
       "category": "receipt",
       "document_type": "tax_invoice",
       "app_name": "Swiggy",
@@ -5785,7 +5785,7 @@
     {
       "id": "f6479780-fb42-516d-b83f-f2fdc8b46c5b",
       "filename": "receipt_merchant_invoice_03.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\receipt_merchant_invoice_03.png",
+      "file_path": "demo_data/screenshots/receipt_merchant_invoice_03.png",
       "category": "receipt",
       "document_type": "tax_invoice",
       "app_name": "BigBasket",
@@ -5818,7 +5818,7 @@
     {
       "id": "1baf3250-be21-531c-9eb2-3ac567dba1d5",
       "filename": "receipt_merchant_invoice_04.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\receipt_merchant_invoice_04.png",
+      "file_path": "demo_data/screenshots/receipt_merchant_invoice_04.png",
       "category": "receipt",
       "document_type": "tax_invoice",
       "app_name": "Cult.Fit",
@@ -5851,7 +5851,7 @@
     {
       "id": "e4953e74-ae29-5934-9fb7-3759eab110ff",
       "filename": "receipt_merchant_invoice_05.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\receipt_merchant_invoice_05.png",
+      "file_path": "demo_data/screenshots/receipt_merchant_invoice_05.png",
       "category": "receipt",
       "document_type": "tax_invoice",
       "app_name": "Amazon India",
@@ -5884,7 +5884,7 @@
     {
       "id": "bfe192fd-0695-5ae5-971d-46d176429793",
       "filename": "receipt_merchant_invoice_06.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\receipt_merchant_invoice_06.png",
+      "file_path": "demo_data/screenshots/receipt_merchant_invoice_06.png",
       "category": "receipt",
       "document_type": "tax_invoice",
       "app_name": "Flipkart",
@@ -5917,7 +5917,7 @@
     {
       "id": "e1651390-3b86-581e-a97b-f289c5b40151",
       "filename": "receipt_merchant_invoice_07.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\receipt_merchant_invoice_07.png",
+      "file_path": "demo_data/screenshots/receipt_merchant_invoice_07.png",
       "category": "receipt",
       "document_type": "tax_invoice",
       "app_name": "Swiggy",
@@ -5950,7 +5950,7 @@
     {
       "id": "356b4a00-24f2-596d-bf6c-d559201eec7c",
       "filename": "receipt_merchant_invoice_08.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\receipt_merchant_invoice_08.png",
+      "file_path": "demo_data/screenshots/receipt_merchant_invoice_08.png",
       "category": "receipt",
       "document_type": "tax_invoice",
       "app_name": "BigBasket",
@@ -5983,7 +5983,7 @@
     {
       "id": "d45fdbb8-7aa6-51fb-8349-eba600ef4d09",
       "filename": "receipt_merchant_invoice_09.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\receipt_merchant_invoice_09.png",
+      "file_path": "demo_data/screenshots/receipt_merchant_invoice_09.png",
       "category": "receipt",
       "document_type": "tax_invoice",
       "app_name": "Cult.Fit",
@@ -6016,7 +6016,7 @@
     {
       "id": "3c719be4-824e-55b4-aed1-cc36bdb5bbf3",
       "filename": "receipt_merchant_invoice_10.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\receipt_merchant_invoice_10.png",
+      "file_path": "demo_data/screenshots/receipt_merchant_invoice_10.png",
       "category": "receipt",
       "document_type": "tax_invoice",
       "app_name": "Amazon India",
@@ -6049,7 +6049,7 @@
     {
       "id": "42368a1e-d33f-5072-9985-e1afb5091656",
       "filename": "receipt_merchant_invoice_11.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\receipt_merchant_invoice_11.png",
+      "file_path": "demo_data/screenshots/receipt_merchant_invoice_11.png",
       "category": "receipt",
       "document_type": "tax_invoice",
       "app_name": "Flipkart",
@@ -6082,7 +6082,7 @@
     {
       "id": "34c56d6d-ae2b-5a71-a1f7-6996630becc8",
       "filename": "receipt_merchant_invoice_12.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\receipt_merchant_invoice_12.png",
+      "file_path": "demo_data/screenshots/receipt_merchant_invoice_12.png",
       "category": "receipt",
       "document_type": "tax_invoice",
       "app_name": "Swiggy",
@@ -6115,7 +6115,7 @@
     {
       "id": "e3f64e5d-0704-52a8-a165-d9c03eb2acff",
       "filename": "receipt_merchant_invoice_13.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\receipt_merchant_invoice_13.png",
+      "file_path": "demo_data/screenshots/receipt_merchant_invoice_13.png",
       "category": "receipt",
       "document_type": "tax_invoice",
       "app_name": "BigBasket",
@@ -6148,7 +6148,7 @@
     {
       "id": "a053e65e-7616-5c7b-9c04-7974b9c30726",
       "filename": "receipt_merchant_invoice_14.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\receipt_merchant_invoice_14.png",
+      "file_path": "demo_data/screenshots/receipt_merchant_invoice_14.png",
       "category": "receipt",
       "document_type": "tax_invoice",
       "app_name": "Cult.Fit",
@@ -6181,7 +6181,7 @@
     {
       "id": "2d280c13-7b7b-5e6b-8a97-d93a97dc90ed",
       "filename": "receipt_merchant_invoice_15.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\receipt_merchant_invoice_15.png",
+      "file_path": "demo_data/screenshots/receipt_merchant_invoice_15.png",
       "category": "receipt",
       "document_type": "tax_invoice",
       "app_name": "Amazon India",
@@ -6214,7 +6214,7 @@
     {
       "id": "9f6a6383-b6b0-5ffe-9ec3-2af5b5617f10",
       "filename": "receipt_merchant_invoice_16.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\receipt_merchant_invoice_16.png",
+      "file_path": "demo_data/screenshots/receipt_merchant_invoice_16.png",
       "category": "receipt",
       "document_type": "tax_invoice",
       "app_name": "Flipkart",
@@ -6247,7 +6247,7 @@
     {
       "id": "915d36db-ad89-59b9-8e1b-27c759734744",
       "filename": "receipt_merchant_invoice_17.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\receipt_merchant_invoice_17.png",
+      "file_path": "demo_data/screenshots/receipt_merchant_invoice_17.png",
       "category": "receipt",
       "document_type": "tax_invoice",
       "app_name": "Swiggy",
@@ -6280,7 +6280,7 @@
     {
       "id": "48ee826f-f1a1-55ae-8252-4bfacdedfeca",
       "filename": "receipt_merchant_invoice_18.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\receipt_merchant_invoice_18.png",
+      "file_path": "demo_data/screenshots/receipt_merchant_invoice_18.png",
       "category": "receipt",
       "document_type": "tax_invoice",
       "app_name": "BigBasket",
@@ -6313,7 +6313,7 @@
     {
       "id": "96f0bb91-bc55-5559-bcf4-0d63f64acb63",
       "filename": "receipt_merchant_invoice_19.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\receipt_merchant_invoice_19.png",
+      "file_path": "demo_data/screenshots/receipt_merchant_invoice_19.png",
       "category": "receipt",
       "document_type": "tax_invoice",
       "app_name": "Cult.Fit",
@@ -6346,7 +6346,7 @@
     {
       "id": "a4785398-b461-5786-8479-0b2740147fd4",
       "filename": "receipt_merchant_invoice_20.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\receipt_merchant_invoice_20.png",
+      "file_path": "demo_data/screenshots/receipt_merchant_invoice_20.png",
       "category": "receipt",
       "document_type": "tax_invoice",
       "app_name": "Amazon India",
@@ -6379,7 +6379,7 @@
     {
       "id": "76b9c6ed-daad-54de-9a9d-d59b6453b483",
       "filename": "receipt_merchant_invoice_21.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\receipt_merchant_invoice_21.png",
+      "file_path": "demo_data/screenshots/receipt_merchant_invoice_21.png",
       "category": "receipt",
       "document_type": "tax_invoice",
       "app_name": "Flipkart",
@@ -6412,7 +6412,7 @@
     {
       "id": "339e1ea4-a0ef-515c-ab29-79fb45e89729",
       "filename": "receipt_merchant_invoice_22.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\receipt_merchant_invoice_22.png",
+      "file_path": "demo_data/screenshots/receipt_merchant_invoice_22.png",
       "category": "receipt",
       "document_type": "tax_invoice",
       "app_name": "Swiggy",
@@ -6445,7 +6445,7 @@
     {
       "id": "557d3dad-27ee-5d9f-9c1d-b0a0370e275a",
       "filename": "receipt_merchant_invoice_23.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\receipt_merchant_invoice_23.png",
+      "file_path": "demo_data/screenshots/receipt_merchant_invoice_23.png",
       "category": "receipt",
       "document_type": "tax_invoice",
       "app_name": "BigBasket",
@@ -6478,7 +6478,7 @@
     {
       "id": "21103ee3-24be-531b-ba0d-d9f983113daf",
       "filename": "receipt_merchant_invoice_24.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\receipt_merchant_invoice_24.png",
+      "file_path": "demo_data/screenshots/receipt_merchant_invoice_24.png",
       "category": "receipt",
       "document_type": "tax_invoice",
       "app_name": "Cult.Fit",
@@ -6511,7 +6511,7 @@
     {
       "id": "ee28b93a-b879-543d-b763-3924d7f39894",
       "filename": "receipt_merchant_invoice_25.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\receipt_merchant_invoice_25.png",
+      "file_path": "demo_data/screenshots/receipt_merchant_invoice_25.png",
       "category": "receipt",
       "document_type": "tax_invoice",
       "app_name": "Amazon India",
@@ -6544,7 +6544,7 @@
     {
       "id": "c91ebb01-5cb2-501a-b89e-b20d9a346eed",
       "filename": "receipt_swiggy_order.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\receipt_swiggy_order.png",
+      "file_path": "demo_data/screenshots/receipt_swiggy_order.png",
       "category": "receipt",
       "document_type": "receipt_screenshot",
       "app_name": "Desktop Application",
@@ -6573,7 +6573,7 @@
     {
       "id": "7a710cae-7364-5707-a707-0f368402be78",
       "filename": "recipe_gourmet_dish_01.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\recipe_gourmet_dish_01.png",
+      "file_path": "demo_data/screenshots/recipe_gourmet_dish_01.png",
       "category": "recipe",
       "document_type": "recipe_card",
       "app_name": "Culinary Vault",
@@ -6606,7 +6606,7 @@
     {
       "id": "8296e0a0-0edf-5ffd-af4f-b498d13657bc",
       "filename": "recipe_gourmet_dish_02.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\recipe_gourmet_dish_02.png",
+      "file_path": "demo_data/screenshots/recipe_gourmet_dish_02.png",
       "category": "recipe",
       "document_type": "recipe_card",
       "app_name": "Culinary Vault",
@@ -6639,7 +6639,7 @@
     {
       "id": "aedb9b05-9bb3-54e9-bc23-4855a1f18877",
       "filename": "recipe_gourmet_dish_03.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\recipe_gourmet_dish_03.png",
+      "file_path": "demo_data/screenshots/recipe_gourmet_dish_03.png",
       "category": "recipe",
       "document_type": "recipe_card",
       "app_name": "Culinary Vault",
@@ -6672,7 +6672,7 @@
     {
       "id": "c4b31658-3fc6-5cd7-9456-1a4e2c6c34cf",
       "filename": "recipe_gourmet_dish_04.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\recipe_gourmet_dish_04.png",
+      "file_path": "demo_data/screenshots/recipe_gourmet_dish_04.png",
       "category": "recipe",
       "document_type": "recipe_card",
       "app_name": "Culinary Vault",
@@ -6705,7 +6705,7 @@
     {
       "id": "a6604408-db85-5a2a-87d3-f8fab4734285",
       "filename": "recipe_gourmet_dish_05.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\recipe_gourmet_dish_05.png",
+      "file_path": "demo_data/screenshots/recipe_gourmet_dish_05.png",
       "category": "recipe",
       "document_type": "recipe_card",
       "app_name": "Culinary Vault",
@@ -6738,7 +6738,7 @@
     {
       "id": "5daffe73-06f1-54c2-a9e5-1a039741c81d",
       "filename": "recipe_gourmet_dish_06.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\recipe_gourmet_dish_06.png",
+      "file_path": "demo_data/screenshots/recipe_gourmet_dish_06.png",
       "category": "recipe",
       "document_type": "recipe_card",
       "app_name": "Culinary Vault",
@@ -6771,7 +6771,7 @@
     {
       "id": "2bd7eb1d-9ba6-53cb-82e4-14f0882dc2b4",
       "filename": "recipe_gourmet_dish_07.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\recipe_gourmet_dish_07.png",
+      "file_path": "demo_data/screenshots/recipe_gourmet_dish_07.png",
       "category": "recipe",
       "document_type": "recipe_card",
       "app_name": "Culinary Vault",
@@ -6804,7 +6804,7 @@
     {
       "id": "6fe2552d-aa56-5ce4-bcb9-b4a667e6eccd",
       "filename": "recipe_gourmet_dish_08.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\recipe_gourmet_dish_08.png",
+      "file_path": "demo_data/screenshots/recipe_gourmet_dish_08.png",
       "category": "recipe",
       "document_type": "recipe_card",
       "app_name": "Culinary Vault",
@@ -6837,7 +6837,7 @@
     {
       "id": "de1bc994-7c1c-5065-8d0a-dd6173b80cd1",
       "filename": "recipe_gourmet_dish_09.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\recipe_gourmet_dish_09.png",
+      "file_path": "demo_data/screenshots/recipe_gourmet_dish_09.png",
       "category": "recipe",
       "document_type": "recipe_card",
       "app_name": "Culinary Vault",
@@ -6870,7 +6870,7 @@
     {
       "id": "95316c13-a346-5ff0-9e14-b885900b9418",
       "filename": "recipe_gourmet_dish_10.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\recipe_gourmet_dish_10.png",
+      "file_path": "demo_data/screenshots/recipe_gourmet_dish_10.png",
       "category": "recipe",
       "document_type": "recipe_card",
       "app_name": "Culinary Vault",
@@ -6903,7 +6903,7 @@
     {
       "id": "627fcb26-c1aa-5eef-b856-a448e864a51c",
       "filename": "recipe_gourmet_dish_11.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\recipe_gourmet_dish_11.png",
+      "file_path": "demo_data/screenshots/recipe_gourmet_dish_11.png",
       "category": "recipe",
       "document_type": "recipe_card",
       "app_name": "Culinary Vault",
@@ -6936,7 +6936,7 @@
     {
       "id": "1229e640-8ddb-5a83-b926-148b78fa108b",
       "filename": "recipe_gourmet_dish_12.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\recipe_gourmet_dish_12.png",
+      "file_path": "demo_data/screenshots/recipe_gourmet_dish_12.png",
       "category": "recipe",
       "document_type": "recipe_card",
       "app_name": "Culinary Vault",
@@ -6969,7 +6969,7 @@
     {
       "id": "b7c15ec4-5365-54ff-bfc7-492d873e3aa7",
       "filename": "recipe_gourmet_dish_13.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\recipe_gourmet_dish_13.png",
+      "file_path": "demo_data/screenshots/recipe_gourmet_dish_13.png",
       "category": "recipe",
       "document_type": "recipe_card",
       "app_name": "Culinary Vault",
@@ -7002,7 +7002,7 @@
     {
       "id": "46c4165b-ce58-5588-a0fc-278b4e2f37f7",
       "filename": "recipe_gourmet_dish_14.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\recipe_gourmet_dish_14.png",
+      "file_path": "demo_data/screenshots/recipe_gourmet_dish_14.png",
       "category": "recipe",
       "document_type": "recipe_card",
       "app_name": "Culinary Vault",
@@ -7035,7 +7035,7 @@
     {
       "id": "1569f191-d927-54e2-8c6c-82f78cb20d3d",
       "filename": "recipe_gourmet_dish_15.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\recipe_gourmet_dish_15.png",
+      "file_path": "demo_data/screenshots/recipe_gourmet_dish_15.png",
       "category": "recipe",
       "document_type": "recipe_card",
       "app_name": "Culinary Vault",
@@ -7068,7 +7068,7 @@
     {
       "id": "929ed1ed-b535-5e26-a46b-965ff8c4c85e",
       "filename": "recipe_gourmet_dish_16.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\recipe_gourmet_dish_16.png",
+      "file_path": "demo_data/screenshots/recipe_gourmet_dish_16.png",
       "category": "recipe",
       "document_type": "recipe_card",
       "app_name": "Culinary Vault",
@@ -7101,7 +7101,7 @@
     {
       "id": "e1073fec-702a-5490-9df9-9d30fd167298",
       "filename": "recipe_gourmet_dish_17.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\recipe_gourmet_dish_17.png",
+      "file_path": "demo_data/screenshots/recipe_gourmet_dish_17.png",
       "category": "recipe",
       "document_type": "recipe_card",
       "app_name": "Culinary Vault",
@@ -7134,7 +7134,7 @@
     {
       "id": "a6d35436-bf99-5d7a-82b4-63fab49fa4f1",
       "filename": "recipe_gourmet_dish_18.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\recipe_gourmet_dish_18.png",
+      "file_path": "demo_data/screenshots/recipe_gourmet_dish_18.png",
       "category": "recipe",
       "document_type": "recipe_card",
       "app_name": "Culinary Vault",
@@ -7167,7 +7167,7 @@
     {
       "id": "1ad726d8-5a72-5044-9312-c1be4495801e",
       "filename": "recipe_gourmet_dish_19.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\recipe_gourmet_dish_19.png",
+      "file_path": "demo_data/screenshots/recipe_gourmet_dish_19.png",
       "category": "recipe",
       "document_type": "recipe_card",
       "app_name": "Culinary Vault",
@@ -7200,7 +7200,7 @@
     {
       "id": "784c2a7f-03ff-5e32-b331-05610e7785d1",
       "filename": "recipe_gourmet_dish_20.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\recipe_gourmet_dish_20.png",
+      "file_path": "demo_data/screenshots/recipe_gourmet_dish_20.png",
       "category": "recipe",
       "document_type": "recipe_card",
       "app_name": "Culinary Vault",
@@ -7233,7 +7233,7 @@
     {
       "id": "a1b60a70-a29c-51a2-ba27-2e67d9ebfa67",
       "filename": "recipe_gourmet_dish_21.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\recipe_gourmet_dish_21.png",
+      "file_path": "demo_data/screenshots/recipe_gourmet_dish_21.png",
       "category": "recipe",
       "document_type": "recipe_card",
       "app_name": "Culinary Vault",
@@ -7266,7 +7266,7 @@
     {
       "id": "004dbc98-5711-5272-a867-ca61a400e0a3",
       "filename": "recipe_gourmet_dish_22.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\recipe_gourmet_dish_22.png",
+      "file_path": "demo_data/screenshots/recipe_gourmet_dish_22.png",
       "category": "recipe",
       "document_type": "recipe_card",
       "app_name": "Culinary Vault",
@@ -7299,7 +7299,7 @@
     {
       "id": "995beca7-c379-598b-b3cb-844ebd7a8129",
       "filename": "recipe_gourmet_dish_23.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\recipe_gourmet_dish_23.png",
+      "file_path": "demo_data/screenshots/recipe_gourmet_dish_23.png",
       "category": "recipe",
       "document_type": "recipe_card",
       "app_name": "Culinary Vault",
@@ -7332,7 +7332,7 @@
     {
       "id": "ffef8267-f67b-5b92-a61a-6f870891137c",
       "filename": "recipe_gourmet_dish_24.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\recipe_gourmet_dish_24.png",
+      "file_path": "demo_data/screenshots/recipe_gourmet_dish_24.png",
       "category": "recipe",
       "document_type": "recipe_card",
       "app_name": "Culinary Vault",
@@ -7365,7 +7365,7 @@
     {
       "id": "9df25ceb-c685-5a75-a4c9-f6dd01ab6891",
       "filename": "recipe_gourmet_dish_25.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\recipe_gourmet_dish_25.png",
+      "file_path": "demo_data/screenshots/recipe_gourmet_dish_25.png",
       "category": "recipe",
       "document_type": "recipe_card",
       "app_name": "Culinary Vault",
@@ -7398,7 +7398,7 @@
     {
       "id": "84609b80-5343-58d5-8e9f-16987be55071",
       "filename": "recipe_mushroom_pasta.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\recipe_mushroom_pasta.png",
+      "file_path": "demo_data/screenshots/recipe_mushroom_pasta.png",
       "category": "recipe",
       "document_type": "recipe_screenshot",
       "app_name": "Desktop Application",
@@ -7427,7 +7427,7 @@
     {
       "id": "06803880-48ea-58c2-b3a0-5cb84b92fdb7",
       "filename": "recipe_pasta_carbonara.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\recipe_pasta_carbonara.png",
+      "file_path": "demo_data/screenshots/recipe_pasta_carbonara.png",
       "category": "recipe",
       "document_type": "recipe_screenshot",
       "app_name": "Desktop Application",
@@ -7456,7 +7456,7 @@
     {
       "id": "9a8b05a2-8fb1-502a-be14-61d07639c398",
       "filename": "research_academic_paper_01.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\research_academic_paper_01.png",
+      "file_path": "demo_data/screenshots/research_academic_paper_01.png",
       "category": "research",
       "document_type": "academic_paper_preprint",
       "app_name": "ArXiv Viewer",
@@ -7490,7 +7490,7 @@
     {
       "id": "4750f2c1-1e67-589b-9e90-4638fc133d6a",
       "filename": "research_academic_paper_02.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\research_academic_paper_02.png",
+      "file_path": "demo_data/screenshots/research_academic_paper_02.png",
       "category": "research",
       "document_type": "academic_paper_preprint",
       "app_name": "ArXiv Viewer",
@@ -7524,7 +7524,7 @@
     {
       "id": "4e4bc5b4-f7ab-53ee-b0fc-abb83846bb92",
       "filename": "research_academic_paper_03.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\research_academic_paper_03.png",
+      "file_path": "demo_data/screenshots/research_academic_paper_03.png",
       "category": "research",
       "document_type": "academic_paper_preprint",
       "app_name": "ArXiv Viewer",
@@ -7558,7 +7558,7 @@
     {
       "id": "5d3e0291-6ef3-5b9d-b895-1e4d5b0560bb",
       "filename": "research_academic_paper_04.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\research_academic_paper_04.png",
+      "file_path": "demo_data/screenshots/research_academic_paper_04.png",
       "category": "research",
       "document_type": "academic_paper_preprint",
       "app_name": "ArXiv Viewer",
@@ -7592,7 +7592,7 @@
     {
       "id": "ffd9aff6-a660-57d2-a837-f85e244116e7",
       "filename": "research_academic_paper_05.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\research_academic_paper_05.png",
+      "file_path": "demo_data/screenshots/research_academic_paper_05.png",
       "category": "research",
       "document_type": "academic_paper_preprint",
       "app_name": "ArXiv Viewer",
@@ -7626,7 +7626,7 @@
     {
       "id": "94395713-11cf-5159-902a-6a09e2dcf5d2",
       "filename": "research_academic_paper_06.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\research_academic_paper_06.png",
+      "file_path": "demo_data/screenshots/research_academic_paper_06.png",
       "category": "research",
       "document_type": "academic_paper_preprint",
       "app_name": "ArXiv Viewer",
@@ -7660,7 +7660,7 @@
     {
       "id": "f41b2a50-7513-57b7-9549-7eef1bd5f43e",
       "filename": "research_academic_paper_07.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\research_academic_paper_07.png",
+      "file_path": "demo_data/screenshots/research_academic_paper_07.png",
       "category": "research",
       "document_type": "academic_paper_preprint",
       "app_name": "ArXiv Viewer",
@@ -7694,7 +7694,7 @@
     {
       "id": "758f92f4-6cc2-54af-9e33-5d522d06b9f5",
       "filename": "research_academic_paper_08.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\research_academic_paper_08.png",
+      "file_path": "demo_data/screenshots/research_academic_paper_08.png",
       "category": "research",
       "document_type": "academic_paper_preprint",
       "app_name": "ArXiv Viewer",
@@ -7728,7 +7728,7 @@
     {
       "id": "ff2941c1-0232-5f04-baa3-2c4687f0ae5e",
       "filename": "research_academic_paper_09.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\research_academic_paper_09.png",
+      "file_path": "demo_data/screenshots/research_academic_paper_09.png",
       "category": "research",
       "document_type": "academic_paper_preprint",
       "app_name": "ArXiv Viewer",
@@ -7762,7 +7762,7 @@
     {
       "id": "d7dab1d2-cc83-528c-8fba-34ba84f4b38b",
       "filename": "research_academic_paper_10.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\research_academic_paper_10.png",
+      "file_path": "demo_data/screenshots/research_academic_paper_10.png",
       "category": "research",
       "document_type": "academic_paper_preprint",
       "app_name": "ArXiv Viewer",
@@ -7796,7 +7796,7 @@
     {
       "id": "6d442ea7-1ab4-5597-b235-578e4fd43421",
       "filename": "research_academic_paper_11.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\research_academic_paper_11.png",
+      "file_path": "demo_data/screenshots/research_academic_paper_11.png",
       "category": "research",
       "document_type": "academic_paper_preprint",
       "app_name": "ArXiv Viewer",
@@ -7830,7 +7830,7 @@
     {
       "id": "14ab6e6c-ab07-5830-a07e-2a2502bd091c",
       "filename": "research_academic_paper_12.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\research_academic_paper_12.png",
+      "file_path": "demo_data/screenshots/research_academic_paper_12.png",
       "category": "research",
       "document_type": "academic_paper_preprint",
       "app_name": "ArXiv Viewer",
@@ -7864,7 +7864,7 @@
     {
       "id": "ea4c6c6e-72f5-5d20-b517-0e8df66d5cf6",
       "filename": "research_academic_paper_13.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\research_academic_paper_13.png",
+      "file_path": "demo_data/screenshots/research_academic_paper_13.png",
       "category": "research",
       "document_type": "academic_paper_preprint",
       "app_name": "ArXiv Viewer",
@@ -7898,7 +7898,7 @@
     {
       "id": "61f0fa79-86c4-5fed-80f3-5c160aa0bad5",
       "filename": "research_academic_paper_14.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\research_academic_paper_14.png",
+      "file_path": "demo_data/screenshots/research_academic_paper_14.png",
       "category": "research",
       "document_type": "academic_paper_preprint",
       "app_name": "ArXiv Viewer",
@@ -7932,7 +7932,7 @@
     {
       "id": "4e049f12-63b6-529a-954d-63d9535a967c",
       "filename": "research_academic_paper_15.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\research_academic_paper_15.png",
+      "file_path": "demo_data/screenshots/research_academic_paper_15.png",
       "category": "research",
       "document_type": "academic_paper_preprint",
       "app_name": "ArXiv Viewer",
@@ -7966,7 +7966,7 @@
     {
       "id": "b08d3487-a742-57f6-a1b8-3464652c7858",
       "filename": "research_academic_paper_16.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\research_academic_paper_16.png",
+      "file_path": "demo_data/screenshots/research_academic_paper_16.png",
       "category": "research",
       "document_type": "academic_paper_preprint",
       "app_name": "ArXiv Viewer",
@@ -8000,7 +8000,7 @@
     {
       "id": "1fd7189e-9e10-5fd7-a60d-66c8cbb3d961",
       "filename": "research_academic_paper_17.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\research_academic_paper_17.png",
+      "file_path": "demo_data/screenshots/research_academic_paper_17.png",
       "category": "research",
       "document_type": "academic_paper_preprint",
       "app_name": "ArXiv Viewer",
@@ -8034,7 +8034,7 @@
     {
       "id": "d40edeff-7402-5217-b397-85c49c0993d4",
       "filename": "research_academic_paper_18.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\research_academic_paper_18.png",
+      "file_path": "demo_data/screenshots/research_academic_paper_18.png",
       "category": "research",
       "document_type": "academic_paper_preprint",
       "app_name": "ArXiv Viewer",
@@ -8068,7 +8068,7 @@
     {
       "id": "e1ef98c3-6eb2-5498-91ca-3e2c2a13dcdd",
       "filename": "research_academic_paper_19.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\research_academic_paper_19.png",
+      "file_path": "demo_data/screenshots/research_academic_paper_19.png",
       "category": "research",
       "document_type": "academic_paper_preprint",
       "app_name": "ArXiv Viewer",
@@ -8102,7 +8102,7 @@
     {
       "id": "df303065-ce86-51ee-b186-c168e18b7915",
       "filename": "research_academic_paper_20.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\research_academic_paper_20.png",
+      "file_path": "demo_data/screenshots/research_academic_paper_20.png",
       "category": "research",
       "document_type": "academic_paper_preprint",
       "app_name": "ArXiv Viewer",
@@ -8136,7 +8136,7 @@
     {
       "id": "f2c9f1b9-d144-5683-894b-78d5ad6a7423",
       "filename": "research_academic_paper_21.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\research_academic_paper_21.png",
+      "file_path": "demo_data/screenshots/research_academic_paper_21.png",
       "category": "research",
       "document_type": "academic_paper_preprint",
       "app_name": "ArXiv Viewer",
@@ -8170,7 +8170,7 @@
     {
       "id": "57cd965f-20f0-5b6a-ad03-45a5bf5d62a9",
       "filename": "research_academic_paper_22.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\research_academic_paper_22.png",
+      "file_path": "demo_data/screenshots/research_academic_paper_22.png",
       "category": "research",
       "document_type": "academic_paper_preprint",
       "app_name": "ArXiv Viewer",
@@ -8204,7 +8204,7 @@
     {
       "id": "e4cc7efc-09fb-50f9-b993-61926ed088af",
       "filename": "research_academic_paper_23.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\research_academic_paper_23.png",
+      "file_path": "demo_data/screenshots/research_academic_paper_23.png",
       "category": "research",
       "document_type": "academic_paper_preprint",
       "app_name": "ArXiv Viewer",
@@ -8238,7 +8238,7 @@
     {
       "id": "8e91ea62-a578-5433-9bc5-391f1fc2edeb",
       "filename": "research_academic_paper_24.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\research_academic_paper_24.png",
+      "file_path": "demo_data/screenshots/research_academic_paper_24.png",
       "category": "research",
       "document_type": "academic_paper_preprint",
       "app_name": "ArXiv Viewer",
@@ -8272,7 +8272,7 @@
     {
       "id": "f8884316-9d3b-5f76-8e41-1e6967ae6e21",
       "filename": "research_academic_paper_25.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\research_academic_paper_25.png",
+      "file_path": "demo_data/screenshots/research_academic_paper_25.png",
       "category": "research",
       "document_type": "academic_paper_preprint",
       "app_name": "ArXiv Viewer",
@@ -8306,7 +8306,7 @@
     {
       "id": "5cbc4c55-2b2a-5c75-9bda-7ea02775a719",
       "filename": "research_cv_concepts.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\research_cv_concepts.png",
+      "file_path": "demo_data/screenshots/research_cv_concepts.png",
       "category": "research",
       "document_type": "research_screenshot",
       "app_name": "Desktop Application",
@@ -8335,7 +8335,7 @@
     {
       "id": "0c82d0f9-65a7-5c19-be4e-13287c52d09b",
       "filename": "research_dataset_info.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\research_dataset_info.png",
+      "file_path": "demo_data/screenshots/research_dataset_info.png",
       "category": "research",
       "document_type": "research_screenshot",
       "app_name": "Desktop Application",
@@ -8364,7 +8364,7 @@
     {
       "id": "e1eae74b-2dcc-576b-b158-2af064627d13",
       "filename": "research_pytorch_dog.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\research_pytorch_dog.png",
+      "file_path": "demo_data/screenshots/research_pytorch_dog.png",
       "category": "research",
       "document_type": "research_screenshot",
       "app_name": "Desktop Application",
@@ -8393,7 +8393,7 @@
     {
       "id": "caa67760-59b8-5962-ad36-d07e783eca71",
       "filename": "research_transformer_diagram.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\research_transformer_diagram.png",
+      "file_path": "demo_data/screenshots/research_transformer_diagram.png",
       "category": "research",
       "document_type": "research_screenshot",
       "app_name": "Desktop Application",
@@ -8422,7 +8422,7 @@
     {
       "id": "d53a8c73-2717-55ca-94ab-dd50cbe85c2c",
       "filename": "research_vit_paper.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\research_vit_paper.png",
+      "file_path": "demo_data/screenshots/research_vit_paper.png",
       "category": "research",
       "document_type": "research_screenshot",
       "app_name": "Desktop Application",
@@ -8451,7 +8451,7 @@
     {
       "id": "bd36f66d-7203-516d-ade8-349e3611d445",
       "filename": "research_yolo_bus.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\research_yolo_bus.png",
+      "file_path": "demo_data/screenshots/research_yolo_bus.png",
       "category": "research",
       "document_type": "research_screenshot",
       "app_name": "Desktop Application",
@@ -8480,7 +8480,7 @@
     {
       "id": "f92bddbc-d332-5747-a227-c661a5e6293a",
       "filename": "research_yolo_paper.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\research_yolo_paper.png",
+      "file_path": "demo_data/screenshots/research_yolo_paper.png",
       "category": "research",
       "document_type": "research_screenshot",
       "app_name": "Desktop Application",
@@ -8509,7 +8509,7 @@
     {
       "id": "8cd9affb-945b-5de8-972f-f96b5030a098",
       "filename": "research_yolo_zidane.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\research_yolo_zidane.png",
+      "file_path": "demo_data/screenshots/research_yolo_zidane.png",
       "category": "research",
       "document_type": "research_screenshot",
       "app_name": "Desktop Application",
@@ -8538,7 +8538,7 @@
     {
       "id": "4545621c-cd1f-51a6-b8e3-e2196ac04d9d",
       "filename": "scene_beach_sunset.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\scene_beach_sunset.png",
+      "file_path": "demo_data/screenshots/scene_beach_sunset.png",
       "category": "scene",
       "document_type": "scene_screenshot",
       "app_name": "Desktop Application",
@@ -8567,7 +8567,7 @@
     {
       "id": "670c7b1a-efec-5d9d-98cc-761b2c87e261",
       "filename": "scene_city_skyline.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\scene_city_skyline.png",
+      "file_path": "demo_data/screenshots/scene_city_skyline.png",
       "category": "scene",
       "document_type": "scene_screenshot",
       "app_name": "Desktop Application",
@@ -8596,7 +8596,7 @@
     {
       "id": "92b1922d-c021-5ca5-a124-acac8cbc5711",
       "filename": "scene_mountain_view.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\scene_mountain_view.png",
+      "file_path": "demo_data/screenshots/scene_mountain_view.png",
       "category": "scene",
       "document_type": "scene_screenshot",
       "app_name": "Desktop Application",
@@ -8625,7 +8625,7 @@
     {
       "id": "1b04bc0b-e8f7-53a9-9157-c21bba542bfe",
       "filename": "scene_opencv_building.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\scene_opencv_building.png",
+      "file_path": "demo_data/screenshots/scene_opencv_building.png",
       "category": "scene",
       "document_type": "scene_screenshot",
       "app_name": "Desktop Application",
@@ -8654,7 +8654,7 @@
     {
       "id": "84831fe5-cc0b-5c76-aba9-535c3ab9aa17",
       "filename": "scene_red_sports_car.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\scene_red_sports_car.png",
+      "file_path": "demo_data/screenshots/scene_red_sports_car.png",
       "category": "scene",
       "document_type": "scene_screenshot",
       "app_name": "Desktop Application",
@@ -8683,7 +8683,7 @@
     {
       "id": "62273834-ccc9-5e58-9b28-1d361837befd",
       "filename": "scene_rooftop_restaurant.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\scene_rooftop_restaurant.png",
+      "file_path": "demo_data/screenshots/scene_rooftop_restaurant.png",
       "category": "scene",
       "document_type": "scene_screenshot",
       "app_name": "Desktop Application",
@@ -8712,7 +8712,7 @@
     {
       "id": "84a79b74-7ea3-5ba1-bc58-cb78b4005f74",
       "filename": "screenshot_aura_search.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\screenshot_aura_search.png",
+      "file_path": "demo_data/screenshots/screenshot_aura_search.png",
       "category": "screenshot",
       "document_type": "screenshot_screenshot",
       "app_name": "Desktop Application",
@@ -8741,7 +8741,7 @@
     {
       "id": "64961cfe-c3cf-54c4-9822-97a752a16ea3",
       "filename": "screenshot_stripe_keys.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\screenshot_stripe_keys.png",
+      "file_path": "demo_data/screenshots/screenshot_stripe_keys.png",
       "category": "screenshot",
       "document_type": "screenshot_screenshot",
       "app_name": "Desktop Application",
@@ -8770,7 +8770,7 @@
     {
       "id": "ec06ff4d-9028-5418-a6f2-249bcdad2b6e",
       "filename": "settings_api_key.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\settings_api_key.png",
+      "file_path": "demo_data/screenshots/settings_api_key.png",
       "category": "settings",
       "document_type": "settings_screenshot",
       "app_name": "Desktop Application",
@@ -8799,7 +8799,7 @@
     {
       "id": "03ad4c64-705d-540e-bc08-99485e3eb211",
       "filename": "settings_cloud_credentials.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\settings_cloud_credentials.png",
+      "file_path": "demo_data/screenshots/settings_cloud_credentials.png",
       "category": "settings",
       "document_type": "settings_screenshot",
       "app_name": "Desktop Application",
@@ -8828,7 +8828,7 @@
     {
       "id": "579957b0-c3fc-5507-8617-c924247490e6",
       "filename": "settings_credential_vault_01.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\settings_credential_vault_01.png",
+      "file_path": "demo_data/screenshots/settings_credential_vault_01.png",
       "category": "settings",
       "document_type": "credentials_vault_screen",
       "app_name": "Security Vault",
@@ -8861,7 +8861,7 @@
     {
       "id": "ade948b8-55df-5f7a-af79-20e47c16728e",
       "filename": "settings_credential_vault_02.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\settings_credential_vault_02.png",
+      "file_path": "demo_data/screenshots/settings_credential_vault_02.png",
       "category": "settings",
       "document_type": "credentials_vault_screen",
       "app_name": "Security Vault",
@@ -8894,7 +8894,7 @@
     {
       "id": "08dde8fc-679e-5763-858b-e31da63300a1",
       "filename": "settings_credential_vault_03.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\settings_credential_vault_03.png",
+      "file_path": "demo_data/screenshots/settings_credential_vault_03.png",
       "category": "settings",
       "document_type": "credentials_vault_screen",
       "app_name": "Security Vault",
@@ -8927,7 +8927,7 @@
     {
       "id": "d330a813-1a5e-5f0f-bfbf-e1cf4065662d",
       "filename": "settings_credential_vault_04.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\settings_credential_vault_04.png",
+      "file_path": "demo_data/screenshots/settings_credential_vault_04.png",
       "category": "settings",
       "document_type": "credentials_vault_screen",
       "app_name": "Security Vault",
@@ -8960,7 +8960,7 @@
     {
       "id": "bef6395f-02e7-5720-b2d7-3c9b04df31b8",
       "filename": "settings_credential_vault_05.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\settings_credential_vault_05.png",
+      "file_path": "demo_data/screenshots/settings_credential_vault_05.png",
       "category": "settings",
       "document_type": "credentials_vault_screen",
       "app_name": "Security Vault",
@@ -8993,7 +8993,7 @@
     {
       "id": "b5db53a7-ff2c-535b-9bcd-03a6c706b185",
       "filename": "settings_credential_vault_06.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\settings_credential_vault_06.png",
+      "file_path": "demo_data/screenshots/settings_credential_vault_06.png",
       "category": "settings",
       "document_type": "credentials_vault_screen",
       "app_name": "Security Vault",
@@ -9026,7 +9026,7 @@
     {
       "id": "a961e245-e133-5e4b-b3ca-fa80f12bc7d4",
       "filename": "settings_credential_vault_07.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\settings_credential_vault_07.png",
+      "file_path": "demo_data/screenshots/settings_credential_vault_07.png",
       "category": "settings",
       "document_type": "credentials_vault_screen",
       "app_name": "Security Vault",
@@ -9059,7 +9059,7 @@
     {
       "id": "5f160c71-4048-5889-83bb-15652f3fb0f8",
       "filename": "settings_credential_vault_08.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\settings_credential_vault_08.png",
+      "file_path": "demo_data/screenshots/settings_credential_vault_08.png",
       "category": "settings",
       "document_type": "credentials_vault_screen",
       "app_name": "Security Vault",
@@ -9092,7 +9092,7 @@
     {
       "id": "ab57df25-6f4c-500e-aa95-db3c872216df",
       "filename": "settings_credential_vault_09.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\settings_credential_vault_09.png",
+      "file_path": "demo_data/screenshots/settings_credential_vault_09.png",
       "category": "settings",
       "document_type": "credentials_vault_screen",
       "app_name": "Security Vault",
@@ -9125,7 +9125,7 @@
     {
       "id": "c471dd27-cbe8-58f0-b3a5-efb734cca951",
       "filename": "settings_credential_vault_10.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\settings_credential_vault_10.png",
+      "file_path": "demo_data/screenshots/settings_credential_vault_10.png",
       "category": "settings",
       "document_type": "credentials_vault_screen",
       "app_name": "Security Vault",
@@ -9158,7 +9158,7 @@
     {
       "id": "76eb5580-c40c-5e39-b793-49fa5d23cb43",
       "filename": "settings_credential_vault_11.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\settings_credential_vault_11.png",
+      "file_path": "demo_data/screenshots/settings_credential_vault_11.png",
       "category": "settings",
       "document_type": "credentials_vault_screen",
       "app_name": "Security Vault",
@@ -9191,7 +9191,7 @@
     {
       "id": "10901286-739f-5f4c-b2d8-46ca8c5f4d78",
       "filename": "settings_credential_vault_12.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\settings_credential_vault_12.png",
+      "file_path": "demo_data/screenshots/settings_credential_vault_12.png",
       "category": "settings",
       "document_type": "credentials_vault_screen",
       "app_name": "Security Vault",
@@ -9224,7 +9224,7 @@
     {
       "id": "190ff7a8-a449-58be-b790-6e2089b9077f",
       "filename": "settings_credential_vault_13.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\settings_credential_vault_13.png",
+      "file_path": "demo_data/screenshots/settings_credential_vault_13.png",
       "category": "settings",
       "document_type": "credentials_vault_screen",
       "app_name": "Security Vault",
@@ -9257,7 +9257,7 @@
     {
       "id": "a534899e-274f-50cd-87b5-23430e32df15",
       "filename": "settings_credential_vault_14.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\settings_credential_vault_14.png",
+      "file_path": "demo_data/screenshots/settings_credential_vault_14.png",
       "category": "settings",
       "document_type": "credentials_vault_screen",
       "app_name": "Security Vault",
@@ -9290,7 +9290,7 @@
     {
       "id": "7cd43475-6932-5973-9404-3df56cdca1b2",
       "filename": "settings_credential_vault_15.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\settings_credential_vault_15.png",
+      "file_path": "demo_data/screenshots/settings_credential_vault_15.png",
       "category": "settings",
       "document_type": "credentials_vault_screen",
       "app_name": "Security Vault",
@@ -9323,7 +9323,7 @@
     {
       "id": "67eb7f83-6d18-57be-ac2b-c5c048510d36",
       "filename": "settings_credential_vault_16.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\settings_credential_vault_16.png",
+      "file_path": "demo_data/screenshots/settings_credential_vault_16.png",
       "category": "settings",
       "document_type": "credentials_vault_screen",
       "app_name": "Security Vault",
@@ -9356,7 +9356,7 @@
     {
       "id": "b3197684-18ac-5ed8-ad5b-19271836cccb",
       "filename": "settings_credential_vault_17.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\settings_credential_vault_17.png",
+      "file_path": "demo_data/screenshots/settings_credential_vault_17.png",
       "category": "settings",
       "document_type": "credentials_vault_screen",
       "app_name": "Security Vault",
@@ -9389,7 +9389,7 @@
     {
       "id": "dc8cc1b1-6f39-5e20-9068-61df5094a136",
       "filename": "settings_credential_vault_18.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\settings_credential_vault_18.png",
+      "file_path": "demo_data/screenshots/settings_credential_vault_18.png",
       "category": "settings",
       "document_type": "credentials_vault_screen",
       "app_name": "Security Vault",
@@ -9422,7 +9422,7 @@
     {
       "id": "28abad76-67f7-5c27-a4e0-2f33549a8eec",
       "filename": "settings_credential_vault_19.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\settings_credential_vault_19.png",
+      "file_path": "demo_data/screenshots/settings_credential_vault_19.png",
       "category": "settings",
       "document_type": "credentials_vault_screen",
       "app_name": "Security Vault",
@@ -9455,7 +9455,7 @@
     {
       "id": "9feac56c-a577-55a5-8010-ee453e0f66b1",
       "filename": "settings_credential_vault_20.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\settings_credential_vault_20.png",
+      "file_path": "demo_data/screenshots/settings_credential_vault_20.png",
       "category": "settings",
       "document_type": "credentials_vault_screen",
       "app_name": "Security Vault",
@@ -9488,7 +9488,7 @@
     {
       "id": "15ee57b2-d993-57e6-bf71-1d11c8f4a9cc",
       "filename": "settings_wifi_password.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\settings_wifi_password.png",
+      "file_path": "demo_data/screenshots/settings_wifi_password.png",
       "category": "settings",
       "document_type": "settings_screenshot",
       "app_name": "Desktop Application",
@@ -9517,7 +9517,7 @@
     {
       "id": "c6668e6e-abcb-5c61-9276-34314a0f9f8d",
       "filename": "shopping_cart_headphones.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\shopping_cart_headphones.png",
+      "file_path": "demo_data/screenshots/shopping_cart_headphones.png",
       "category": "shopping",
       "document_type": "shopping_screenshot",
       "app_name": "Desktop Application",
@@ -9546,7 +9546,7 @@
     {
       "id": "8ab9266f-79bc-5606-893a-3718c8c7b516",
       "filename": "shopping_cart_screenshot.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\shopping_cart_screenshot.png",
+      "file_path": "demo_data/screenshots/shopping_cart_screenshot.png",
       "category": "shopping",
       "document_type": "shopping_screenshot",
       "app_name": "Desktop Application",
@@ -9575,7 +9575,7 @@
     {
       "id": "59386d1b-7140-5b19-b722-c0be66209253",
       "filename": "shopping_headphones_price_history.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\shopping_headphones_price_history.png",
+      "file_path": "demo_data/screenshots/shopping_headphones_price_history.png",
       "category": "shopping",
       "document_type": "shopping_screenshot",
       "app_name": "Desktop Application",
@@ -9604,7 +9604,7 @@
     {
       "id": "64035479-122d-59f6-93c9-361fab60c187",
       "filename": "shopping_headphones_reviews.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\shopping_headphones_reviews.png",
+      "file_path": "demo_data/screenshots/shopping_headphones_reviews.png",
       "category": "shopping",
       "document_type": "shopping_screenshot",
       "app_name": "Desktop Application",
@@ -9633,7 +9633,7 @@
     {
       "id": "60a787ba-39ff-5e76-8482-876df699001d",
       "filename": "shopping_wishlist.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\shopping_wishlist.png",
+      "file_path": "demo_data/screenshots/shopping_wishlist.png",
       "category": "shopping",
       "document_type": "shopping_screenshot",
       "app_name": "Desktop Application",
@@ -9662,7 +9662,7 @@
     {
       "id": "36c5a823-b00d-5105-a626-e7e318bb7d54",
       "filename": "terminal_error_traceback.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\terminal_error_traceback.png",
+      "file_path": "demo_data/screenshots/terminal_error_traceback.png",
       "category": "terminal",
       "document_type": "terminal_screenshot",
       "app_name": "Desktop Application",
@@ -9691,7 +9691,7 @@
     {
       "id": "6cd56445-00f5-5832-8bd2-e81e793e1244",
       "filename": "terminal_git_conflict.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\terminal_git_conflict.png",
+      "file_path": "demo_data/screenshots/terminal_git_conflict.png",
       "category": "terminal",
       "document_type": "terminal_screenshot",
       "app_name": "Desktop Application",
@@ -9720,7 +9720,7 @@
     {
       "id": "0878a2a3-48b9-5646-9eed-ee8712e280a8",
       "filename": "terminal_training_output.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\terminal_training_output.png",
+      "file_path": "demo_data/screenshots/terminal_training_output.png",
       "category": "terminal",
       "document_type": "terminal_screenshot",
       "app_name": "Desktop Application",
@@ -9749,7 +9749,7 @@
     {
       "id": "8e4097c4-137e-575e-bb92-edc44a58b6c7",
       "filename": "ticket_irctc_train.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\ticket_irctc_train.png",
+      "file_path": "demo_data/screenshots/ticket_irctc_train.png",
       "category": "ticket",
       "document_type": "ticket_screenshot",
       "app_name": "Desktop Application",
@@ -9778,7 +9778,7 @@
     {
       "id": "646bdd46-8cd1-5f15-9394-ec7fb6097125",
       "filename": "ticket_namma_metro_transit.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\ticket_namma_metro_transit.png",
+      "file_path": "demo_data/screenshots/ticket_namma_metro_transit.png",
       "category": "ticket",
       "document_type": "ticket_screenshot",
       "app_name": "Desktop Application",
@@ -9807,7 +9807,7 @@
     {
       "id": "7c26e4bd-8fb1-55aa-ab09-40fa59856b82",
       "filename": "ticket_transit_pass_01.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\ticket_transit_pass_01.png",
+      "file_path": "demo_data/screenshots/ticket_transit_pass_01.png",
       "category": "travel",
       "document_type": "boarding_pass",
       "app_name": "Air India",
@@ -9840,7 +9840,7 @@
     {
       "id": "47e07a18-617d-504c-a255-ff72a538657c",
       "filename": "ticket_transit_pass_02.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\ticket_transit_pass_02.png",
+      "file_path": "demo_data/screenshots/ticket_transit_pass_02.png",
       "category": "travel",
       "document_type": "boarding_pass",
       "app_name": "Vistara",
@@ -9873,7 +9873,7 @@
     {
       "id": "418e8a2c-af96-5274-85ef-71878189baa9",
       "filename": "ticket_transit_pass_03.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\ticket_transit_pass_03.png",
+      "file_path": "demo_data/screenshots/ticket_transit_pass_03.png",
       "category": "travel",
       "document_type": "boarding_pass",
       "app_name": "IndiGo",
@@ -9906,7 +9906,7 @@
     {
       "id": "cea85777-055e-52a0-8579-bf429327d8df",
       "filename": "ticket_transit_pass_04.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\ticket_transit_pass_04.png",
+      "file_path": "demo_data/screenshots/ticket_transit_pass_04.png",
       "category": "travel",
       "document_type": "boarding_pass",
       "app_name": "Air India",
@@ -9939,7 +9939,7 @@
     {
       "id": "8e230c48-0eb9-5fe3-9a7c-4eaa81a484da",
       "filename": "ticket_transit_pass_05.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\ticket_transit_pass_05.png",
+      "file_path": "demo_data/screenshots/ticket_transit_pass_05.png",
       "category": "travel",
       "document_type": "boarding_pass",
       "app_name": "Vistara",
@@ -9972,7 +9972,7 @@
     {
       "id": "30e9eb72-53f7-5552-99c3-ebf340d727fa",
       "filename": "ticket_transit_pass_06.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\ticket_transit_pass_06.png",
+      "file_path": "demo_data/screenshots/ticket_transit_pass_06.png",
       "category": "travel",
       "document_type": "boarding_pass",
       "app_name": "IndiGo",
@@ -10005,7 +10005,7 @@
     {
       "id": "a076a339-ace3-5c7b-a747-ad6f3b3f9551",
       "filename": "ticket_transit_pass_07.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\ticket_transit_pass_07.png",
+      "file_path": "demo_data/screenshots/ticket_transit_pass_07.png",
       "category": "travel",
       "document_type": "boarding_pass",
       "app_name": "Air India",
@@ -10038,7 +10038,7 @@
     {
       "id": "41a40732-c9d4-58af-91c2-e1d22513b121",
       "filename": "ticket_transit_pass_08.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\ticket_transit_pass_08.png",
+      "file_path": "demo_data/screenshots/ticket_transit_pass_08.png",
       "category": "travel",
       "document_type": "boarding_pass",
       "app_name": "Vistara",
@@ -10071,7 +10071,7 @@
     {
       "id": "6b670dd8-e4e2-5612-aeaa-c3a09030cd09",
       "filename": "ticket_transit_pass_09.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\ticket_transit_pass_09.png",
+      "file_path": "demo_data/screenshots/ticket_transit_pass_09.png",
       "category": "travel",
       "document_type": "boarding_pass",
       "app_name": "IndiGo",
@@ -10104,7 +10104,7 @@
     {
       "id": "2e9843b7-aee0-537f-b218-48f29a3950b9",
       "filename": "ticket_transit_pass_10.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\ticket_transit_pass_10.png",
+      "file_path": "demo_data/screenshots/ticket_transit_pass_10.png",
       "category": "travel",
       "document_type": "boarding_pass",
       "app_name": "Air India",
@@ -10137,7 +10137,7 @@
     {
       "id": "35c00f75-2d85-516a-bdc8-5912dd50026e",
       "filename": "ticket_transit_pass_11.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\ticket_transit_pass_11.png",
+      "file_path": "demo_data/screenshots/ticket_transit_pass_11.png",
       "category": "travel",
       "document_type": "boarding_pass",
       "app_name": "Vistara",
@@ -10170,7 +10170,7 @@
     {
       "id": "2abe1867-5755-50dd-b88c-2164c930baf8",
       "filename": "ticket_transit_pass_12.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\ticket_transit_pass_12.png",
+      "file_path": "demo_data/screenshots/ticket_transit_pass_12.png",
       "category": "travel",
       "document_type": "boarding_pass",
       "app_name": "IndiGo",
@@ -10203,7 +10203,7 @@
     {
       "id": "8fd3a165-3c14-5bf6-a2a0-63314ee746c8",
       "filename": "ticket_transit_pass_13.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\ticket_transit_pass_13.png",
+      "file_path": "demo_data/screenshots/ticket_transit_pass_13.png",
       "category": "travel",
       "document_type": "boarding_pass",
       "app_name": "Air India",
@@ -10236,7 +10236,7 @@
     {
       "id": "5f963b2e-6fb3-54a1-bb6b-38c2180d81b4",
       "filename": "ticket_transit_pass_14.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\ticket_transit_pass_14.png",
+      "file_path": "demo_data/screenshots/ticket_transit_pass_14.png",
       "category": "travel",
       "document_type": "boarding_pass",
       "app_name": "Vistara",
@@ -10269,7 +10269,7 @@
     {
       "id": "f9acfcbf-07c9-5655-9a81-4420d0d1733b",
       "filename": "ticket_transit_pass_15.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\ticket_transit_pass_15.png",
+      "file_path": "demo_data/screenshots/ticket_transit_pass_15.png",
       "category": "travel",
       "document_type": "boarding_pass",
       "app_name": "IndiGo",
@@ -10302,7 +10302,7 @@
     {
       "id": "3bef7e6d-2a84-51a1-8561-a0daf870b111",
       "filename": "ticket_transit_pass_16.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\ticket_transit_pass_16.png",
+      "file_path": "demo_data/screenshots/ticket_transit_pass_16.png",
       "category": "travel",
       "document_type": "boarding_pass",
       "app_name": "Air India",
@@ -10335,7 +10335,7 @@
     {
       "id": "2742540a-b717-5b33-9834-418e02e7c863",
       "filename": "ticket_transit_pass_17.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\ticket_transit_pass_17.png",
+      "file_path": "demo_data/screenshots/ticket_transit_pass_17.png",
       "category": "travel",
       "document_type": "boarding_pass",
       "app_name": "Vistara",
@@ -10368,7 +10368,7 @@
     {
       "id": "89fbbef5-3fa3-5d44-99bf-00ba41a67ac4",
       "filename": "ticket_transit_pass_18.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\ticket_transit_pass_18.png",
+      "file_path": "demo_data/screenshots/ticket_transit_pass_18.png",
       "category": "travel",
       "document_type": "boarding_pass",
       "app_name": "IndiGo",
@@ -10401,7 +10401,7 @@
     {
       "id": "8d666713-fe4d-5318-8552-c9a61386d2d8",
       "filename": "ticket_transit_pass_19.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\ticket_transit_pass_19.png",
+      "file_path": "demo_data/screenshots/ticket_transit_pass_19.png",
       "category": "travel",
       "document_type": "boarding_pass",
       "app_name": "Air India",
@@ -10434,7 +10434,7 @@
     {
       "id": "c44c8011-a594-5755-8896-3247b4b81c01",
       "filename": "ticket_transit_pass_20.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\ticket_transit_pass_20.png",
+      "file_path": "demo_data/screenshots/ticket_transit_pass_20.png",
       "category": "travel",
       "document_type": "boarding_pass",
       "app_name": "Vistara",
@@ -10467,7 +10467,7 @@
     {
       "id": "7449ff94-b088-5b06-9906-85502d7966da",
       "filename": "ticket_transit_pass_21.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\ticket_transit_pass_21.png",
+      "file_path": "demo_data/screenshots/ticket_transit_pass_21.png",
       "category": "travel",
       "document_type": "boarding_pass",
       "app_name": "IndiGo",
@@ -10500,7 +10500,7 @@
     {
       "id": "57babe98-3e07-5c68-bce7-ee8594d4c732",
       "filename": "ticket_transit_pass_22.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\ticket_transit_pass_22.png",
+      "file_path": "demo_data/screenshots/ticket_transit_pass_22.png",
       "category": "travel",
       "document_type": "boarding_pass",
       "app_name": "Air India",
@@ -10533,7 +10533,7 @@
     {
       "id": "5da6f0b1-30cd-568a-a4f9-d8ff52176ddd",
       "filename": "ticket_transit_pass_23.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\ticket_transit_pass_23.png",
+      "file_path": "demo_data/screenshots/ticket_transit_pass_23.png",
       "category": "travel",
       "document_type": "boarding_pass",
       "app_name": "Vistara",
@@ -10566,7 +10566,7 @@
     {
       "id": "1ae7c4d8-5ec0-5d7b-950d-dc1829d286ee",
       "filename": "ticket_transit_pass_24.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\ticket_transit_pass_24.png",
+      "file_path": "demo_data/screenshots/ticket_transit_pass_24.png",
       "category": "travel",
       "document_type": "boarding_pass",
       "app_name": "IndiGo",
@@ -10599,7 +10599,7 @@
     {
       "id": "cc342854-b96a-5986-82da-b93598cb1140",
       "filename": "ticket_transit_pass_25.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\ticket_transit_pass_25.png",
+      "file_path": "demo_data/screenshots/ticket_transit_pass_25.png",
       "category": "travel",
       "document_type": "boarding_pass",
       "app_name": "Air India",
@@ -10632,7 +10632,7 @@
     {
       "id": "b24e3e47-60b1-5703-905f-11eea9b6cea2",
       "filename": "travel_bangalore_goa_flight.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\travel_bangalore_goa_flight.png",
+      "file_path": "demo_data/screenshots/travel_bangalore_goa_flight.png",
       "category": "travel",
       "document_type": "travel_screenshot",
       "app_name": "Desktop Application",
@@ -10661,7 +10661,7 @@
     {
       "id": "9817b768-f1f4-539f-8013-bfdfad6cdec6",
       "filename": "travel_goa_hotel.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\travel_goa_hotel.png",
+      "file_path": "demo_data/screenshots/travel_goa_hotel.png",
       "category": "travel",
       "document_type": "travel_screenshot",
       "app_name": "Desktop Application",
@@ -10690,7 +10690,7 @@
     {
       "id": "1ed5ba3f-a8c3-5591-aa3c-5e6c45571f6f",
       "filename": "ui_dark_dashboard.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\ui_dark_dashboard.png",
+      "file_path": "demo_data/screenshots/ui_dark_dashboard.png",
       "category": "ui",
       "document_type": "ui_screenshot",
       "app_name": "Desktop Application",
@@ -10719,7 +10719,7 @@
     {
       "id": "56cc2de9-fe16-55e0-abfc-8047236d09fa",
       "filename": "ui_figma_design_canvas.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\ui_figma_design_canvas.png",
+      "file_path": "demo_data/screenshots/ui_figma_design_canvas.png",
       "category": "ui",
       "document_type": "ui_screenshot",
       "app_name": "Desktop Application",
@@ -10748,7 +10748,7 @@
     {
       "id": "27320cb8-3575-5d90-90e1-9db2a22ab56a",
       "filename": "ui_github_issue.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\ui_github_issue.png",
+      "file_path": "demo_data/screenshots/ui_github_issue.png",
       "category": "ui",
       "document_type": "ui_screenshot",
       "app_name": "Desktop Application",
@@ -10777,7 +10777,7 @@
     {
       "id": "dea838be-d1fe-5db3-b8c4-aeae5fd6368b",
       "filename": "ui_github_pull_request.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\ui_github_pull_request.png",
+      "file_path": "demo_data/screenshots/ui_github_pull_request.png",
       "category": "ui",
       "document_type": "ui_screenshot",
       "app_name": "Desktop Application",
@@ -10806,7 +10806,7 @@
     {
       "id": "2c82a593-0758-589c-89d8-f30fc91ead03",
       "filename": "ui_jupyter_notebook_pytorch.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\ui_jupyter_notebook_pytorch.png",
+      "file_path": "demo_data/screenshots/ui_jupyter_notebook_pytorch.png",
       "category": "ui",
       "document_type": "ui_screenshot",
       "app_name": "Desktop Application",
@@ -10835,7 +10835,7 @@
     {
       "id": "c5ac25ef-535f-5e69-a8c1-dd196466d156",
       "filename": "ui_music_player.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\ui_music_player.png",
+      "file_path": "demo_data/screenshots/ui_music_player.png",
       "category": "ui",
       "document_type": "ui_screenshot",
       "app_name": "Desktop Application",
@@ -10864,7 +10864,7 @@
     {
       "id": "3136a31a-5719-5f30-9453-b999c6255392",
       "filename": "ui_vscode_python.png",
-      "file_path": "C:\\Users\\prajw\\Desktop\\hackathon scryptic\\demo_data\\screenshots\\ui_vscode_python.png",
+      "file_path": "demo_data/screenshots/ui_vscode_python.png",
       "category": "ui",
       "document_type": "ui_screenshot",
       "app_name": "Desktop Application",

@@ -172,7 +172,7 @@ def _call_openrouter_vision(api_key: str, image_bytes: bytes, mime: str, ocr_tex
     headers = {
         "Authorization": f"Bearer {api_key}",
         "Content-Type": "application/json",
-        "HTTP-Referer": "https://github.com/scryptic-aura",
+        "HTTP-Referer": "https://github.com/prajwal9680/AURA-Agentic-Universal-Retrieval-and-Analysis",
         "X-Title": "AURA Visual Memory Engine",
     }
 
@@ -232,7 +232,7 @@ def _call_openrouter_text(prompt: str) -> Optional[dict]:
     headers = {
         "Authorization": f"Bearer {openrouter_key}",
         "Content-Type": "application/json",
-        "HTTP-Referer": "https://github.com/scryptic-aura",
+        "HTTP-Referer": "https://github.com/prajwal9680/AURA-Agentic-Universal-Retrieval-and-Analysis",
         "X-Title": "AURA Visual Memory Engine",
     }
     models = ["google/gemini-2.0-flash-001", "meta-llama/llama-3.3-70b-instruct:free"]
