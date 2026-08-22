@@ -68,7 +68,10 @@ desktop.ini
 .agents/
 .dev_logs/
 _dev_logs/
+logs/
 logs(actions)/
+logs(actions)
+logs/actions/
 .system_generated/
 CONVERSATION_ARCHIVE.md
 
