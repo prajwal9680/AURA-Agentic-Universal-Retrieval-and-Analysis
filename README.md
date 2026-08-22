@@ -19,59 +19,60 @@ Standard desktop search engines rely primarily on optical character recognition 
 ## System Architecture
 
 ```
-                                  ┌─────────────────────────────┐
-                                  │   Desktop / OS Ingestion    │
-                                  │  (Active Window + Hotkey)   │
-                                  └──────────────┬──────────────┘
-                                                 │
-                                  ┌──────────────▼──────────────┐
-                                  │   Zero-Trust Privacy Gate   │
-                                  │ (Process Block + Secret OCR)│
-                                  └──────────────┬──────────────┘
-                                                 │
-                       ┌─────────────────────────┴─────────────────────────┐
-                       │                                                   │
-        ┌──────────────▼──────────────┐                     ┌──────────────▼──────────────┐
-        │   OCR Text Extraction Path  │                     │   Multimodal VLM Analysis   │
-        │   (EasyOCR / CRAFT Engine)  │                     │ (Gemini 2.5 / Verified Cache│
-        └──────────────┬──────────────┘                     └──────────────┬──────────────┘
-                       │                                                   │
-                       └─────────────────────────┬─────────────────────────┘
-                                                 │
-                                  ┌──────────────▼──────────────┐
-                                  │ Canonical Schema Formatter  │
-                                  │  + Provenance Ledger Audit  │
-                                  └──────────────┬──────────────┘
-                                                 │
-                       ┌─────────────────────────┴─────────────────────────┐
-                       │                                                   │
-        ┌──────────────▼──────────────┐                     ┌──────────────▼──────────────┐
-        │    Dense Embedding Engine   │                     │  Relationship Graph Engine  │
-        │ (all-MiniLM-L6-v2, 384-dim) │                     │ (15,500+ Explainable Edges) │
-        └──────────────┬──────────────┘                     └──────────────┬──────────────┘
-                       │                                                   │
-                       └─────────────────────────┬─────────────────────────┘
-                                                 │
-                                  ┌──────────────▼──────────────┐
-                                  │ Dual-Engine Persistence:    │
-                                  │ PostgreSQL 16 + pgvector    │
-                                  │ (SQLite Fallback Engine)    │
-                                  └──────────────┬──────────────┘
-                                                 │
-                        ┌────────────────────────┴────────────────────────┐
-                        │                                                 │
-         ┌──────────────▼──────────────┐                   ┌──────────────▼──────────────┐
-         │ Two-Stage Information       │                   │ LangGraph Agentic RAG       │
-         │ Retrieval (IR) Engine       │                   │ Orchestrator                │
-         │ (pgvector ANN + Cross-Enc)  │                   │ (Planner/Critic Reflection) │
-         └──────────────┬──────────────┘                   └──────────────┬──────────────┘
-                        │                                                 │
-                        └────────────────────────┬────────────────────────┘
-                                                 │
-                                  ┌──────────────▼──────────────┐
-                                  │  Next.js Memory Hub &       │
-                                  │  Constellation 3D UI        │
-                                  └─────────────────────────────┘
+ ┌────────────────────────────────────────────────────────────────────────────────┐
+ │                       OS-Level Ingestion & Context Capture                     │
+ │          (PrtScn / Win+Shift+S / Hotkey · Active Window · Clipboard)           │
+ └───────────────────────────────────────┬────────────────────────────────────────┘
+                                         │
+ ┌───────────────────────────────────────▼────────────────────────────────────────┐
+ │                      Zero-Trust Privacy Gate (AURA Shield)                     │
+ │     Client Process Filtering · Regex Credential Redaction · Sandbox Isolation  │
+ └───────────────────────────────────────┬────────────────────────────────────────┘
+                                         │
+            ┌────────────────────────────┴────────────────────────────┐
+            │                                                         │
+ ┌──────────▼───────────────┐                             ┌───────────▼───────────────┐
+ │   Lexical OCR Pipeline   │                             │  Multimodal Vision (VLM)  │
+ │  EasyOCR (CRAFT + ResNet)│                             │ Gemini Flash Vision Model │
+ │ (Tokens, Raw Text, BBox) │                             │(Layout, Objects, Entities)│
+ └──────────┬───────────────┘                             └───────────┬───────────────┘
+            │                                                         │
+            └────────────────────────────┬────────────────────────────┘
+                                         │
+ ┌───────────────────────────────────────▼────────────────────────────────────────┐
+ │                   Canonical Schema & Provenance Ledger Audit                   │
+ │          Confidence Scores · Source Field Tracking · Sensitivity Level         │
+ └───────────────────────────────────────┬────────────────────────────────────────┘
+                                         │
+            ┌────────────────────────────┴────────────────────────────┐
+            │                                                         │
+ ┌──────────▼───────────────┐                             ┌───────────▼───────────────┐
+ │  Dense Vector Embedding  │                             │ Multi-Signal Graph Engine │
+ │ all-MiniLM-L6-v2 (384-d) │                             │  15,500+ Semantic / Causal│
+ │  HNSW Index (pgvector)   │                             │    Typed Affinity Edges   │
+ └──────────┬───────────────┘                             └───────────┬───────────────┘
+            │                                                         │
+            └────────────────────────────┬────────────────────────────┘
+                                         │
+ ┌───────────────────────────────────────▼────────────────────────────────────────┐
+ │             Unified Relational & Vector Persistence Layer                      │
+ │        PostgreSQL 16 + pgvector (HNSW) · SQLite + NumPy SIMD Fallback          │
+ └───────────────────────────────────────┬────────────────────────────────────────┘
+                                         │
+            ┌────────────────────────────┴────────────────────────────┐
+            │                                                         │
+ ┌──────────▼─────────────────────────────┐       ┌───────────────────▼───────────────┐
+ │ Two-Stage Hybrid Retrieval (186ms P50) │       │   Multi-Hop LangGraph Agent RAG   │
+ │   Stage 1: pgvector ANN + BM25 Lexical │       │   Planner -> Tool Gateway ->      │
+ │   Stage 2: Cross-Encoder (ms-marco)    │       │   Critic Reflection -> Synthesis  │
+ └──────────┬─────────────────────────────┘       └───────────────────┬───────────────┘
+            │                                                         │
+            └────────────────────────────┬────────────────────────────┘
+                                         │
+ ┌───────────────────────────────────────▼────────────────────────────────────────┐
+ │                 Next.js 16 Web Hub & Constellation 3D Map                      │
+ │      Fast Hybrid Search · Force-Directed Graph · Evidence Inspection Panel     │
+ └────────────────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
